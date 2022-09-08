@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec1e7161099cde4786a43666ee470df, type: 3}
+  m_Name: RailGun
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 9b9c64d305c82db4eb1840a88ef3498b, type: 3}
+  barColor: {r: 0.6509804, g: 0.9607844, b: 0.9215687, a: 1}
+  item: 19
+  allowSpinJumping: 0
+  minEnergy: 1
+  beamSound: {fileID: 8300000, guid: e32fc8c71b20cae49a6ea8afe8714e3c, type: 3}
+  emitting: 0
+  minDamage: 50
+  maxDamage: 150
+  maxEnergy: 6

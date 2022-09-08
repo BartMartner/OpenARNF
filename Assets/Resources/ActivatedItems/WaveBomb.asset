@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26cfbfa9047d9e1479b01f30710adf1b, type: 3}
+  m_Name: WaveBomb
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 39450c27f3188824091e94128810215b, type: 3}
+  item: 407
+  energyCost: 2
+  shootSound: {fileID: 8300000, guid: 9b97fd910858d5c439e1760d05923b92, type: 3}
+  stats:
+    type: 18
+    team: 1
+    damage: 15
+    damageType: 1
+    explosion: 0
+    explosionDamage: 2
+    speed: 18
+    lifeSpan: 10
+    gravity: 3
+    homing: 0
+    homingRadius: 6
+    homingArc: 90
+    size: 1
+    motionPattern:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lockRotation: 0
+    ignoreTerrain: 0
+    ignoreAegis: 0
+    shootable: 1
+    penetrative: 1
+    bounce: 0
+    fragment: 0
+    canOpenDoors: 1
+    ignoreDoorLayer: 0
+    preShotInvisTime: 0
+    fragmentStats:
+      sizeMod: 0.5
+      damageMod: 0.5
+      amount: 3
+      arc: 33
+      lifeSpan: 3
+      recursion: 0
+    spawnOnHit: {fileID: 1733829313014160, guid: 3e9de41284feb0040afe533f17778f88,
+      type: 2}
+    shootSound: {fileID: 0}
+    childEffects: []
+    isFragment: 0
+  verticalAdjust: 1

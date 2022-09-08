@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695180a902307c4408724e60f3f1ae4c, type: 3}
+  m_Name: Pattern6
+  m_EditorClassIdentifier: 
+  width: 52
+  height: 40
+  traversalItemCount: 7
+  minorItemCount: 32
+  id: 3
+  allowedGameModes: 57
+  chanceToConnectNeighborRooms: 0
+  environmentLimits:
+  - type: 4
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 36
+      height: 10
+  - type: 0
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 15
+      width: 16
+      height: 15
+  - type: 1
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 20
+      height: 15
+  - type: 2
+    bounds:
+      serializedVersion: 2
+      x: 16
+      y: 15
+      width: 20
+      height: 15
+  - type: 3
+    bounds:
+      serializedVersion: 2
+      x: 20
+      y: 0
+      width: 16
+      height: 15
+  - type: 5
+    bounds:
+      serializedVersion: 2
+      x: 36
+      y: 0
+      width: 16
+      height: 40
+  segments:
+  - environmentType: 4
+    id: 0
+    hasLinkingPaths: 1
+    deadEnds: 2
+    hubPathLength: 16
+    hubDirection: {x: 1, y: 0}
+    hubDirectionDeviation: 7
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: 8
+      y: 35
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 1
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 1
+    maxSpokeLength: 3
+    numberOfItems: 0
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 1
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 0
+    bossPaths: 00000000
+    sizeBonus: 0
+    specificBranchEnds:
+    - type: 10
+      sceneNames:
+      - BeastGuts2x2GateLock01
+    - type: 10
+      sceneNames:
+      - BeastGuts2x2GateLock01
+    preBossRoom: BeastGuts2x1PreBoss01
+  - environmentType: 0
+    id: 1
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 9
+    hubDirection: {x: -1, y: -0.05}
+    hubDirectionDeviation: 10
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: 14
+      y: 24
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 1
+    startingRoomDirection: 8
+    minSpokeLength: 2
+    maxSpokeLength: 2
+    numberOfItems: 1
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 1
+    bossPaths: 
+    sizeBonus: 1
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 0
+    id: 2
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 6
+    hubDirection: {x: 0.25, y: -1}
+    hubDirectionDeviation: 0
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: -1
+      y: -1
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 0
+    maxSpokeLength: 0
+    numberOfItems: 0
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 1
+    bossPaths: 00000000
+    sizeBonus: 1
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 1
+    id: 3
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 14
+    hubDirection: {x: 0.65, y: -1}
+    hubDirectionDeviation: 13
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: -1
+      y: -1
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 1
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0300000002000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 02000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 2
+    id: 4
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 14
+    hubDirection: {x: 1, y: -1}
+    hubDirectionDeviation: 13
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 21
+      y: 28
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0300000001000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 3
+    id: 5
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 14
+    hubDirection: {x: -1, y: -1}
+    hubDirectionDeviation: 13
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 34
+      y: 13
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0200000001000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  segmentsToConnect:
+  - from: 3
+    to: 4
+    direction: 2
+  - from: 3
+    to: 5
+    direction: 2
+  - from: 4
+    to: 5
+    direction: 4
+  finalBossZone:
+    serializedVersion: 2
+    x: 6
+    y: 28
+    width: 3
+    height: 1
+  megaBeastZone:
+    serializedVersion: 2
+    x: 6
+    y: 28
+    width: 3
+    height: 1
+  hasMegaBeast: 1

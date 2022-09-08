@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FireBlock
+  m_Controller: {fileID: 9100000, guid: 62ca475d87fa4244fa99e21e26f73c8e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8718ae259b6534a4fb9936fc56e835ba, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4a35521aad804ba4ea8576a47932d7c2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 266b49285328b4e4e8e2348015ca3449, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ffbc48a7cdb6d884088bfd69abbcc931, type: 2}

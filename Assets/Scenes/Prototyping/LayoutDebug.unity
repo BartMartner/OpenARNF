@@ -1,0 +1,2536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &100400147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100400148}
+  - component: {fileID: 100400150}
+  - component: {fileID: 100400149}
+  m_Layer: 5
+  m_Name: Zone2Limits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &100400148
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100400147}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &100400149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100400147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2509804}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 50eaad3c28ebc3b459d0e7ca224b68d5, type: 3}
+  m_Type: 2
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &100400150
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100400147}
+  m_CullTransparentMesh: 0
+--- !u!1 &143039952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143039953}
+  - component: {fileID: 143039955}
+  - component: {fileID: 143039954}
+  m_Layer: 5
+  m_Name: Zone0Limits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &143039953
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143039952}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &143039954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143039952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2509804}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 349a66b935b83604aa928672bb2edd9b, type: 3}
+  m_Type: 2
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &143039955
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143039952}
+  m_CullTransparentMesh: 0
+--- !u!1 &295245401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295245403}
+  - component: {fileID: 295245402}
+  m_Layer: 0
+  m_Name: Tester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &295245402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295245401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 444f9bee8e23adc4ca433aecf77b8102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+    seed: 1838265624
+    gameMode: 128
+    achievements: 17000000220000002b00000042000000
+    traversalItems: 0b000000080000000e0000001200000013000000140000001a0000001c00000017000000180000001900000011000000
+  seedKey: ZZZZZZ
+  traversalKey: 259BB9JCWSBHM2BB
+  achievementKey: G
+  parametersKey: MZZZZZZG1111111111111111
+--- !u!4 &295245403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295245401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.53589, y: 16.245535, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &332274544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 332274549}
+  - component: {fileID: 332274548}
+  - component: {fileID: 332274546}
+  - component: {fileID: 332274545}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &332274545
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332274544}
+  m_Enabled: 1
+--- !u!124 &332274546
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332274544}
+  m_Enabled: 1
+--- !u!20 &332274548
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332274544}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &332274549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332274544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &551527856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 551527857}
+  - component: {fileID: 551527859}
+  - component: {fileID: 551527858}
+  m_Layer: 0
+  m_Name: StepCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &551527857
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551527856}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 116, y: -376.99997}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &551527858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551527856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Steps: 3'
+--- !u!222 &551527859
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551527856}
+  m_CullTransparentMesh: 0
+--- !u!1 &724448894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724448895}
+  - component: {fileID: 724448897}
+  - component: {fileID: 724448896}
+  m_Layer: 5
+  m_Name: Zone3Limits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &724448895
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724448894}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &724448896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724448894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2509804}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 10bec2f5ef41fc24c80208a5252b8bb4, type: 3}
+  m_Type: 2
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &724448897
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724448894}
+  m_CullTransparentMesh: 0
+--- !u!114 &799453594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695180a902307c4408724e60f3f1ae4c, type: 3}
+  m_Name: Pattern2(Clone)
+  m_EditorClassIdentifier: 
+  width: 52
+  height: 40
+  traversalItemCount: 7
+  minorItemCount: 32
+  id: 2
+  allowedGameModes: 57
+  chanceToConnectNeighborRooms: 0
+  environmentLimits:
+  - type: 4
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 36
+      height: 10
+  - type: 0
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 20
+      width: 36
+      height: 10
+  - type: 1
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 36
+      height: 8
+  - type: 2
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 18
+      height: 12
+  - type: 3
+    bounds:
+      serializedVersion: 2
+      x: 18
+      y: 0
+      width: 18
+      height: 12
+  - type: 5
+    bounds:
+      serializedVersion: 2
+      x: 36
+      y: 0
+      width: 16
+      height: 40
+  segments:
+  - environmentType: 4
+    id: 0
+    hasLinkingPaths: 1
+    deadEnds: 2
+    hubPathLength: 16
+    hubDirection: {x: 1, y: 0}
+    hubDirectionDeviation: 7
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: 9
+      y: 35
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 1
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 1
+    maxSpokeLength: 3
+    numberOfItems: 0
+    specificItems: 
+    branchRoomsNeeded: 4
+    finalTraversalStart: 0
+    noItemsAfterBosses: 1
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 0
+    bossPaths: 00000000
+    sizeBonus: 0
+    specificBranchEnds:
+    - type: 10
+      sceneNames:
+      - BeastGuts2x2GateLock01
+    - type: 10
+      sceneNames:
+      - BeastGuts2x2GateLock01
+    preBossRoom: BeastGuts2x1PreBoss01
+  - environmentType: 0
+    id: 1
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 7
+    hubDirection: {x: -1, y: -0.05}
+    hubDirectionDeviation: 10
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: 25
+      y: 24
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 1
+    startingRoomDirection: 8
+    minSpokeLength: 2
+    maxSpokeLength: 2
+    numberOfItems: 1
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 1
+    bossPaths: 
+    sizeBonus: 1
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 0
+    id: 2
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 7
+    hubDirection: {x: -1, y: -0.1}
+    hubDirectionDeviation: 0
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: -1
+      y: -1
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 0
+    maxSpokeLength: 0
+    numberOfItems: 0
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 1
+    bossPaths: 00000000
+    sizeBonus: 1
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 1
+    id: 3
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 16
+    hubDirection: {x: 1, y: -0.25}
+    hubDirectionDeviation: 8
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: -1
+      y: -1
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 2
+    maxSpokeLength: 4
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 1
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0300000002000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 02000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 2
+    id: 4
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 11
+    hubDirection: {x: 1, y: -1}
+    hubDirectionDeviation: 14
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 6
+      y: 10
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0300000001000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 3
+    id: 5
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 11
+    hubDirection: {x: -1, y: -1}
+    hubDirectionDeviation: 14
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 30
+      y: 10
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0200000001000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 5
+    id: 6
+    hasLinkingPaths: 1
+    deadEnds: 0
+    hubPathLength: 12
+    hubDirection: {x: 0, y: 1}
+    hubDirectionDeviation: 15
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: 44
+      y: 4
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 1
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 4
+    maxSpokeLength: 7
+    numberOfItems: 4
+    specificItems: 3e010000400100003f01000041010000
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 1
+    noTraversalItems: 1
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 0
+    bossPaths: 00000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  segmentsToConnect:
+  - from: 3
+    to: 4
+    direction: 4
+  - from: 3
+    to: 5
+    direction: 4
+  - from: 4
+    to: 5
+    direction: 2
+  finalBossZone:
+    serializedVersion: 2
+    x: 6
+    y: 28
+    width: 3
+    height: 1
+  hasMegaBeast: 1
+  hasBeastRemnants: 1
+--- !u!1 &851679809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851679813}
+  - component: {fileID: 851679812}
+  - component: {fileID: 851679810}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &851679810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851679809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10efa70eea88e69459c632aac286892d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewiredInputManager: {fileID: 0}
+  useAllRewiredGamePlayers: 0
+  useRewiredSystemPlayer: 0
+  rewiredPlayerIds: 00000000
+  usePlayingPlayersOnly: 0
+  playerMice: []
+  moveOneElementPerAxisPress: 0
+  setActionsById: 0
+  horizontalActionId: -1
+  verticalActionId: -1
+  submitActionId: -1
+  cancelActionId: -1
+  m_HorizontalAxis: UIHorizontal
+  m_VerticalAxis: UIVertical
+  m_SubmitButton: UISubmit
+  m_CancelButton: UICancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0
+  m_allowMouseInput: 1
+  m_allowMouseInputIfTouchSupported: 1
+  m_allowTouchInput: 1
+  m_ForceModuleActive: 0
+--- !u!114 &851679812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851679809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &851679813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851679809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1038247328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1038247329}
+  - component: {fileID: 1038247331}
+  - component: {fileID: 1038247330}
+  m_Layer: 5
+  m_Name: GlitchLimits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1038247329
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038247328}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1038247330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038247328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2509804}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 473719a65e3810844bdaef832d8affc0, type: 3}
+  m_Type: 2
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1038247331
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038247328}
+  m_CullTransparentMesh: 0
+--- !u!1 &1105235363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1105235364}
+  - component: {fileID: 1105235366}
+  - component: {fileID: 1105235365}
+  m_Layer: 5
+  m_Name: BeastGutsLimits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1105235364
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105235363}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1105235365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105235363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2509804}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 06aa319427301364a8d6a7c7eb32fd73, type: 3}
+  m_Type: 2
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1105235366
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105235363}
+  m_CullTransparentMesh: 0
+--- !u!1 &1252550696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252550697}
+  - component: {fileID: 1252550699}
+  - component: {fileID: 1252550698}
+  m_Layer: 5
+  m_Name: Zone1Limits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1252550697
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252550696}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1252550698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252550696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2509804}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 22fa09627054b13448c02abef522c312, type: 3}
+  m_Type: 2
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1252550699
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252550696}
+  m_CullTransparentMesh: 0
+--- !u!1001 &1318319627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350595469014546, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5877d6a8d1c43b04cabd384b0988958b, type: 3}
+--- !u!1 &1381068748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381068749}
+  - component: {fileID: 1381068751}
+  - component: {fileID: 1381068750}
+  m_Layer: 0
+  m_Name: RoomCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1381068749
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381068748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2032407798}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 116, y: -276}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1381068750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381068748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Room Count: 161'
+--- !u!222 &1381068751
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381068748}
+  m_CullTransparentMesh: 0
+--- !u!1 &1448029392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448029394}
+  - component: {fileID: 1448029393}
+  m_Layer: 0
+  m_Name: PatternVisualizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1448029393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448029392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aaed624c1fbda547857fc21767e9f87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pattern: {fileID: 11400000, guid: b9ac6bad1c4768846be4fd22ec97a069, type: 2}
+--- !u!4 &1448029394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448029392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1486533559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486533560}
+  - component: {fileID: 1486533564}
+  - component: {fileID: 1486533563}
+  - component: {fileID: 1486533562}
+  - component: {fileID: 1486533561}
+  m_Layer: 5
+  m_Name: LayoutDebug
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1486533560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486533559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2032407798}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1486533561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486533559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5922f49e3eeca904694181606c41ce91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  container: {fileID: 2032407798}
+  roomUIPrefab: {fileID: 11488876, guid: 7d78ca62b55a5c34099674c80013faf3, type: 3}
+  gameMode: 1
+  roomCount: {fileID: 1381068750}
+  stepCount: {fileID: 551527858}
+  password: ASIRM4D14LWTYE77IU91G111
+  seed: 118715608
+  clearLogOnRoomCountTest: 1
+  highlightExpected: -1
+  pattern: {fileID: 0}
+  fastSteps: 0
+  stepTime: 0.01
+  currentLayout:
+    startingPosition:
+      x: 0
+      y: 0
+    seed: 361902702
+    width: 52
+    height: 40
+    traversalItemCount: 7
+    minorItemCount: 32
+    minorItemsAdded: 
+    roomAbstracts:
+    - index: 0
+      gridPosition:
+        x: 9
+        y: 35
+      assignedRoomInfo:
+        sceneName: BeastGuts2x2Start01
+        versionCreated: 1.1.1.13
+        environmentType: 4
+        size:
+          x: 2
+          y: 2
+        traversalLimitations:
+          supportedDamageTypes: 1
+          requiredJumpHeight: 6
+          requiresGroundedSmallGaps: 0
+          supportsGroundedSmallGaps: 0
+          requiresElevatedSmallGaps: 0
+          requiresShotIgnoresTerrain: 0
+          supportsShotIgnoresTerrain: 0
+          requiresPhaseThroughWalls: 0
+          supportsPhaseThroughWalls: 0
+          phaseProof: 0
+        baseWeight: 1
+        requiredExits: []
+        possibleExits:
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 1
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 1
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        traversalPaths: []
+        minorItemLocations: []
+        permanentStateObjectCount: 0
+        transitionsTo: 4
+        minorItemAlongPathOnly: 0
+        roomType: 1
+        playerStartOffset: {x: 13, y: -12, z: 0}
+        playerStartFacing: 2
+        boss: 0
+        shopType: 0
+        shrineType: 0
+        majorItemLocalPosition:
+          x: 0
+          y: 0
+        itemRoomLimitations: 
+        transitionStartDirection: 0
+        runThreshhold: 0
+        requiredAchievements: 
+      environmentalEffect: 0
+      isStartingRoom: 0
+      isEnvironmentStart: 1
+      useAltTileset: 0
+      altPalette: 0
+      branchRoom: 0
+      preBossRoom: 0
+      saveID: 0
+      majorItem: 0
+      minorItems: []
+      permanentStateObjectGlobalIds: 
+      parentPath: -1
+      width: 2
+      height: 2
+      exits: []
+      traversalPathRequirements: []
+      seed: 799193727
+      shopOfferings: 
+      light: 1
+      expectedCapabilitiesIndex: 0
+    - index: 1
+      gridPosition:
+        x: 25
+        y: 32
+      assignedRoomInfo:
+        sceneName: BeastGuts2x1PreBoss01
+        versionCreated: 1.4.0.25
+        environmentType: 4
+        size:
+          x: 2
+          y: 1
+        traversalLimitations:
+          supportedDamageTypes: 1
+          requiredJumpHeight: 6
+          requiresGroundedSmallGaps: 0
+          supportsGroundedSmallGaps: 0
+          requiresElevatedSmallGaps: 0
+          requiresShotIgnoresTerrain: 0
+          supportsShotIgnoresTerrain: 0
+          requiresPhaseThroughWalls: 0
+          supportsPhaseThroughWalls: 0
+          phaseProof: 0
+        baseWeight: 1
+        requiredExits:
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        possibleExits:
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        traversalPaths: []
+        minorItemLocations: []
+        permanentStateObjectCount: 0
+        transitionsTo: 0
+        minorItemAlongPathOnly: 0
+        roomType: 10
+        playerStartOffset: {x: 0, y: 0, z: 0}
+        playerStartFacing: 2
+        boss: 0
+        shopType: 0
+        shrineType: 0
+        majorItemLocalPosition:
+          x: 0
+          y: 0
+        itemRoomLimitations: 
+        transitionStartDirection: 0
+        runThreshhold: 0
+        requiredAchievements: 
+      environmentalEffect: 0
+      isStartingRoom: 0
+      isEnvironmentStart: 0
+      useAltTileset: 0
+      altPalette: 0
+      branchRoom: 0
+      preBossRoom: 0
+      saveID: 0
+      majorItem: 0
+      minorItems: []
+      permanentStateObjectGlobalIds: 
+      parentPath: -1
+      width: 2
+      height: 1
+      exits:
+      - id: 0
+        globalGridPosition:
+          x: 26
+          y: 32
+        localGridPosition:
+          x: 1
+          y: 0
+        direction: 2
+        toHeatRoom: 0
+        toConfusionRoom: 0
+        toWaterRoom: 0
+        toBossRoom: 0
+        toExit:
+          requiredDamageType: 1
+          minEffectiveJumpHeight: 0
+          maxEffectiveJumpHeight: 0
+          minWaterJumpHeight: 0
+          maxWaterJumpHeight: 0
+          requiresGroundedSmallGaps: 0
+          supportsShotIgnoresTerrain: 0
+          requiresShotIgnoresTerrain: 0
+          requiredEnvironmentalResistance: 0
+          requiresPhaseThroughWalls: 0
+          requiresPhaseProof: 0
+      traversalPathRequirements: []
+      seed: 1435087936
+      shopOfferings: 
+      light: 1
+      expectedCapabilitiesIndex: 0
+    - index: 2
+      gridPosition:
+        x: 27
+        y: 32
+      assignedRoomInfo:
+        sceneName: BeastGuts2x2MegaBeastCore
+        versionCreated: 1.1.1.13
+        environmentType: 4
+        size:
+          x: 2
+          y: 2
+        traversalLimitations:
+          supportedDamageTypes: 1
+          requiredJumpHeight: 6
+          requiresGroundedSmallGaps: 0
+          supportsGroundedSmallGaps: 0
+          requiresElevatedSmallGaps: 0
+          requiresShotIgnoresTerrain: 0
+          supportsShotIgnoresTerrain: 0
+          requiresPhaseThroughWalls: 0
+          supportsPhaseThroughWalls: 0
+          phaseProof: 0
+        baseWeight: 1
+        requiredExits: []
+        possibleExits:
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 1
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        traversalPaths: []
+        minorItemLocations: []
+        permanentStateObjectCount: 0
+        transitionsTo: 0
+        minorItemAlongPathOnly: 0
+        roomType: 5
+        playerStartOffset: {x: 0, y: 0, z: 0}
+        playerStartFacing: 2
+        boss: 10
+        shopType: 0
+        shrineType: 0
+        majorItemLocalPosition:
+          x: 0
+          y: 0
+        itemRoomLimitations: 
+        transitionStartDirection: 0
+        runThreshhold: 0
+        requiredAchievements: 
+      environmentalEffect: 0
+      isStartingRoom: 0
+      isEnvironmentStart: 0
+      useAltTileset: 0
+      altPalette: 0
+      branchRoom: 0
+      preBossRoom: 0
+      saveID: 0
+      majorItem: 0
+      minorItems: []
+      permanentStateObjectGlobalIds: 
+      parentPath: -1
+      width: 2
+      height: 2
+      exits:
+      - id: 0
+        globalGridPosition:
+          x: 27
+          y: 32
+        localGridPosition:
+          x: 0
+          y: 1
+        direction: 8
+        toHeatRoom: 0
+        toConfusionRoom: 0
+        toWaterRoom: 0
+        toBossRoom: 0
+        toExit:
+          requiredDamageType: 1
+          minEffectiveJumpHeight: 0
+          maxEffectiveJumpHeight: 0
+          minWaterJumpHeight: 0
+          maxWaterJumpHeight: 0
+          requiresGroundedSmallGaps: 0
+          supportsShotIgnoresTerrain: 0
+          requiresShotIgnoresTerrain: 0
+          requiredEnvironmentalResistance: 0
+          requiresPhaseThroughWalls: 0
+          requiresPhaseProof: 0
+      traversalPathRequirements: []
+      seed: 1097898155
+      shopOfferings: 
+      light: 1
+      expectedCapabilitiesIndex: 0
+    - index: 3
+      gridPosition:
+        x: 13
+        y: 33
+      assignedRoomInfo:
+        sceneName: BeastGuts2x2AllExits03
+        versionCreated: 1.1.1.13
+        environmentType: 4
+        size:
+          x: 2
+          y: 2
+        traversalLimitations:
+          supportedDamageTypes: 1
+          requiredJumpHeight: 6
+          requiresGroundedSmallGaps: 0
+          supportsGroundedSmallGaps: 0
+          requiresElevatedSmallGaps: 0
+          requiresShotIgnoresTerrain: 0
+          supportsShotIgnoresTerrain: 0
+          requiresPhaseThroughWalls: 0
+          supportsPhaseThroughWalls: 0
+          phaseProof: 0
+        baseWeight: 1
+        requiredExits: []
+        possibleExits:
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 1
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 4
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 1
+          direction: 1
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 4
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 1
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        traversalPaths: []
+        minorItemLocations: []
+        permanentStateObjectCount: 0
+        transitionsTo: 0
+        minorItemAlongPathOnly: 0
+        roomType: 0
+        playerStartOffset: {x: 0, y: 0, z: 0}
+        playerStartFacing: 2
+        boss: 0
+        shopType: 0
+        shrineType: 0
+        majorItemLocalPosition:
+          x: 0
+          y: 0
+        itemRoomLimitations: 
+        transitionStartDirection: 0
+        runThreshhold: 0
+        requiredAchievements: 
+      environmentalEffect: 0
+      isStartingRoom: 0
+      isEnvironmentStart: 0
+      useAltTileset: 0
+      altPalette: 0
+      branchRoom: 1
+      preBossRoom: 0
+      saveID: 0
+      majorItem: 0
+      minorItems: []
+      permanentStateObjectGlobalIds: 
+      parentPath: -1
+      width: 2
+      height: 2
+      exits: []
+      traversalPathRequirements: []
+      seed: 337783201
+      shopOfferings: 
+      light: 1
+      expectedCapabilitiesIndex: 0
+    - index: 4
+      gridPosition:
+        x: 19
+        y: 32
+      assignedRoomInfo:
+        sceneName: BeastGuts2x2AllExits02
+        versionCreated: 1.5.0.29
+        environmentType: 4
+        size:
+          x: 2
+          y: 2
+        traversalLimitations:
+          supportedDamageTypes: 1
+          requiredJumpHeight: 6
+          requiresGroundedSmallGaps: 0
+          supportsGroundedSmallGaps: 0
+          requiresElevatedSmallGaps: 0
+          requiresShotIgnoresTerrain: 0
+          supportsShotIgnoresTerrain: 0
+          requiresPhaseThroughWalls: 0
+          supportsPhaseThroughWalls: 0
+          phaseProof: 0
+        baseWeight: 1
+        requiredExits: []
+        possibleExits:
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 1
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 4
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 0
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 1
+          direction: 1
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 0
+          direction: 4
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 0
+            y: 1
+          direction: 8
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        - localGridPosition:
+            x: 1
+            y: 1
+          direction: 2
+          toExit:
+            supportedDamageTypes: -5
+            requiredJumpHeight: 0
+            requiresGroundedSmallGaps: 0
+            supportsGroundedSmallGaps: 0
+            requiresElevatedSmallGaps: 0
+            requiresShotIgnoresTerrain: 0
+            supportsShotIgnoresTerrain: 0
+            requiresPhaseThroughWalls: 0
+            supportsPhaseThroughWalls: 0
+            phaseProof: 0
+        traversalPaths: []
+        minorItemLocations: []
+        permanentStateObjectCount: 0
+        transitionsTo: 0
+        minorItemAlongPathOnly: 0
+        roomType: 0
+        playerStartOffset: {x: 0, y: 0, z: 0}
+        playerStartFacing: 2
+        boss: 0
+        shopType: 0
+        shrineType: 0
+        majorItemLocalPosition:
+          x: 0
+          y: 0
+        itemRoomLimitations: 
+        transitionStartDirection: 0
+        runThreshhold: 0
+        requiredAchievements: 
+      environmentalEffect: 0
+      isStartingRoom: 0
+      isEnvironmentStart: 0
+      useAltTileset: 0
+      altPalette: 0
+      branchRoom: 1
+      preBossRoom: 0
+      saveID: 0
+      majorItem: 0
+      minorItems: []
+      permanentStateObjectGlobalIds: 
+      parentPath: -1
+      width: 2
+      height: 2
+      exits: []
+      traversalPathRequirements: []
+      seed: 1375796906
+      shopOfferings: 
+      light: 1
+      expectedCapabilitiesIndex: 0
+    itemOrder: 03000000050000000b000000ca000000020000000d00000010000000
+    allNonTraversalItemsAdded: 6d000000d0000000
+    bonusItemsAdded: 
+    shopItemsAdded: 
+    traversalCapabilities:
+    - damageTypes: 1
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 0
+      lastGainedAffordance:
+        requiredDamageType: 0
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 0
+      canPhaseThroughWalls: 0
+    - damageTypes: 65
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 0
+      lastGainedAffordance:
+        requiredDamageType: 64
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 0
+      canPhaseThroughWalls: 0
+    - damageTypes: 81
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 1
+      lastGainedAffordance:
+        requiredDamageType: 16
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 1
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 0
+      canPhaseThroughWalls: 0
+    - damageTypes: 81
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 1
+      lastGainedAffordance:
+        requiredDamageType: 0
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 2
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 2
+      canPhaseThroughWalls: 0
+    - damageTypes: 113
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 1
+      lastGainedAffordance:
+        requiredDamageType: 32
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 2
+      canPhaseThroughWalls: 0
+    - damageTypes: 117
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 1
+      lastGainedAffordance:
+        requiredDamageType: 4
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 2
+      canPhaseThroughWalls: 0
+    - damageTypes: 119
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 1
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 1
+      lastGainedAffordance:
+        requiredDamageType: 2
+        minEffectiveJumpHeight: 0
+        maxEffectiveJumpHeight: 6.66
+        minWaterJumpHeight: 0
+        maxWaterJumpHeight: 3.33
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 2
+      canPhaseThroughWalls: 0
+    - damageTypes: 119
+      baseJumpHeight: 6.66
+      hoverJumpHeight: 0
+      jumps: 10000
+      waterJumpMod: 0.6
+      canReverseGravity: 0
+      canTraverseGroundedSmallGaps: 0
+      canTraverseElevatedSmallGaps: 0
+      shotIgnoresTerrain: 1
+      lastGainedAffordance:
+        requiredDamageType: 0
+        minEffectiveJumpHeight: 6.91
+        maxEffectiveJumpHeight: 66600
+        minWaterJumpHeight: 4.2460003
+        maxWaterJumpHeight: 39960
+        requiresGroundedSmallGaps: 0
+        supportsShotIgnoresTerrain: 0
+        requiresShotIgnoresTerrain: 0
+        requiredEnvironmentalResistance: 0
+        requiresPhaseThroughWalls: 0
+        requiresPhaseProof: 0
+      environmentalResistance: 2
+      canPhaseThroughWalls: 0
+    bossesAdded: 0a000000
+    traversalItemsAdded: 0
+    patternID: 2
+    hasGlitchWorld: 1
+    password: A7W6VS817Q18ISBXX1811111
+    gameMode: 1
+    environmentOrder: 000000000100000002000000030000000400000005000000
+    pathInfos: []
+    connectingPaths: 
+    pattern: {fileID: 799453594}
+    totalStartingMajorItems: 2
+    startingPassiveItem: 0
+    startingActivatedItem: 0
+    startingMinorItem: 0
+    startingWeapon: 208
+    startingFollower: 109
+  debugRooms: []
+  surfaceRoom: {fileID: 21300000, guid: 349a66b935b83604aa928672bb2edd9b, type: 3}
+  caveRoom: {fileID: 21300000, guid: 22fa09627054b13448c02abef522c312, type: 3}
+  factoryRoom: {fileID: 21300000, guid: 50eaad3c28ebc3b459d0e7ca224b68d5, type: 3}
+  buriedCityRoom: {fileID: 21300000, guid: 10bec2f5ef41fc24c80208a5252b8bb4, type: 3}
+  beastGutsRoom: {fileID: 21300000, guid: 06aa319427301364a8d6a7c7eb32fd73, type: 3}
+  glitchRoom: {fileID: 21300000, guid: 473719a65e3810844bdaef832d8affc0, type: 3}
+  forestSlumsRoom: {fileID: 21300000, guid: 5fa2fa63b878e014d8c0c5070a2788ba, type: 3}
+  coolantSewersRoom: {fileID: 21300000, guid: acc1990b2ef7dd848a1ce58968195673, type: 3}
+  crystalMinesRoom: {fileID: 21300000, guid: 01f16db9901dbe2489911669b77de5f0, type: 3}
+  blank: {fileID: 21300000, guid: 0154c4bc0962bca42b4a680f39844f60, type: 3}
+  area0Limits: {fileID: 143039953}
+  area1Limits: {fileID: 1252550697}
+  area2Limits: {fileID: 100400148}
+  area3Limits: {fileID: 724448895}
+  beastGutsLimits: {fileID: 1105235364}
+  glitchLimits: {fileID: 1038247329}
+  allAchievements: 1
+  achievements: 02000000050000001300000006000000040000001200000008000000090000000a0000000b000000160000004100000043000000480000003f00000047000000
+--- !u!114 &1486533562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486533559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1486533563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486533559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1486533564
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486533559}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &2032407797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2032407798}
+  - component: {fileID: 2032407799}
+  m_Layer: 5
+  m_Name: Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2032407798
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032407797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1381068749}
+  - {fileID: 551527857}
+  - {fileID: 143039953}
+  - {fileID: 1252550697}
+  - {fileID: 100400148}
+  - {fileID: 724448895}
+  - {fileID: 1105235364}
+  - {fileID: 1038247329}
+  m_Father: {fileID: 1486533560}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2000, y: 2000}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2032407799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032407797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54226be7c7ce14d82dd9b2c2a54df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

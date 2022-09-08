@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerStart
+  - MainTilemap
+  - DMSpawnPoint
+  - IgnoreProjectiles
+  - Creep
+  - EnemySpawn
+  - IgnoreWater
+  - Penetrable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - PlayerOnly
+  - IgnorePlayer
+  - Enemy
+  - EnemyOnly
+  - IgnoreEnemy
+  - DefaultOnly
+  - IgnoreDefault
+  - Screen
+  - PerspectiveParallax
+  - Projectile
+  - EnemyProjectile
+  - CreatureOnly
+  - Caulk
+  - EnemyCaulkOnly
+  - Door
+  - ProjectileIgnoreTerrain
+  - EnemyProjectileIgnoreTerrain
+  - BackupLayer0
+  - BackupLayer1
+  - BackupLayer2
+  - BackupLayer3
+  - LightAndDefault
+  - Light
+  m_SortingLayers:
+  - name: FarBackground
+    uniqueID: 3894782261
+    locked: 0
+  - name: Background1
+    uniqueID: 3105697685
+    locked: 0
+  - name: BehindTiles
+    uniqueID: 1405900053
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: AboveTiles
+    uniqueID: 849233445
+    locked: 0
+  - name: FadeAways
+    uniqueID: 491060071
+    locked: 0
+  - name: AboveFadeAways
+    uniqueID: 3405718161
+    locked: 0
+  - name: Foreground1
+    uniqueID: 1836552637
+    locked: 0
+  - name: InGameUI
+    uniqueID: 1680545721
+    locked: 0

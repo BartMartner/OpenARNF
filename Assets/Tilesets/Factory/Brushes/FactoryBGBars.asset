@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656c5e200a31c945b469abda4211525, type: 3}
+  m_Name: FactoryBGBars
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 04ba356073463a4449e997a2b70f9672, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 1
+  RandomTiles: 
+  RandomTileList:
+  - tileData: 128
+    probabilityFactor: 1
+  - tileData: 160
+    probabilityFactor: 1
+  - tileData: 98
+    probabilityFactor: 1
+  - tileData: 97
+    probabilityFactor: 1
+  - tileData: 96
+    probabilityFactor: 1
+  - tileData: 99
+    probabilityFactor: 0.251
+  - tileData: 100
+    probabilityFactor: 1
+  - tileData: 132
+    probabilityFactor: 1
+  RandomizeFlagMask: 0
+  RemoveBrushIdAfterRefresh: 0

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f90d5d219ac94948beb15a383ffbbf5, type: 3}
+  m_Name: BuzzsawShell
+  m_EditorClassIdentifier: 
+  spinJumpFXPrefab: {fileID: 114493155088234796, guid: b3da5f8b5cbe50b4eb6341e9c306bf0f,
+    type: 3}
+  spinJumpSound: {fileID: 8300000, guid: 7e97ef2cea3c84c44bad1a5b7993c09e, type: 3}
+  rollChargeSound: {fileID: 8300000, guid: 0bc40bf3b45cf7149872e509fa81191c, type: 3}
+  damageMultiplier: 32

@@ -1,0 +1,2126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Backstory.unity
+    guid: 9851674d461c6494884b72633afe4d40
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 2d928ec8f51c5c547bca26a0b15fd220
+  - enabled: 1
+    path: Assets/Scenes/NewGame.unity
+    guid: 9ab41c10a5ab40541861e5deead6e5f8
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 25ecad97a04abbe4b866084e12e6f038
+  - enabled: 1
+    path: Assets/Scenes/Core.unity
+    guid: 5cb3328c40c97c744b762a88b2e7fe42
+  - enabled: 1
+    path: Assets/Scenes/Endings/EndScreen01.unity
+    guid: c6f42ca9cdd80f941839d02a49f9b302
+  - enabled: 1
+    path: Assets/Scenes/Endings/EndScreen02.unity
+    guid: 689a47c8c8aa71448ae421d9c4ba2584
+  - enabled: 1
+    path: Assets/Scenes/Endings/EndScreen03.unity
+    guid: 618d31ae578f25a45b835919138d9c2f
+  - enabled: 1
+    path: Assets/Scenes/Endings/SpookyEnding.unity
+    guid: 0917c06e23144fb4da9e7e348ef55d40
+  - enabled: 1
+    path: Assets/Scenes/Endings/BossRushEndScreen.unity
+    guid: 9e88b9eb804abf14b8e36e0bff601dc7
+  - enabled: 1
+    path: Assets/Scenes/Endings/ExterminatorEndScreen.unity
+    guid: 2f7045c9c35638c45a8af946c0091ad6
+  - enabled: 1
+    path: Assets/Scenes/Endings/MegaMapEndScreen.unity
+    guid: df0215239f537434ab744334da105476
+  - enabled: 1
+    path: Assets/Scenes/Congratulations.unity
+    guid: 32de5d3279879eb4f93cc488a305f999
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/DeathmatchCore.unity
+    guid: 63eb7201ce20539439188054ec3a8ea7
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch00.unity
+    guid: 8276519b86b22bc45a0975253d6ccab3
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch01.unity
+    guid: fbf0bafb13b95fa468420b59fcdabd78
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch02.unity
+    guid: c8024cf1f75623449931ddd8507dc56b
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch03.unity
+    guid: f7c1cb164ff31a8458c33acb0b06d640
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch04.unity
+    guid: 1bc95645a88ad0a4c9757851b88a90ed
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch05.unity
+    guid: 0df3a20620d97624f86660c7ba303608
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch06.unity
+    guid: 237c27ba933f356448acd2ea61a6dc63
+  - enabled: 1
+    path: Assets/Scenes/Deathmatch/Deathmatch07.unity
+    guid: 0664f7e0e8bcba74e90aed65d3375307
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1AllExits01.unity
+    guid: c992e9a744b305c4e800341001276c2d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1AllExits01.unity
+    guid: 19899a84df47a984c81e3a943556628f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2AllExits01.unity
+    guid: 17de76aa6d5aff04da0135ac7f2dcfae
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1LeftDown.unity
+    guid: 1d09b812f4c8e384c92bbe1081354850
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1LeftRight01.unity
+    guid: 8d337d7c22269f4428c186667333ade3
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1LeftRight02.unity
+    guid: 7cf7411f2212f8c4db9a2d3f68a985f9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1LeftRight01.unity
+    guid: 3d2e0c28fccb77b41b31285b40b46c90
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1NoDown01.unity
+    guid: 65c8440a80bf61e47a8525d1497302b1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2NoDown01.unity
+    guid: 34c745cca50b1ed44aa46804f42ec7c8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2AllExits01.unity
+    guid: 7d93f911daa0ead4294b9493bc6a03ee
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1AllExits02.unity
+    guid: d4f4269292a869c47b14167b8521b323
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2NoDown01.unity
+    guid: cee44eaa17d9d874582ec23182b2d8a4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x3AllExits01.unity
+    guid: a982a6fafe0f8d14aa60ebbfe2d9dfca
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave3x1AllExits01.unity
+    guid: 0206b2db388262544a38297577155572
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x3AllExits01.unity
+    guid: 80c792f7ac1d2914ba0c25c77b2fef45
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1UpDown01.unity
+    guid: 324e6811574e5dc468328b650eae9483
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x3Zag01.unity
+    guid: 6c9b6f80435a4ad42ad4f55ab9d1ff4e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ItemRooms/Cave1x1ItemRoom01.unity
+    guid: ddd992cf67ea63a44ab23ec0fbe7cb54
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1AllExits03.unity
+    guid: 7272bcd1d1deb2a40b51c6f00a0acd0a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x3AllExits02.unity
+    guid: b8f6a4035a5554548a0d40baae4e39b7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave3x1NoDown01.unity
+    guid: 748cb02e5071ae649aabef3e663bc672
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1AllExits01.unity
+    guid: 3fb165bd01a2234418a7896520a8b23c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x1JumpUp.unity
+    guid: 8792edad296b30a498f98d31899921c1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x1JumpRight.unity
+    guid: 30ebdd7691762fc4886488bee84d1393
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x1JumpLeft.unity
+    guid: 65240dfaf2a28864cbacdf2ff67379ca
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x1JumpDownRight.unity
+    guid: 015562de1ee610849b48081fa64cb966
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1HiddenDoorRight01.unity
+    guid: b70c7c187db96e648a80e181f47fe475
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1HiddenDoorDown01.unity
+    guid: 7aec68068c891214aa2ed0c0096232c7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1HiddenDoorLeft01.unity
+    guid: dd2c9c44a0c1ab9409fa228750249076
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1HiddenDoorUp01.unity
+    guid: a038da9b7d19c6141ba87c219caf5719
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x1JumpDownLeft.unity
+    guid: 2d1e0e5cb54f0dd45b20b68f5a43d661
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1HiddenDoorUp01.unity
+    guid: eccdd60c2c2f563488805220ce50f5a7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1HiddenDoorLeft01.unity
+    guid: 85a0996ebf917f44493f46d8c701f74f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1HiddenDoorRight01.unity
+    guid: d99850da728524c45afc9331d518ab43
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1HiddenDoorDown01.unity
+    guid: 633dfd37cac187a44a37edb82225910e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighRight01.unity
+    guid: cd7c420457c3f3b4baab4d8b4eb9db89
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighLeft01.unity
+    guid: 75c1234d605cb3f49a5f5f38c357f84d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighUp01.unity
+    guid: ee9ae73b8215295428199ee0c9382be4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighDownRight01.unity
+    guid: 8568742aed2db6b4ea0a50c07ff1ab1f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1AllExits02.unity
+    guid: b703894682831134fb7abf451c011f53
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighDownLeft01.unity
+    guid: 2a51089476de7af47a8c6ee84ac43a44
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighDownRight01.unity
+    guid: 84958e0c78ce7c741a1867420c280f54
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighLeft01.unity
+    guid: cb766b034b2c6f4478fce95e15e7cce9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighRight01.unity
+    guid: 77243a3a6b33aa74d8bbc0670c3ca018
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighUp01.unity
+    guid: a521dc502e96d8741a29fd5355bd152f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighLeft02.unity
+    guid: fcc652d7e76e193458a8febe801d729f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighLeft02.unity
+    guid: 582d3b4ac0061b8478744e76bff4c15f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighRight02.unity
+    guid: 56518039986eb974fb56b59187747cb1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighLeft03.unity
+    guid: 14048f42f953b40449c857ec63945cd3
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighRight02.unity
+    guid: 5310790d572934b43aca005ccc22f17b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x1JumpLeft01.unity
+    guid: b998d222553b69d4aa95a0dcb4d94f2e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x1JumpDownLeft01.unity
+    guid: fed8b1c41a27a374f9a2773154bdde7e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x1JumpRight01.unity
+    guid: 88341aa8cbb1eb245838370f09f05cfb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x1JumpUp01.unity
+    guid: d3649c58cc0068e42af3c0a223a51905
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x1JumpDownRight01.unity
+    guid: 2f56602742e14574683605a16b2de229
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1AllExits01.unity
+    guid: f6451328bfd505a4583639c2ce51ccfb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory3x1AllExits01.unity
+    guid: 726bf11b52ec5f244b39ff55b32c984b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2AllExits01.unity
+    guid: 352758671b15b0a4592b60faf47e43a0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x3AllExits01.unity
+    guid: 55bba64165ec668419981202ddfce614
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x2AllExits01.unity
+    guid: 4fe3914ce20858749baf00923dae6f92
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ItemRooms/Cave1x1ItemRoom02.unity
+    guid: 254a193a15ac83a4c88e51c26b89c4fa
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x3AllExits01.unity
+    guid: 178f97539fcb9c042baa2fe82ab8d9dc
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2VeryHighDownLeft01.unity
+    guid: fc037e15d917f8449b4f5d44f9b08aee
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x2LeftRight01.unity
+    guid: 35372185ec625d8478d4acc11ed7c7d9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x2NoUp01.unity
+    guid: 36a68d6fd9378a24a843623134a74e30
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1LeftRight01.unity
+    guid: b7a20a621c500f74d8bc550c98495cbd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2AllExits01.unity
+    guid: afc09e4aa93fde54f83df2dd22305760
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/StartingRooms/CaveStart01.unity
+    guid: 3aa46bf975ee0024caec1e17b72576b1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1AllExits01.unity
+    guid: b2268482dd11d0a4abb0d72377445b7a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x2AllDirections01.unity
+    guid: eb97189ded742b142a7919f679eb20df
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface4x1AllExits01.unity
+    guid: f27b09d9193ba3846958c8257d7319e0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x3AllExits01.unity
+    guid: 00017fd11f98a044aa477405d649d019
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface3x2AllDirection01.unity
+    guid: 4102ccf96de6c0c41bb3298195851821
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2NoUp01.unity
+    guid: a5a709da1db1e0f4294352a1660ffae6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2SmallGap01.unity
+    guid: b1f3beb58f878ed488f8956b8bebae60
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory2x1Jump01.unity
+    guid: 829b221c87912ff42b7dc8c45de56aaa
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1SmallGap01.unity
+    guid: 91b2312b365ab78478282aa87865c53e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory4x1AllExits01.unity
+    guid: b3120420f34b86145a674d2074663121
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2Jump01.unity
+    guid: 8749cc17921dce64e9546a86215b6b3f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/BossRooms/Factory1x1MetalPatriarch01.unity
+    guid: 6cc492dbd749ad540b3d0fab77ea5066
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x1JumpUp01.unity
+    guid: b5863fd99e7aa524b8302d90bb38632c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x1JumpLeft01.unity
+    guid: df12b0c7cda633e4a8bcc3d0e4c3538f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x1JumpRight01.unity
+    guid: 9c699a2e3ea529c47b103a118e94fe07
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x1JumpDownRight01.unity
+    guid: ea7ec2678792bbb4e8bad7b03d349b5b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x1JumpDownLeft01.unity
+    guid: 6543e9c931d7fef42adc8693c838963c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2VeryHighDownLeft01.unity
+    guid: ca03a4eec134e7346aa0b3a5fd072acf
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2VeryHighUp01.unity
+    guid: d22fe7dda161b8047892b2621d3efbfd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2VeryHighDownRight01.unity
+    guid: 50547745ae4fa174cb06f4d468f571d5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2VeryHighLeft01.unity
+    guid: ccaf1610cfc32294f86a9b1debf2c423
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2VeryHighRight01.unity
+    guid: 8c0d60c972395884d8150d5c2b126528
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1HiddenDoorDown01.unity
+    guid: d0f19a973e3f54347b8d21d76625ea87
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1HiddenDoorUp.unity
+    guid: 3e82b533b63158c46afccaa0ccda7648
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1HiddenDoorRight01.unity
+    guid: 31c159331d009c64fa4d16a7528ce534
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1HiddenDoorLeft01.unity
+    guid: 14b415e8adcb5364e810abe994dda0be
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1AllExit01.unity
+    guid: 80999bf484c020744a1d3dd1041bb2b9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x2AllExit01.unity
+    guid: 04bd79cddcf99e044905081fb9b45e3d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1AllExits01.unity
+    guid: e2b9e3611a7103649a9bd0637564a41a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x3AllExits01.unity
+    guid: c0fe3cfb933f6a9408c5b9d19137d48c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x2AllExits01.unity
+    guid: 990de53866a406b4e88f134ae71e0f12
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1AllExits02.unity
+    guid: a7b6ff54da3cbb740af9b3139f37f55d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1AllExits03.unity
+    guid: 9463b8b6a09920047bf91c1bd899bdce
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToFactory01.unity
+    guid: ce97887fb82235b48b22da5d68812583
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToBuriedCity01.unity
+    guid: c9162bdbd66ca504889675b7094cd53b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/TransitionRooms/FactoryToBuriedCity01.unity
+    guid: 946ddfadb099dc746a2838b012754c31
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/BossRooms/Surface1x1BeakLord01.unity
+    guid: 078d965c3e14c4c4caf44723b0c76681
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/BossRooms/Surface1x1Abomination01.unity
+    guid: 3056a94c904a5294d96b812c9b20acc4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2LeftRight01.unity
+    guid: c07c1901a41993c469a6cce93f0c6883
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BossRoom/BuriedCity1x1Polyphemus01.unity
+    guid: b6db0e2952e298d48ba27f8d9be1c8db
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2AllExits02.unity
+    guid: bed4961f5113acb4ca61ece7fca5dd51
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2AllDirections01.unity
+    guid: 3ce098059556cae4b98f86eaa71dd36a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1NoDown01.unity
+    guid: 00725ac56fcf1034dbf4a35a757c308e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave3x1AllExits02.unity
+    guid: 13ce0e51c97656547a698fbe08c1ac5d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/StartingRooms/Surface3x1Start01.unity
+    guid: 826179630f7059b4c9d98147787b0e8a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ItemRooms/Factory1x1ItemRoom01.unity
+    guid: 1486d15ee62ee2d49b9e47f379ad8c79
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/StartingRooms/Surface3x2Start01.unity
+    guid: d025f82bc62bc74479ac4786d94c0f6a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ItemRooms/BuriedCity1x1temRoom01.unity
+    guid: d8089bdc71977df42bcb81f22d5e3000
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/SaveRooms/SurfaceSaveRoom01.unity
+    guid: 9c3875fdb92ef8e4fa00c6e2380c6789
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/SaveRooms/CaveSaveRoom01.unity
+    guid: 532d6220cd2fb314bb39881bf6faee1b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/SaveRoom/FactorySaveRoom01.unity
+    guid: d9d524d4009642b40be901144f5bb054
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/SaveRooms/BuriedCitySaveRoom01.unity
+    guid: 969978c5b6c51f94fb1a8b6085388cd0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ItemRooms/Surface1x1ItemRoom01.unity
+    guid: b0b36eced58d29847a7770e7ecad9257
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1SmallGap01.unity
+    guid: 2e63c5380f2a44549a4918d10e5427d6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/JumpRooms/Surface1x2VeryHighNoDown01.unity
+    guid: 90c690a7a29fe824287ba73bcb71db9c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1LeftRight01.unity
+    guid: dd827fb71e1589248a9d2dba3d8f5442
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ItemRooms/Factory1x1ItemRoom02.unity
+    guid: 643e5da23f58e0d4289109e990e3b096
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ItemRooms/Factory1x1ItemRoom03.unity
+    guid: 2b3b8798107fe7848be73874afab95c0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ItemRooms/Factory1x1ItemRoom04.unity
+    guid: b8bd3d352914884499fddc43e916338f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1LeftRight02.unity
+    guid: faf4c884eee01404babca75f7d737f48
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x3AllExits02.unity
+    guid: 49f2ea74412cf1b478e434bd8131224f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1NoDown.unity
+    guid: 470dda577a4593541b9c9fd4b43d45a2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1GatePath.unity
+    guid: a0ffab4e40481554cb2e4352ce76ff9b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/StartingRooms/Surface1x2Start02.unity
+    guid: 60ca160f23bba91449513944afc2494c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1AllExits02.unity
+    guid: c45991bc1d3da204480f1b2564efc710
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShopRooms/Cave1x1OrbSmith01.unity
+    guid: 96995a0c1ee3b9940b119963c1f54c21
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShopRooms/Factory1x1OrbSmith01.unity
+    guid: 79bc0b19ffa2d7142a938457fe21b379
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShopRooms/Cave1x1GunSmith01.unity
+    guid: 6111274d33bb0cd44a31d73108b8d61a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShopRooms/Factory1x1GunSmith01.unity
+    guid: 59d53c327800c964c83922072d286e68
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2AllExits02.unity
+    guid: 23ace7900d4935847ab4a0f4310d1d7d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave3x1AllExits03.unity
+    guid: fa1e5b2ad5accc14eaa2721ea523fe64
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2AllExits02.unity
+    guid: d7798be4bf949184e8f85d97c9aaa8f7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1AllExits01.unity
+    guid: 65ea2c02811b6814bb0c88691bce9acb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1AllExits02.unity
+    guid: 93f8352c1837edd40b561f25f7ef7383
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1AllExits02.unity
+    guid: 3ce9792d67cae7443aa32a6e4e90c1cb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1IgnoreTerrainUp.unity
+    guid: 92c9569988260b94698ecd358c3866b1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1IgnoreTerrainUp01.unity
+    guid: 22901d0085b67eb4fa0a14a757ae2d43
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1AllExits03.unity
+    guid: 21af9c1c2939fb943a5dc5d66257b73e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1IgnoreTerrainUp01.unity
+    guid: 436baf4a81cc801468fafff28c5e81a4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1AllExits04.unity
+    guid: bc489aca9a6c6254f8acf8df5cfa447d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1IgnoreTerrainUp01.unity
+    guid: c05da5417907ade49a59712a8fb98015
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BossRoom/BuriedCity1x1MolemanShaman01.unity
+    guid: a2759114de8b6ee489001e39b7c35920
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShopRooms/Factory1x1Artificer01.unity
+    guid: 45bcb7e758e87414cbf6930c4f74f2f6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShopRooms/Cave1x1Artificer01.unity
+    guid: fb5c561163b7798468889383bc1a24c9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1AllExits02.unity
+    guid: 40da3c0ccf1762c438c952f9a8c85a88
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1AllExits03.unity
+    guid: d364cb3378e57b74e902d0494904ffea
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x1AllDirections01.unity
+    guid: 7083677d185ccb64393eec640367f84b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x1AllDirections02.unity
+    guid: 026d7c11a2caff542bb96de7b9e0ccfb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity4x1AllExits01.unity
+    guid: 9d0ed6e7d2675ad40996c1065212d2fd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1AllExits01.unity
+    guid: 5026e13f7647c744a901146206f6e1ba
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2NoDown01.unity
+    guid: 03c6961ed00ec7545b6b7a12e9e293ef
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x1AllExits01.unity
+    guid: 3d3198d049361a64fb5e96e438aab327
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts3x1AllExits01.unity
+    guid: b78c7a64a6e86fe4383a07823dcc3e7c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x1AllExits02.unity
+    guid: ebc5d3efa9a61bc4bab6e4f6e954d8a6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x2AllExits01.unity
+    guid: 4a4c1aa37c68b1b4fac198752710dea7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/StartingRoom/BeastGuts2x2Start01.unity
+    guid: 61e2fdb10fba1a04d9bd7f3672abe61b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/BossRooms/Surface1x1Sluggard01.unity
+    guid: 9fa049a77a6087f4ebc277c29ae25a5d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BossRooms/BeastGuts2x2MegaBeastCore.unity
+    guid: 7838981acc1b14545a730286e48881b7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts3x1NoDown01.unity
+    guid: 0447e5d03e8cdba42a582b075ef83ba8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/BossRooms/Cave1x1Cephalodiptera01.unity
+    guid: fc648f32c51aeb4419294bd82247bfc7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/BossRooms/Cave2x1WallCreep01.unity
+    guid: b97fe3a7ae1d3f84c9c0c4cebe68138a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x1NoDown01.unity
+    guid: b4ffaf6beaa279c4898a247a8f160eab
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x2AllDirections01.unity
+    guid: 3c6d776673b7fb249860cbc933a4d634
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ItemRooms/BuriedCity1x1temRoom02.unity
+    guid: 7c14c3625022ca34c9224ac3e418f2b7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1LeftRight01.unity
+    guid: 6b320b6c69255de458dbc9809eefd974
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x3AllExits02.unity
+    guid: 384413286c05d9e42bf482913469c35f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x4AllExits01.unity
+    guid: fb7b5d9413976ca4c9af8b286a4bdfad
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x3AllExits02.unity
+    guid: 6d207bae4cc3f744196351ca0b9e7bda
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1AllExits02.unity
+    guid: 87754182703fede45a9bac550ee2aebd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1AllExits03.unity
+    guid: 4223bca8a14330c48bd97f11a8af7fc1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2AllExits03.unity
+    guid: 7bc887075808b324fa15a6b9cf942f2a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1AllExits04.unity
+    guid: 8e84f2ff4a7b9b640989d7a4ec4fe155
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory3x1AllExits02.unity
+    guid: 7ca4f7bb928bd7d4a84e5e1ef35e6ae2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x2AllExits02.unity
+    guid: 9bd962d9f72de034497c1744e134a33e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface3x2AllExits01.unity
+    guid: 534873a36034e08428743cba4f36cbe2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x2AllExits03.unity
+    guid: 0b05c67246f52e6478a5385a72394d08
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1AllExits04.unity
+    guid: f883bd3a8cc1861499e38ce539e73777
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BossRoom/BuriedCityWhiteWyrm01.unity
+    guid: f6d3227a1254d9f4db08089fe08183e9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x2AllDirections01.unity
+    guid: 798089ebd57310c43b7426e39b2bd581
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity2x1Jump01.unity
+    guid: 9be5d82b9bdcf7f4fb2dfd09655adc97
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2Jump01.unity
+    guid: 6697e7bb47f0f994b9ac379a953560c1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2NoDown02.unity
+    guid: 9161179513cb7a64093232db68be28fa
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2AllExits03.unity
+    guid: af85828ecd6c8db4f9bc5522db1ee69d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x1AllExits01.unity
+    guid: 0d16fb01dfa16864ba988ee1777348e6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1SmallGap01.unity
+    guid: 2ffd72defc1dfca489809aebbcefe9e9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x3AllDirections01.unity
+    guid: 752e44e2277f2df4b88da84d89381b86
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory3x1AllDirections01.unity
+    guid: 2161a804ac9f4db42b461354593b5187
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x2AllExits02.unity
+    guid: e2f599b22d1fd974ba51fa00f93f7310
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x3AllExits01.unity
+    guid: 48f677f7172c26540a27e684c6d540fc
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2AllExits04.unity
+    guid: 884b4e3bebee5114994db11b583fd433
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/BossRooms/Cave2x2MouthMeat01.unity
+    guid: c9e7c92d4fa67034d9cc5fd132987a16
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/BossRooms/Factory2x1FleshAdder01.unity
+    guid: 5c2d219472d5b1c4cb83331c794e1f81
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1AllExits02.unity
+    guid: 4c214b382a4282045997d1eda781772c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/BossRooms/Factory2x2MeatMouthSenior.unity
+    guid: 054d8ce84f4f9ed45b6b0a85d1395284
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory3x1AllDirections02.unity
+    guid: c170848e4bb24dd46822c46a47eb9aec
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity2x2Jump01.unity
+    guid: b3873f25eeca9cb488565c21a2bf92ac
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2SmallGap01.unity
+    guid: 20da754003775414b83861ed6f091828
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2SmallGap01.unity
+    guid: f03aca7ab23df3d4da25fe92b6ccf495
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2SmallGap01.unity
+    guid: 124ef7fe04bf6ef41843aff26bfdf1e7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x2SmallGap01.unity
+    guid: 791fb2f0a2db5d747937ce29ff78a470
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2AllExits02.unity
+    guid: 3ef133f3094baa042b41a753f3456199
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x2AllExits04.unity
+    guid: b1712bc02a4b82644832adf375f8d595
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x3AllDirections02.unity
+    guid: a7a566bb04ed3b7438dd442ca251347d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2AllExits03.unity
+    guid: 3142863094c199747a62efc85af0a059
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x3AllDirecitons.unity
+    guid: edd941d358b158644bdb03d0f618ee2d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2DamageBlocks01.unity
+    guid: 9c1e3390421e1704cbd366d77bc51d46
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1DamageBlocks01.unity
+    guid: 7bd6999e5e6093e449099af2caeab079
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1DamageBlocks01.unity
+    guid: 473803caf4b62fa4ca25815d73a09034
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1DamageBlocks01.unity
+    guid: ae7545f2542171442aca1918bf8a04c3
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1DamageBlocks01.unity
+    guid: d5921e24f64d9be448fc333deacfbf0f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory3x1AllDirections03.unity
+    guid: e29bc65f4e233324eb65c7adcc552243
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x1AllDirections03.unity
+    guid: 33dc8e7e36bf338409dcd59efa35f96f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1AllExits05.unity
+    guid: 1ebcf3dbbbebd554794241403f12d75c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave2x1Jump01.unity
+    guid: bdb991b905d2aaf40bfcb414822a0c89
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1DamageBlocks02.unity
+    guid: 417cbc7922d90ff4fac4950edbcc761e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave2x1Jump02.unity
+    guid: c373294bb7e9e8249ad526f24818ce7b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2Jump02.unity
+    guid: fca9ffecb8cd4c9469d0cd1198a561d7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1DamageBlocks02.unity
+    guid: 2c6833e06d2755a43b6c2d553838443a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2IgnoreTerrain01.unity
+    guid: 6535fd67058f27a4ba0bfadfb4a506a5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1IgnoreTerrain02.unity
+    guid: 22ed10758deebe94883744ac1c140070
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2IgnoreTerrain01.unity
+    guid: 3d8c824e6cca2c2458bd5029128b6732
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1IgnoreTerrain01.unity
+    guid: 663f573605dbc364896d8c87cbabb7b2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2IgnoreTerrain01.unity
+    guid: deaa7dba46f3005428a227bcbe5cb8a5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1IgnoreTerrain01.unity
+    guid: 623c2e69689011c468a122be5d1bad55
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x2IgnoreTerrain01.unity
+    guid: 2554aed4f557b254998c380d40c09c44
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1IgnoreTerrain01.unity
+    guid: 8524ced41822c5a47b4ef37352f76276
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/JumpRooms/Surface1x2VeryHighAllExits01.unity
+    guid: 65ead556a092eab4bbb16f522abff4a4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x2SmallGap01.unity
+    guid: f9d14286348d99e4196186d4dfb34153
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1IgnoreTerrain02.unity
+    guid: ba7feeea5af435a4288f593fa118ed50
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory4x1AllExits02.unity
+    guid: 20c651e7128bc2248bf76b05021a2a59
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x2AllExits01.unity
+    guid: b239f20e8992c764bb96fa28aa4f7bc6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1UpDown01.unity
+    guid: 5dcfa8dbeef76f547ae1e62badb1bd76
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x4AllExits02.unity
+    guid: b60050c54bfe8cb49a298741f1db822a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1IgnoreTerrain02.unity
+    guid: 162b33ce052083d42a889cedbf333755
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2DamageBlocks01.unity
+    guid: 04c71be0a6171314b8e43f1ad2387bf6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/JumpRooms/Surface1x2Jump01.unity
+    guid: dd7fb23edc2b63c48bee4388f202389f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/JumpRooms/Surface2x1Jump01.unity
+    guid: 69d4395f7ee7d7b48906eba879b9ce3e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1AllExits03.unity
+    guid: e0e7a8a60a65b88419517c748f583a90
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2SmallGap02.unity
+    guid: df49949a4ee02484caea762308cf6e89
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x3AllExits03.unity
+    guid: fa2c36f789fb5524187ef39e23776695
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x3DamageBlocks01.unity
+    guid: 598ff8d659753c14a88c2bce9549deb7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x2AllExits02.unity
+    guid: 4dd9702722599724ebd4eaed2f917049
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1SmallGap02.unity
+    guid: 95964357e755dc74dae5dfa5a845418d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x2AllExits03.unity
+    guid: 263cedd8b71f2dc4c878146e78ce7e95
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x2AllExits04.unity
+    guid: 05f700cf91c1c75408d1ed9e0d3ba95c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x2AllExits05.unity
+    guid: ab2f2e0d00267574890828a9ed4e762e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x3AllExits04.unity
+    guid: 9141860d3b1ea2c4f9d4e3dc6c9b5a05
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x3AllExits02.unity
+    guid: 8af1ec9028023dc4985cb14b73ba91b0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x3DamageBlocks01.unity
+    guid: d6129688e7a51cb49a3f166263a38d92
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity3x1AllExits02.unity
+    guid: 95370194cda9fb54eaae9d0bcae9c572
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity4x1DamageBlocks01.unity
+    guid: 3ba912930f7a1d44abc31d9ef0ad5305
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity4x1DamageBlocks02.unity
+    guid: d8b63466e9a93c64aae0db2b7d86521c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/StartingRooms/CaveStart02.unity
+    guid: c02afa7bf4bdb3a48a0eb302748df3e2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/MegaBeast/Surface4x2MegaBeast.unity
+    guid: 61273aef4a1d4034caec5f5a523d0cc9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2AllDirections01.unity
+    guid: 64a047c2afbc7b947b56aad20d59d7f0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2AllExits01.unity
+    guid: e6ed536683978184ba8aec83213e2c15
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2NoDown03.unity
+    guid: d8644fc433d38844984ac7f28556103b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts3x2AllDirections01.unity
+    guid: 0cdf9179184575b4f9b29c3dcd772f48
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x3AllDirections01.unity
+    guid: 017e8572ab96b9b43a0c6efb8896937f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ItemRooms/Cave1x1ItemRoom03.unity
+    guid: b0aac7bdd7867d648bb71dedecf1c981
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/BossRooms/Surface1x1MouthMeat.unity
+    guid: 4ade721c365c6cf46931c4411bc60a41
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2AllExits04.unity
+    guid: f218bb494d6e8bb46bbbcd767c83e581
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1AllExits03.unity
+    guid: d7149f010456df64f9d50f4e47acb583
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1LeftRight03.unity
+    guid: 873d9faaf968aea40afae5e3b4121028
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2AllExits03.unity
+    guid: d8204ad82c357cf4384a96cb7ab4ac81
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface3x1AllExits01.unity
+    guid: 71580cb9c90317d4c998b75c494b8156
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1NoUp01.unity
+    guid: beb8734d0bfe19c43b59d499cca6f27f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/StartingRooms/Glitch1x1Start01.unity
+    guid: 3f851a95398ec374790cb5be00f119f7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/ItemRooms/Glitch1x1ItemRoom01.unity
+    guid: 6618e03abb726c64ba1d2b09cab45431
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/StartingRooms/CaveStart03.unity
+    guid: 8bd3599a43b0b1040a8fa680d9337a31
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2AllExits05.unity
+    guid: 524768212a8da5e4a9fd4b326096025e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1AllExits03.unity
+    guid: 8e1320a1cfe2cf34a91368d4a4cf89ca
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x2AllExits01.unity
+    guid: 83731bc6ddb8240498ddb8a1b635ebf0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x1AllExits01.unity
+    guid: 3dcada1b66c9ce445b801f51fe75d6a7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/StartingRooms/Surface1x2Start01.unity
+    guid: 72df7927af381194584788d7002ce389
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToFactory02.unity
+    guid: d6ae3ef71f69dd1409fa35ea032aa436
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToFactory03.unity
+    guid: 6ef49ebfe80491e40ac43494032449b5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/TransitionRooms/FactoryToBuriedCity02.unity
+    guid: 0e0df1099e0518b419be073d9b6f57c1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2Jump02.unity
+    guid: 3c49de354fd107a418607f25c0c8a17c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/TransitionRooms/FactoryToBuriedCity03.unity
+    guid: 48d6df545d8ff9144be865a816b07dd6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToBuriedCity02.unity
+    guid: 588f2719fe5ffd1418736c0ccfcbc7fd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToBuriedCity03.unity
+    guid: 1d23cb713032b2b4192a52bf7e758db3
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/StartingRooms/Surface3x2Start02.unity
+    guid: 296c8f11d527b544982f59a3c6bf9603
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x3AllExits01.unity
+    guid: ee77fef57f78be2438538997d7b4076d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch3x1AllExits01.unity
+    guid: f21b9eb122e933c42be9c193215c319f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x2AllExits.unity
+    guid: aa2d8eb92cedbce41b4e69e9270185e0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x2AllExits02.unity
+    guid: f61c42c0d7a82b947904ba4bfc021fe0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x3UpDown.unity
+    guid: 03d5a2d0b5242854a96cca6237547bef
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1AllExits03.unity
+    guid: 3b46cc55b96215b4b9f40c1ec7ac3f65
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x1NoDown.unity
+    guid: bb3b6017b01e92144845959fcaa77eb8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x1LeftRight.unity
+    guid: 51f6515bb02187943a866b719197e7ac
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch3x2AllDirection01.unity
+    guid: 10aa03756350bee498509d5aedc4b384
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1UpDown01.unity
+    guid: 0dbb72a903cf1d544830496f61bb15a7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/BossRooms/Glitch1x1Boss01.unity
+    guid: da76d4aa5fca9c7478bbf73e430b7d99
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x2AllExits02.unity
+    guid: 01f45e84280599440b28cc1356e60138
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1AllExits01.unity
+    guid: 41242f6243318424091467655d6945a5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x3AllExits01.unity
+    guid: f143900da8464994d952a46ab92c072b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch3x1AllExits02.unity
+    guid: faece035537330c4994ed194cef4bfae
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch3x1AllDirections01.unity
+    guid: 248c60491b8b45840b446947c7294c39
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch4x1LeftRight.unity
+    guid: 4f25279397c9c2e41a5af1ed09104257
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x2AllExits03.unity
+    guid: 24276912cc5c0be459ab81665ecc4466
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x2AllExits03.unity
+    guid: b12c9cefade191f438407cc28dc0c5e7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x2AllExits04.unity
+    guid: ad3bf62c23e6dc341be3d0e5310c38c3
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1NoDown01.unity
+    guid: 205e588bc44bfab40a94645e00b73141
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1NoUp02.unity
+    guid: 51843d416c73594459d80b7ab2b5c7eb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1AllExits02.unity
+    guid: 05f6ee5744e4d084bb3b3b088723fb61
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x2NoDown01.unity
+    guid: 073b89e6f45868a4ab6c30d812657f77
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1LeftRight01.unity
+    guid: 05608938f5b03b944b2d1d2c397d9cbb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch4x1AllDirections01.unity
+    guid: 1bff59ed9f18fcc44b63bcc47a7cc33e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x2AllExits04.unity
+    guid: 07662efa391702d41a82534c69f8d7b5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x1AllExits02.unity
+    guid: 272f4d6c9b94d2b44ae4c4e450020ec9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x2AllExits05.unity
+    guid: 6076e6f2fb61a9445b7badebcbd28b04
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x1AllExits03.unity
+    guid: a67c842d270a2a5479f41547e27abf0a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/StartingRooms/CaveStart04.unity
+    guid: 6029946310c83714286a277d813ffd31
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave4x1AllDirections01.unity
+    guid: 5bb96066dfeed6248b1704181e78f7de
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave4x1SmallGap01.unity
+    guid: 6e8b5de9c17bd1f4b8d8ec75cd9c6c8e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1AllDirection01.unity
+    guid: 4eab1b462c2c51540a3117b88514e84e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x2AllExits06.unity
+    guid: c0c2289a775862b4fa1c8e9584e37307
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1NoDown02.unity
+    guid: 9eede0021b9036f4ab2d83fbab0f01ce
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1SmallGap03.unity
+    guid: 2de9349e1c3441941b3c518c5ac9643f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x1AllExits05.unity
+    guid: 09aa730b2bd1bca4a9d2e88b099ebdfe
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/Shops/BuriedCity1x1TheTraitor01.unity
+    guid: 5e85b8fa4e0d9f24b8f07242ed639d1d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/ItemRoom/BeastGuts1x1ItemRoom01.unity
+    guid: fd79dcb2e525f4941b7112126db86bfb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1AllExits04.unity
+    guid: 40edfb58d052ddb44afafc21a6501099
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1NoUp01.unity
+    guid: f70dcd1fd09acc1449614ac8b6947bce
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1NoDown03.unity
+    guid: 482abc182585a414fa766de8dfcfec05
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1LeftRight01.unity
+    guid: a34201673e731eb46905031f64a268c2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShrineRooms/CaveShrineTyr.unity
+    guid: c82f71c5fcd6e724e9dfe7689e520159
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShrineRooms/CaveShrineBulucChabtan.unity
+    guid: d36cedd2147bcd5488fc2ae264772375
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShrineRooms/CaveShrineZurvan.unity
+    guid: 97f23207c063ef94b94be2c2b9dd2aba
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShrineRooms/CaveShrineHephaestus.unity
+    guid: 7f1aa40fba92d1643bb785e63237d5f6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShrineRooms/CaveShrineWadjetMikail.unity
+    guid: 82d1272f51d801a4bb73dba14795d716
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ShrineRooms/BuriedCityShrineHephaestus.unity
+    guid: 972d6b15e38cf5c4183914cb86f26f8d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ShrineRooms/BuriedCityShrineOrphiel.unity
+    guid: a1c249c2ce4944c479938ae0ee8fe4ad
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ShrineRooms/BuriedCityShrineTyr.unity
+    guid: 1a1bb70830a8b3b4bb5455ab14f45bf7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ShrineRooms/BuriedCityShrineZurvan.unity
+    guid: abd59799a79258a4797171a0de312e33
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ShrineRooms/BuriedCityShrineWadjetMikail.unity
+    guid: 5deaba4c9dc02bb40b2152d73aaf2501
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/ShrineRooms/BuriedCityShrineBulucChabtan.unity
+    guid: 078ad8a764362e946b6223ba25473466
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShrineRooms/FactoryShrineHephaestus.unity
+    guid: 3a19923129812604ba7375c38a38dfb5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShrineRooms/FactoryShrineBulucChabtan.unity
+    guid: 7fc4f07ccee83b745b7120c6766708eb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShrineRooms/FactoryShrineOrphiel.unity
+    guid: 0fb6d5aff0f916447b118ebc275678c1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShrineRooms/FactoryShrineTyr.unity
+    guid: b70b679846cf75b448c411b8d4b5c842
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShrineRooms/FactoryShrineWadjetMikail.unity
+    guid: ae4c3c8184d895643af355aa1029331d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/ShrineRooms/FactoryShrineZurvan.unity
+    guid: 4ef92a32fc957a843a2a8e175bffb4ed
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ShrineRooms/SurfaceShrineBulucChabtan.unity
+    guid: 81072a240b38ae1489955093720888ac
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ShrineRooms/SurfaceShrineHephaestus.unity
+    guid: 31e4ae5cf9178de418c52e9c1b00dae5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ShrineRooms/SurfaceShrineOrphiel.unity
+    guid: bc7b18af7af7c034080cedb0e22c2015
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ShrineRooms/SurfaceShrineTyr.unity
+    guid: aaf63e73a9559484c9edc2a3b8698a95
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ShrineRooms/SurfaceShrineWadjetMikail.unity
+    guid: d6fb096dca987014b80dbbfcbff0b31d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ShrineRooms/SurfaceShrineZurvan.unity
+    guid: cf700e8582d18b64989a2056f1712a2e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/ShrineRooms/CaveShrineOrphiel.unity
+    guid: 97fccfe1b77036a4d84bb432c0ed4653
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x2LeftRight02.unity
+    guid: 94c34bab8d180ad4cb042dd42a59ffd6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2AllDirections01.unity
+    guid: dabbf135e3db1e1468ebc5f8fe218fc5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory1x2AllExits05.unity
+    guid: c94353c361b9ae34688f4d526805587c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1AllExits03.unity
+    guid: 2e5558459a0bfc44b80abd26b701fa69
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1AllExits04.unity
+    guid: 59662259e932f1f42902fd921b511226
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/ItemRooms/Surface1x1ItemRoom02.unity
+    guid: 7396b1d49ad4a0346b9f065589b6dbe2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity1x1AllExits06.unity
+    guid: a479869877199d145a99f3accedf938e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1AllExits04.unity
+    guid: 18b261c884023c942b99289bed10972c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch1x1AllExits04.unity
+    guid: 182aa45704788af4cb3cc7f493408f07
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1NoUp02.unity
+    guid: c4d0ab809e22b87408e5bd133cf227e5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/GlitchRooms/Glitch2x1AllExits04.unity
+    guid: bcdd8d7f01c30b349af073c560fe7705
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x1AllExits03.unity
+    guid: 8aa2d230481093142b6b70e2c83dfa1a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/BuriedCity2x1DamageBlocks02.unity
+    guid: 0e863fddc3fdc314094a93720ab4d667
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1Arachnomorph01.unity
+    guid: acab6b20e495f29449c3b2a837fb6ca0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/Factory2x1Arachnomorph01.unity
+    guid: deadefd882f99f347a38c0b87176298a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/StartingRooms/ForestSlums3x2Start01.unity
+    guid: 7881a002f122ef547a74f53236caffc4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1AllExits01.unity
+    guid: fc7fae6c9c4a5b84d899d71862ca3a5e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ItemRoom/ForestSlumsItemRoom01.unity
+    guid: 6b8226da7a5c47a4b9e26770754ce213
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/BossRooms/ForestSlums1x2OozeHart01.unity
+    guid: a93d360428a0598419fc642ecc359a1c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1AllExits02.unity
+    guid: ecc166fcc4419014d969bf3ab7ab7717
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1AllExits03.unity
+    guid: 9246f8fd1361110448259ffce11a2a0a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1HiddenDoorRight01.unity
+    guid: fb29db412555a8b4c903b8d0b048a640
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1HiddenDoorDown01.unity
+    guid: 8713ca4b360d4bf4f9ebb418c1872c01
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1HiddenDoorLeft01.unity
+    guid: 482b28376ec83224dbed0327678c7895
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1HiddenDoorUp01.unity
+    guid: e053d8b9562587a47b13fab8331f2387
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1AllExits05.unity
+    guid: 7fa35a72031f2ee4b8854e07e86b9c76
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1AllExits04.unity
+    guid: 1840db2a6cb6f4f4f8d946352c982fe5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/StartingRooms/ForestToCaveStart01.unity
+    guid: 348a3afe540604a4aa8f7d5d6a9a95c7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/JumpRooms/ForestSlums1x2VeryHighAllExits01.unity
+    guid: 365b31a27656a534da33d5dca56b7515
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/MegaBeast/ForestSlums4x2MegaBeast.unity
+    guid: 9aa48539c02c6c44cbdac120af4549cb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/StartingRooms/ForestSlums3x2Start02.unity
+    guid: a90873fe0087ffb42856dd60407d5234
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums3x1AllExits01.unity
+    guid: b08e5dd20e3829b4c95ef1f895155039
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x2AllExits01.unity
+    guid: 217e1a0e3b3fa384792811f2c5c63a96
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x3AllExits01.unity
+    guid: 8296fa697e282b042a93acc103d63287
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums3x2AllDirections01.unity
+    guid: 88b0ffe362359ae48a84b99ebae51467
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums3x2AllExits01.unity
+    guid: 58d53ea8651026e4db6199be732d72a5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums4x1AllExits01.unity
+    guid: 19407493e53b20f4aacc5db3dc55a3a1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums3x1AllExits02.unity
+    guid: de8b186da51d9234abb2a0b1fdb098df
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x3AllExits02.unity
+    guid: d3e962f44ed7b424bb387779513f953e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x2AllExits01.unity
+    guid: 3cc08c5493a28824f820b3ffc337d0a9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x1AllExits01.unity
+    guid: a2665439e0e45fa499032706311d6a6a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x2AllExits02.unity
+    guid: 68ae418208b1bd3419ad8f3e709f1d64
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ShrineRooms/ForestSlumsShrineBulucChabtan.unity
+    guid: 5f38ae517326a6b428a57471bf3cba7a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ShrineRooms/ForestSlumsShrineHephaestus.unity
+    guid: 25cb6060b2ab48142894eeaadcfb7610
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ShrineRooms/ForestSlumsShrineOrphiel.unity
+    guid: 949b311484488e2438e5de71c89abafe
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ShrineRooms/ForestSlumsShrineTyr.unity
+    guid: b8b08b44abcc02c4f92ad93d76956605
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ShrineRooms/ForestSlumsShrineWadjetMikail.unity
+    guid: 2a477656d8cc8fe4390f2060a1842e9c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ShrineRooms/ForestSlumsShrineZurvan.unity
+    guid: 38c3de6ac78f983489ec132d6f5a8be8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/BossRooms/ForestSlums2x2BlightbarkBoss01.unity
+    guid: abe576f3c9e57b34893d07e376a29db4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/BossRooms/ForestSlums1x1MouthMeat01.unity
+    guid: 1fbe2b8ee935ea0418df702ab1a6c20f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x2SmallGap01.unity
+    guid: 3b89e599d720af341b37085f783ed117
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x1SmallGap01.unity
+    guid: 1447e6cc8170e404a815f035e65d9b58
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x2LeftRight01.unity
+    guid: 58bdac009bf5fec4da56f5a40a6e0998
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums3x2AllDirections02.unity
+    guid: d927f3b7d08d6354b9aff69dd567782f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TeleporterRooms/CaveTeleporterRoom01.unity
+    guid: a76b69ca8744f844a8a5d7576d171190
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/TeleporterRooms/FactoryTeleporterRoom01.unity
+    guid: fd3e5eda114fb3e49b53106dbf468fc6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/TeleporterRooms/BuriedCityTeleporterRoom01.unity
+    guid: 03861bd6d8018394a822ae9944b71d49
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/Forest2x1SmallGap01.unity
+    guid: 2a90d40a215e7a34ba67d2898e56588c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1AllExits01.unity
+    guid: 6ca0a78cde0604c418ef7d72544546db
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1AllExits02.unity
+    guid: 4a2ab338caf6de24d9bc564a9b244bc6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1AllExits03.unity
+    guid: ea64eb6907ed6fd4fa6f58169936d956
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1AllExits04.unity
+    guid: 936cc89b94bc7994796acfa5bfda7dbb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1HiddenDoorDown01.unity
+    guid: af3a4586cd4a1904aa0363d18df4a322
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1HiddenDoorLeft01.unity
+    guid: 6d5457e25079ad140b7469d0a4d24e5c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1HiddenDoorRight01.unity
+    guid: 6d084282c63c3554ab857c101ac22e9c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1HiddenDoorUp01.unity
+    guid: 228480b0cabfcc64db0f2aeb87060043
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ItemRooms/CoolantSewers1x1ItemRoom01.unity
+    guid: 9cbcc73aa5fb07b40b30a4660921cad8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x1JumpDownLeft01.unity
+    guid: decdc354dc9e6ca4dab9c0045e0f7e6e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x1JumpDownRight01.unity
+    guid: a5516e77f81550641aca90ba03b8a7c9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x1JumpLeft01.unity
+    guid: 1f1cfb959297bcb43a69dadb936bc62d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x1JumpRight01.unity
+    guid: 42d92ffa81dd45d4b83f5f8fa2d9810e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x1JumpUp01.unity
+    guid: c8c7a774ef3227248a057b5478ae3621
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/SaveRooms/CoolantSewersSaveRoom01.unity
+    guid: ff5584e6b809bb04aa65726b1a034319
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShopRooms/CoolantSewers1x1Artificer01.unity
+    guid: c86d46fb38413de448a19afade45f82f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShopRooms/CoolantSewers1x1GunSmith01.unity
+    guid: 513abddda0217334dae716952bff7322
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShopRooms/CoolantSewers1x1OrbSmith01.unity
+    guid: 557826767c712fc49872ccf15679b5b9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShrineRooms/CoolantSewersShrineBulucChabtan.unity
+    guid: 6f3194e11318bb640b5465e512a79bf5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShrineRooms/CoolantSewersShrineHephaestus.unity
+    guid: fbe7afa3c8579ca489d99839ff28173a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShrineRooms/CoolantSewersShrineOrphiel.unity
+    guid: cedc4a4a51d3d4d43bea70866223b7e5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShrineRooms/CoolantSewersShrineTyr.unity
+    guid: aa5abd1942772a44abda6ecd1626f055
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShrineRooms/CoolantSewersShrineWadjetMikail.unity
+    guid: a875bd534034a194dabf1ca06e2d519e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/ShrineRooms/CoolantSewersShrineZurvan.unity
+    guid: 8ada769fd0de4be4899b9bb768eff194
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TeleporterRooms/CoolantSewersTeleporterRoom01.unity
+    guid: 4643d8f316054ec45b1c589e6ce0ad2d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2VeryHighDownLeft02.unity
+    guid: 5f0b156b800966946b3f9f5482e2aa66
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2VeryHighDownRight02.unity
+    guid: 6fa6b003b58c2ae43b8a1a0e63f326b8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2VeryHighLeft02.unity
+    guid: c03e09b1b85e19b4687e92b34aab1706
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2VeryHighRight02.unity
+    guid: 5421246cab45f8b4895936b43d44da29
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2VeryHighUp02.unity
+    guid: 286343f28c0145345aa8f14b1b2ea099
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/StartingRooms/SurfaceToCoolantSewersStart01.unity
+    guid: f1fe18da036413b42bb376966eef10a8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/StartingRooms/ForestToCoolantSewers01.unity
+    guid: 850c22c8828277a4ab7c6e34f9a2056d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/BossRooms/CoolantSewers1x1Leviathan01.unity
+    guid: bc415721e17c35f4bb6e2ee37b805f75
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToBuriedCity01.unity
+    guid: 68208b9ea8db75e45ab95f4730f9d7d6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToBuriedCity02.unity
+    guid: 1dcc079a34c22ae4288c9e196723c010
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToBuriedCity03.unity
+    guid: 8b520f1541400f048884ebbfa8dcf5bb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToFactory01.unity
+    guid: f869061869e8cee49a974cbfd0eb06ef
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToFactory02.unity
+    guid: 3f7ac7e63dcc6184e8facff517feacde
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToFactory03.unity
+    guid: 6304bb80c5664594b86a1ef48b11330f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2AllExits01.unity
+    guid: 8d400d8dede0caf4bbf59571e89fbac4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1AllExits01.unity
+    guid: 01435002a8b177142b4abd926bf693be
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x3AllExits01.unity
+    guid: 874d352faebb215449d255383ec426d5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers2x1JumpAllExits01.unity
+    guid: a8f68d67d8868144f9912874f5fa4e1e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1NoDown01.unity
+    guid: 43c22f9a50efd62449147af078e1b74a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x1LeftRight.unity
+    guid: 0332a52fb77561d4eaebcb7727f8011a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1LeftRight01.unity
+    guid: acbd32d79e1144544855654fa63d0ee1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x1UpDown01.unity
+    guid: 51832ddad0973304f97c0bd4881f4652
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums1x2AllDirections01.unity
+    guid: 033afffa44c967d4fbdcbac1b4a0f7c4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x2AllDirections01.unity
+    guid: 07a96970ac4a3e1488214efca8956f3d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x3AllExits01.unity
+    guid: 756f4be4b20d6af47a31c934b4f30eec
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers3x1AllExits01.unity
+    guid: 10617a9db8368724ea3ab75368d386d1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x3AllDirections01.unity
+    guid: 6afeb7c40764bb5479a045916bb1a1df
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x5AllExits01.unity
+    guid: c9062ea312527a14b8e280d9ad36ded0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers3x1AllDirections01.unity
+    guid: e00d018e8728e434e84b7ca82d215680
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1LeftRight01.unity
+    guid: 6c654a7e1e067bd468806ed810fdf840
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x5AllExits02.unity
+    guid: bd49b24bd8a607445bea22a2da46e388
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers4x1AllDirections01.unity
+    guid: 4796aa027f88bcf41aa51b4ce42e665e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x2AllDirections01.unity
+    guid: 802353bb00dddbb4db82a93b69c15f87
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave2x1WaterJump01.unity
+    guid: 4153453ceae338e41800054a17e45499
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2WaterJump01.unity
+    guid: 48ef1dc324f5bde40a5788692149ccfd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity1x2WaterJump01.unity
+    guid: 3b262585a7102a146aad5565460cf579
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/JumpRooms/BuriedCity2x1WaterJump01.unity
+    guid: 77a160d1581838845b67ea9bea806cbe
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory2x1WaterJump01.unity
+    guid: e461783e8393d4143a3b44b5bd4deeba
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2WaterJump01.unity
+    guid: 8045240b87d9eeb43b0e546e4ef90d16
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers2x1WaterJump01.unity
+    guid: ae4dcaa8445d6e548a188ad55f65f8f2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2WaterJump01.unity
+    guid: 219ce409063e41d48bcc59c7f08c5993
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/JumpRooms/ForestSlums2x1Jump01.unity
+    guid: 2b5b019bf0b171649b79dcf45acd80cd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/JumpRooms/ForestSlums1x2Jump01.unity
+    guid: 8e229d6956f895f4cb467b5bcbaab867
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/JumpRooms/Cave1x2Jump02.unity
+    guid: 80a55f52c045dae46812ccb3c88ec995
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2Jump01.unity
+    guid: 945c9920c1d79f0489541ee1f8a2c485
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2VeryHighLeftRight01.unity
+    guid: d14f92abfbf79874daa9ac80c2d211b6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers4x2AllExits01.unity
+    guid: e74d5f6d16ffc794e9985bbe013f7e8b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers3x2NoDown01.unity
+    guid: b2513f6b8fee34e448975f67c78244b5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x2AllExits02.unity
+    guid: d5f1d3d2bd3e2674faf9e3e062a6fd1a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/BossRooms/CoolantSewers2x1WallCreep01.unity
+    guid: ee073e649585f0a4c8e4d818be799943
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2AllExits02.unity
+    guid: 5fea9cffa47607543ae605679167ba10
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers3x1LeftRight01.unity
+    guid: 817ac3281b5f344488441e2ad3492f22
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/BossRooms/CoolantSewers2x1Stalkus01.unity
+    guid: 7e0c4090e8686ae40a603473620f689f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x4AllExits01.unity
+    guid: 5cc327e5586b12e488eeba8bf9dd6267
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2IgnoreTerrain01.unity
+    guid: d7d91300e19920640b4ce77774bf54b9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x3IgnoreTerrain01.unity
+    guid: da31e89b45634ca46b9fd86972afe97e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x4AllExits02.unity
+    guid: da2b2f76815515645b5fec060f21d17d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2SmallGap01.unity
+    guid: f56d9374b208e0145ab4fca2dd5277e4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x3SmallGap01.unity
+    guid: be84a7b8fe470344cbb9521e9d837df2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x4IgnoreTerrain01.unity
+    guid: 4ef527b03604d3e4da0065005a485139
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x4SmallGap01.unity
+    guid: eea3e5a05b8fb9b44b1cbbb22e1f3999
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1DamageBlocks01.unity
+    guid: 5a682c1ce8e10ed4a8f97daf3a08286f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1IgnoreTerrain01.unity
+    guid: f87a264d0c8467e498c5726d88ce75f4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1IgnoreTerrain02.unity
+    guid: 8cf7a3b8d2bda8c4ab9c69212d4c2aef
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1NoUp01.unity
+    guid: b929eb0627cc394409ad67e3c3cc6c65
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1SmallGap01.unity
+    guid: f26d5bbe36ec4564b8e25779d16d5381
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1SmallGap02.unity
+    guid: ac21aee4c2205f7479cc260cb5df688e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x2IgnoreTerrian01.unity
+    guid: c3ae4a048710beb48ab9a9571325b558
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x3NoDown01.unity
+    guid: 9d668d5e1649e9842904788c6578d060
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers3x2SmallGap01.unity
+    guid: 83115a596357f8b4eb60378601369915
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers5x1AllExits.unity
+    guid: e892b956d91b0e3448245d721409a92c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x2SmallGap01.unity
+    guid: 4bf4e2a8188fab74d99edb217d653f2d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers3x3AllExits.unity
+    guid: f68fae3f58b5b5048ac1dd332f4a48e7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/SpecialRooms/BeastGuts2x2GateLock01.unity
+    guid: 6954e40d316001a458a7476ee7d530c6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/SpecialRooms/BeastGuts2x1PreBoss01.unity
+    guid: f579df3b56937d24196146424134d2e5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1AllExits01.unity
+    guid: 591dbb9248adaf04f9037d50feb0b764
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1AllExits02.unity
+    guid: bb2d5fbae1b28974aa0bd7a70cd0756f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1AllExits03.unity
+    guid: 4509bc936f8846e4c9c311e04acb7faf
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1AllExits04.unity
+    guid: 12d9b2d01d487ed4e912f0f97d00e818
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1HiddenDoorDown01.unity
+    guid: 7168f2f933fa0cf439472535a17fde5d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1HiddenDoorLeft01.unity
+    guid: 1d0385d38878d7e41b53e76ec1a1ddbe
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1HiddenDoorRight01.unity
+    guid: 6487015ba859fbd48bf53972493ec8c1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1HiddenDoorUp01.unity
+    guid: 6a7860458662f6247a2fa6bc97e4173c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2AllExits01.unity
+    guid: bdd015594de1be549b3ad87316c56496
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1AllExits01.unity
+    guid: 2b4367391ccf7dd47a80dcfa6e5dd58d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ItemRooms/CrystalMines1x1ItemRoom01.unity
+    guid: 77b18ef92a04f49449dca791033a8941
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x1JumpDownLeft01.unity
+    guid: 3fd4ca34b0b7b514f901b4b61806d6d5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x1JumpDownRight01.unity
+    guid: 388c3604d5d077946bdadbd3a4eb686f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x1JumpLeft01.unity
+    guid: 1d97d3c9f631fc749be0a3dda1d1f467
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x1JumpRight01.unity
+    guid: 181a977416c781e4499504d1df044591
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x1JumpUp01.unity
+    guid: 37ded9a64c50183439ae87abeb211dad
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2Jump01.unity
+    guid: 06800cff91a37c44b93e00a5d582aed9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2VeryHighDownLeft02.unity
+    guid: da6badf5e5eaecc4abcc3a1bcc198b24
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2VeryHighDownRight02.unity
+    guid: e0e03fa7cf57d494aa8be7e6e93843b1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2VeryHighLeft02.unity
+    guid: e3e8bfe49ac060148b0f05acd21ffe3b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2VeryHighRight02.unity
+    guid: 3dd879ea3677929438d1bb42a4d128ee
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2VeryHighUp02.unity
+    guid: 09f3053a3c38a3644a63ff51f7fd4a9f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines1x2WaterJump01.unity
+    guid: 00cd277d17908c84caee3d553c41a1fc
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines2x1WaterJump01.unity
+    guid: e387ce0fd9663c7468c431d4f493e448
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/SaveRooms/CrystalMinesSaveRoom01.unity
+    guid: 2f96f18e106e19242b90e5e0fd776484
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShopRooms/CrystalMines1x1Artificer01.unity
+    guid: 892d56d86241b00468dd82c6349a184d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShopRooms/CrystalMines1x1GunSmith01.unity
+    guid: 39f16e6043143844594fb95aaf5cc563
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShopRooms/CrystalMines1x1OrbSmith01.unity
+    guid: f7e2baa5f812b6b4aa6a8380adf58975
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShrineRooms/CrystalMinesShrineBulucChabtan.unity
+    guid: 2821f059ff4872942bf6d96ecff8f334
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShrineRooms/CrystalMinesShrineHephaestus.unity
+    guid: 4e93d30ffef77d14aa13bc23ad59d937
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShrineRooms/CrystalMinesShrineOrphiel.unity
+    guid: 6671b9041f018724db42d9974a7ff5f2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShrineRooms/CrystalMinesShrineTyr.unity
+    guid: 2d5fd1e9a0202b5489270b34326ed6e8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShrineRooms/CrystalMinesShrineWadjetMikail.unity
+    guid: f84401e02c583994f8819686f89fe1a2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/ShrineRooms/CrystalMinesShrineZurvan.unity
+    guid: d7861653ae3b127458fa5d066c4254a0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/TeleporterRooms/CrystalMinesTeleporterRoom01.unity
+    guid: e2e690650cace8140ba3280229392f30
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines1x1Template.unity
+    guid: d8bed5dcd7727d646aa044e2d4a6d32f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines1x2Template.unity
+    guid: 8c6d04f621033c74f80387d83e3bebb7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines1x3Template.unity
+    guid: 22a10d62d3e42054fb87b216b88494b9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines1x4Template.unity
+    guid: a9884e7ee913bfa4d9df4b7faa548cdd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines1x5Template.unity
+    guid: ee18e35e34ef04e409b2019bc6e61f77
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines2x1Template.unity
+    guid: ef71b116cab6449498ea6054960a4600
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines2x3Template.unity
+    guid: c7178759d4423384cb4d858d4b3ffd4d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines2x4Template.unity
+    guid: 6d3440e3e61414d48938bde814beacc1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x1DamageBlocks01.unity
+    guid: 9b3b1deeaf79d5c479e7fd86f0ce9bb5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines3x2Template.unity
+    guid: 10a8fee313f978d46a34cbeda3ebedfb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines3x3Template.unity
+    guid: a644f08ca0bf922448a55006c8f632bd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines4x1Template.unity
+    guid: 18e87c429fc84b34ebed255e2c3c0a2c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/Templates/CrystalMines4x2Template.unity
+    guid: cca7316491ea1ad4da1d6aa4d63c8f84
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/BossRooms/CrystalMines1x2FleshAdder02.unity
+    guid: 1d78491bb4736af4b8a908a748c8782a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/TransitionRooms/CrystalMinesToBuriedCity01.unity
+    guid: 06385a3c418e9d54e82054d2eff7a560
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/TransitionRooms/CrystalMinesToBuriedCity02.unity
+    guid: f22a3ad0b13b87e449ae557d620612a7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToCrystalMines01.unity
+    guid: 72c92447016360747b63bf028f9fc196
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToCrystalMines02.unity
+    guid: 15d4898dcdeffc245bf96d36a7ff8b3b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToCrystalMines03.unity
+    guid: f8ba3e59194c95c419a7cbc2559e456c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToCrystalMines01.unity
+    guid: b77ccb75c53855e4a9c29388db89b2cd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToCrystalMines02.unity
+    guid: 1d55a8aa412e4f34f8c775d878882caa
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToCrystalMines03.unity
+    guid: 9d2b00169c5a3134abfa15d3e2b0cc2d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x1AllDirection01.unity
+    guid: 20ba26887969ba145a4359579189aa5c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/BossRooms/CrystalMines1x1FleshDeviler01.unity
+    guid: 451a024fa15d9d54f8ec3e615845ab8a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines4x2AllExits01.unity
+    guid: c2d16eb93089320459e1e95bf4c46133
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1SmallGap01.unity
+    guid: 954d6970226d18f4e856f130b42005dc
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/BossRooms/CrystalMines1x1CorruptedMiner01.unity
+    guid: 1ab9bfd800dbbee4b8c01fc267bc2ca5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1AllExits02.unity
+    guid: 830d21a80fded0d43a0ff6272d460379
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2AllExits02.unity
+    guid: 6acf47c98382b684bba12c4b20dd7c6d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x3AllExits01.unity
+    guid: 57b90887b000f9b45a52da24f3e1d218
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2DamageBlocks01.unity
+    guid: 9c93280f82c07054dbc202122dc614b8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2IgnoreTerrain01.unity
+    guid: 3f307350ef266054a85ccdc5cb71fa8a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2SmallGap01.unity
+    guid: 97facce09d09d8c41ae30aee6ba650ff
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x3SmallGap01.unity
+    guid: 89370ea77ac0121468f5317415005857
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1DamageBlocks01.unity
+    guid: e415c0ab4ea2a9840b0489207a8edbd6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1IgnoreTerrain01.unity
+    guid: 92a5815979afc62478afa9692b0254d0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x1AllExits01.unity
+    guid: c59369e96de8d254d87f81832ae4762f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x1IgnoreTerrain01.unity
+    guid: 6329e6ee064160140b822bcff0dfb3a2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines3x1Jump01.unity
+    guid: 1d543bb2a12c9f84882b4b90d01ad3d8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x2AllExits01.unity
+    guid: 5cecaedc1ec985b4c93c46ed05e98721
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x2IgnoreTerrain01.unity
+    guid: 497b12fc4b3c85646894909dddcd16ff
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x2SmallGap01.unity
+    guid: eafe0c6f8d264d147abeb67c4801985d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x2AllExits01.unity
+    guid: 2ee2253cb4ccf5744a36d5d273ca0248
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines4x1AllExits01.unity
+    guid: 0e9bb2c444cf8a24f826a032b5195e78
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x1SmallGap01.unity
+    guid: ffb6b5c9195fd264d8fa4fe52c4e43e3
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x3AllExits01.unity
+    guid: f421cf917b861d94d849cca0f5d0e337
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x4AllExits01.unity
+    guid: 9671ca98a5a4ac349af8c55366090146
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines3x3AllExits01.unity
+    guid: 8543046665cd7d54792dd67ae45a5bca
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines4x1DamageBlocks01.unity
+    guid: cd5dd0fdf0f4c1748b42799aa043b541
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/JumpRooms/CrystalMines4x1Jump01.unity
+    guid: fdb253722fbafd340a6de1a877a236a0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines4x1IgnoreTerrain01.unity
+    guid: 91381e22a7d60754197349d2f8a8a87f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x1SmallGap01.unity
+    guid: 6e4fc4ad546fa594a97b3ac937493dc9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2SmallGap02.unity
+    guid: 3da626e8b0fe4a04ca8a636ad176353b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines4x1SmallGap01.unity
+    guid: d1cf1739ff325794283a655762b12c41
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1AllExits05.unity
+    guid: e5d650fdde9348a42a1f834fc9022cfd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/JumpRooms/Factory1x2Jump01.unity
+    guid: ddbe494b5b3f0284d9f7ec09b7be7dcc
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1NoDown01.unity
+    guid: 8f80629498b44a24ebb6ac071f7bbb7d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x2NoDown01.unity
+    guid: b670962a72fa4974b8356b3b543f9bb1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/TransitionRooms/CrystalMinesToBuriedCity03.unity
+    guid: 0644c4f8d5a30ef49950674fbaa228de
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToCrystalMines04.unity
+    guid: f8469b5cdd985574fab05c7c4b5ac95d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/TransitionRooms/FactoryToCrystalMine01.unity
+    guid: bd26abb7049e1cc4d8699ae6b479733a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/TransitionRooms/CavesToCoolantSewers01.unity
+    guid: c6739c0f21e9eae4d8c21c19dee0107c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/FactoryRooms/TransitionRooms/FactoryToCrystalMines02.unity
+    guid: 1c6305237520b644da42e13561d9c14b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/TransitionRooms/ForestSlumsToSurface01.unity
+    guid: 648bf884302139e4ea7ca2cec826430c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/TransitionRooms/SurfaceToCave01.unity
+    guid: 51d30c9a10f6ef94b8181230369483ff
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/TransitionRooms/ForestSlumsToCoolantSewers01.unity
+    guid: c3599e6ac1f441141b4709132fb3e103
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/ForestSlums2x3AllExits03.unity
+    guid: e8df293b87de28745a96587b2e5d30b7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x2AllDirections02.unity
+    guid: e36a160bdbb96084a8d8add6eb79a6f2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x3AllExit01.unity
+    guid: 4a35bcf7d38531e4cbb44e15e8c03d7a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x2AllExits02.unity
+    guid: 9f54ab8eacbf46a4a8a4ef24359d632d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x2AllExits03.unity
+    guid: 8163e417e81e25b479752da17b7e5842
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/JumpRooms/ForestSlums1x2Jump02.unity
+    guid: 24c32cb030b186043a8f872df967bfda
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1IgnoreTerrain03.unity
+    guid: 3022e3707245fd9448226804febf3611
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1LeftRight01.unity
+    guid: 9592410087a7fee4186940f984a6c8a1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2IgnoreTerrain02.unity
+    guid: 87451e9d73461fd41b473191b7167b69
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1UpDown01.unity
+    guid: b13c5bf474fb9c2479a1dbfac94cb979
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1AllExits02.unity
+    guid: 38a438bb98600024eba64c3f23f71334
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/JumpRooms/ForestSlums1x1JumpUp.unity
+    guid: 7bbde1d62a033ff418ec1c74f64800c0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2Jump02.unity
+    guid: c9384e5e5f7c89b4f99025a9becde276
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface3x1AllExits02.unity
+    guid: feb682d7c4c5f014f950d11802694043
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2IgnoreTerrain02.unity
+    guid: 2c4e50edb49b4d04cbe03de2449a46d1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2DamageBlocks01.unity
+    guid: b583d484aef19e242a7561da217cc023
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1AllExits05.unity
+    guid: b076f5507a9310547bb3db8003c2f500
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x2DamageBlocks02.unity
+    guid: 8b0dd067495b8154fb017a9bd8a9ccf0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface4x1AllExits02.unity
+    guid: 2b8befd47b9063946bdf7b662bca537d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers2x1DamageBlocks02.unity
+    guid: 83c77aed101f9d74c8c415b62acba363
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers2x1JumpAllExits02.unity
+    guid: da296e9858d71924bb474f88342fc03b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2IgnoreTerrain03.unity
+    guid: 964714e6563a0c54a9fa157ca184a28e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x2AllExits03.unity
+    guid: 13fc351c7180fa844b2ddcc93c4b5e62
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1AllExits05.unity
+    guid: 1dcee27b6de3edc48b5622371d6045bd
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x1IgnoreTerrain02.unity
+    guid: d592877241fc08c4b95bce3f27675cf1
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/TransitionRooms/SurfaceToForestSlums01.unity
+    guid: c39e5fce1d247cd4690126285c15d4f9
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/TransitionRooms/SurfaceToCoolantSewers01.unity
+    guid: e4d557d456f372845868a13b9f55d07a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/TransitionRooms/ForestSlumsToCaves01.unity
+    guid: 0168fcf1ee1612849891fe182fb02f9f
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/TransitionRooms/CoolantSewersToCave01.unity
+    guid: 3f6b5b707867d0141b8dba1491918951
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/TransitionRooms/CrystalMinesToFactory01.unity
+    guid: 9083675dc2ffc2b49a3eef429c39da06
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/TransitionRooms/CrystalMinesToFactory02.unity
+    guid: fa61eea7639474a478d0cce510fcf411
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts3x1AllExits02.unity
+    guid: 2aeaa730ffe22fb4ebc96f82aa9f35b5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1AllExits04.unity
+    guid: 643c4fc1a62992c4e81da6dcec17892e
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts4x1AllExits01.unity
+    guid: 52939e3e0cf6cf243a73645cc5a6ec12
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts4x1AllDirections01.unity
+    guid: 73ebba8d110b77c40a3411ba7aad1cae
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x1AllExits04.unity
+    guid: c4c40a26118929d46ae60aa84bf9d8a6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1LeftRight01.unity
+    guid: 780abf5238185374280a02dfc7f62429
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1DownRight01.unity
+    guid: df10ec879c3f2b54093ffcb19377973c
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1UpDown01.unity
+    guid: ddcac6514661e504cb784f730ea5e2ba
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1UpLeft01.unity
+    guid: 236cd84e37fecc8438d880ea39661d23
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1DownLeft01.unity
+    guid: d3576bed35d378f4296d026e202a306b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1UpRight01.unity
+    guid: 26959fed9c89bc44782dcbf2ffa55776
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1NoDown01.unity
+    guid: bd6646cf7c35c3b49acffe0bc2e46feb
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts1x1NoUp.unity
+    guid: 76675348f6214c2438f3db1e7df87067
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2AllExits02.unity
+    guid: 1f74460886700ad4b9c8d9cc0109dbcc
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2AllExits03.unity
+    guid: 9b01fed545a62cd418248e03056234f4
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BeastGuts/BeastGuts2x2AllDirections02.unity
+    guid: bcfb2600362cca94e811a8e6401c1c8a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2AllExits03.unity
+    guid: aab565128c923604589166e5ce6fd55b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x2DamageBlocks02.unity
+    guid: ab3c26872eec1174ba4c635c662f649b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1LeftRight01.unity
+    guid: d31544e54a4c966498c648fc55838941
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines1x1UpDown01.unity
+    guid: 663b99d9d23104e4faa7d99c49c855e8
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CrystalMines/CrystalMines2x2AllExits02.unity
+    guid: 80f83614437c9c24791c145afa4f53b2
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/BossRushStarts/Surface3x2BossRushStart01.unity
+    guid: d8b9544435f8db1499897b41f460f5b6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/BossRushStarts/ForestSlums3x2BossRushStart01.unity
+    guid: 780421d49737ed0478f4def73681359d
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/TeleporterRooms/ForestSlums1x1Teleporter01.unity
+    guid: 302e7b74dd111c14f922c0b65151b6d5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/TeleporterRooms/Surface1x1Teleporter01.unity
+    guid: d2a29a05cae48154cb7a1ba23a559212
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/SpecialRooms/BuriedCity2x2BeastRemnant01.unity
+    guid: 8d497890064ff72459e39630d448976b
+  - enabled: 1
+    path: Assets/Scenes/Rooms/ForestSlumsRooms/JumpRooms/ForestSlums1x2WaterJump01.unity
+    guid: 86fe944e4bdd7c54693e27b708cfad69
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/JumpRooms/Surface1x2WaterJump01.unity
+    guid: 6e4acd8e3ef9b004cb96047bf95ca09a
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface1x1IgnoreTerrainUp02.unity
+    guid: f34050c550b9b9146b1d85cc3bc66ef6
+  - enabled: 1
+    path: Assets/Scenes/Rooms/SurfaceRooms/Surface2x1DamageBlocks02.unity
+    guid: 1adc78ad6458a2e42af9c8f86bed4306
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BuriedCityRooms/TeleporterRooms/BuriedCityTeleporterRoom02.unity
+    guid: b011c29a5d22eea4baa1714abd655a21
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/CoolantSewers1x1AllExits06.unity
+    guid: 9f6da6221e768b04aaa37f22dfc27cfe
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave2x2DamageBlocks02.unity
+    guid: ae2fdf694dec4734bb05cc38b11f77a7
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CaveRooms/Cave1x1IgnoreTerrainUp02.unity
+    guid: 566dfcfb6b795c847b53a2dd9e4abfa5
+  - enabled: 1
+    path: Assets/Scenes/Rooms/CoolantSewers/JumpRooms/CoolantSewers1x2WaterJump02.unity
+    guid: 8d9bae709b2f83845a298f04cf15af4b
+  m_configObjects: {}

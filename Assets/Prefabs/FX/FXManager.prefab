@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000010677708222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000012423540396}
+  - component: {fileID: 114000013908573600}
+  m_Layer: 0
+  m_Name: FXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012423540396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010677708222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013908573600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010677708222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b79281e63fe58242844459d4702d00b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodSplatSmall: {fileID: 11494354, guid: bfe1e572165943d4b9b4f324d3d22da1, type: 3}
+  smokePuffSmall: {fileID: 114000014186051714, guid: 132a06584127abb4ba6fa8e01785c250,
+    type: 3}
+  flameSmall: {fileID: 114000013753973696, guid: 9c867e0a33d6d93479e7201b56755b8a,
+    type: 3}
+  explosionSmall: {fileID: 114000013888950670, guid: 6959b923903099c4cad2b7e677297c84,
+    type: 3}
+  explosionMedium: {fileID: 114000013429964088, guid: f2dd4d1c9f7b77a4abe25660fd06f76a,
+    type: 3}
+  teleportation: {fileID: 114230700931077326, guid: 58bcafec835c7ef41ad3417893592b31,
+    type: 3}
+  animeSplode: {fileID: 114000014186051714, guid: fe249e2b11b716e49bb9a10057c2bb9f,
+    type: 3}
+  dashPuff: {fileID: 114217930155324956, guid: 2773d02e2a0d08a40be5a78726535ce7, type: 3}
+  acidBubbles: {fileID: 114234605404105928, guid: 8fe6b431f2b7d94419b3433226d7512c,
+    type: 3}
+  poisonBubbles: {fileID: 114956408621604322, guid: 9e6b66dd02740d1409587a89cdf655a6,
+    type: 3}
+  splash32: {fileID: 114758925298626594, guid: 8680ded2d064db04485fa765ac84a4fb, type: 3}
+  acidSplash32: {fileID: 114758925298626594, guid: a3eed4cf4b1522346b90d5f518e40600,
+    type: 3}
+  muzzleFlash: {fileID: 114000013429964088, guid: dee04c542053c854c8d53d4218637724,
+    type: 3}
+  creepPrefab: {fileID: 114917600331751570, guid: 32031f97a70e49a42a2b75340ddf66f1,
+    type: 3}
+  splatSounds:
+  - {fileID: 8300000, guid: a8b3e5b0aec9f874c8cc43db80fe26ff, type: 3}
+  - {fileID: 8300000, guid: 97c093a2d37a32243a074fbc94c65fd4, type: 3}
+  - {fileID: 8300000, guid: 53a983dbab32fc44192413984d9cdc63, type: 3}
+  - {fileID: 8300000, guid: 7502eb9e2eab56344a327869722ed766, type: 3}
+  splodeSounds:
+  - {fileID: 8300000, guid: 02ca9ae27c346f74abea17c927a40be8, type: 3}
+  teleportSounds:
+  - {fileID: 8300000, guid: f056b185b02989f448e18bfab53ff17b, type: 3}
+  shringSounds:
+  - {fileID: 8300000, guid: 0a30e30925d9ed343a2bf2a404addf36, type: 3}
+  acidSounds:
+  - {fileID: 8300000, guid: 4fb6ac695d5a2d748927e31cf73407f8, type: 3}
+  splashSounds:
+  - {fileID: 8300000, guid: 4cc68d730766fd64d8095594e9b58069, type: 3}

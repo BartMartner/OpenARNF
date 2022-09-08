@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3539b2508428d264e86f4d5d56055574, type: 3}
+  m_Name: FactorySpikesBaseEdgeLeft
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 6f7f5ad6936571c4d968710e6c7706e5, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  AnimFPS: 4
+  AnimFrames:
+  - tileId: 81
+    UVOffset: {x: 0, y: 0}
+  - tileId: 83
+    UVOffset: {x: 0, y: 0}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: GlitchCrumbleBlock
+  m_Controller: {fileID: 9100000, guid: c0dfbfec18c438748a7f129a8011e1f6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 082b10afaf3d42349aa75ca81ab332e5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5ff8a017279d99849a5930d36a22e714, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81dc60e1c6359ec449941b13bcb8ec21, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ae313bd20b386934cb0830bf10ee5b86, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d74ec5172caf9134cae3e948fe425e48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 36ca1707f54982c4e8a86b2fe8200b52, type: 2}

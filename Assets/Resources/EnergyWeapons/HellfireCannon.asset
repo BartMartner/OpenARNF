@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0608a2d165fd8204f9d81cbe99fc4966, type: 3}
+  m_Name: HellfireCannon
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 1f85fc25c619ea7458b3437464d011bc, type: 3}
+  barColor: {r: 1, g: 0.3764706, b: 0, a: 1}
+  item: 28
+  allowSpinJumping: 1
+  minEnergy: 0.5
+  shootSound: {fileID: 8300000, guid: a4cb56e9865cf22409428e3ef3f91728, type: 3}
+  baseDamage: 3.5
+  minSpeed: 10
+  maxSpeed: 18
+  energyCost: 0.5
+  spawnOnDeath: {fileID: 837724518878625988, guid: 21d182be5cd2ba344ac859bd4db28f98,
+    type: 3}

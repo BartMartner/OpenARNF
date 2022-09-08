@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012809238120}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012809238120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013000394630}
+  - component: {fileID: 114000013674243596}
+  m_Layer: 0
+  m_Name: SurfaceBackgroundGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013000394630
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012809238120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013674243596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012809238120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa71a64695baf141af183624419b80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layers: 8
+  minParallax: 0.25
+  maxParallax: 0.75
+  buildingPrefabs:
+  - {fileID: 212000013721487480, guid: 448ea048e42a3cb44a52bb0727b27edd, type: 2}
+  - {fileID: 212000013649521412, guid: 4138e8cf0d58f2f4387bf70dad435816, type: 2}
+  - {fileID: 212000012745310776, guid: 75f5b895f39ec55439d76d173b59d901, type: 2}
+  - {fileID: 212000010808511602, guid: c0ba7a29e8d18dd40bf285fae1c7fef5, type: 2}
+  - {fileID: 212000011528684148, guid: e195da782cc415b478ba6c9c9b2ae271, type: 2}
+  - {fileID: 212000011528684148, guid: 5ee0726299123ef45b87b71455fa9933, type: 2}
+  buildingMaterial: {fileID: 2100000, guid: b305b4aaab1a1e2478cbfe44bdea9327, type: 2}
+  hazeColors:
+  - {r: 0.97647065, g: 0.5058824, b: 0, a: 1}
+  - {r: 0.8235295, g: 0.28235295, b: 0.10980393, a: 1}
+  - {r: 0.63529414, g: 0.16862746, b: 0.09411766, a: 1}
+  - {r: 0, g: 0.26666668, b: 0.19215688, a: 1}
+  - {r: 0, g: 0.08627451, b: 0.19215688, a: 1}
+  maxYOffset: 0.5
+  minBuildingSpacing: 3
+  maxBuildingSpacing: 6
+  allowFlipping: 1
+  debugCorruption: 0
+  laserSprites:
+  - {fileID: 21300000, guid: 0154c4bc0962bca42b4a680f39844f60, type: 3}
+  laserColors:
+  - {r: 0.44705886, g: 0.9725491, b: 0.6627451, a: 1}
+  - {r: 0.627451, g: 1, b: 1, a: 1}
+  - {r: 0.78431374, g: 1, b: 0.39215687, a: 1}
+  minLasersPerLayer: 0
+  maxLasersPerLayer: 2
+  minLaserSpeed: 5
+  maxLaserSpeed: 30

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656c5e200a31c945b469abda4211525, type: 3}
+  m_Name: CoolantSewerIceHolderBrush
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: a8bd8bf26d7c2b04494f6c42d04755b4, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 0
+  RandomTiles: 
+  RandomTileList:
+  - tileData: 224
+    probabilityFactor: 1
+  - tileData: 225
+    probabilityFactor: 1
+  - tileData: 256
+    probabilityFactor: 1
+  - tileData: 257
+    probabilityFactor: 1
+  - tileData: 289
+    probabilityFactor: 1
+  - tileData: 259
+    probabilityFactor: 1
+  - tileData: 291
+    probabilityFactor: 1
+  - tileData: 324
+    probabilityFactor: 1
+  - tileData: 356
+    probabilityFactor: 1
+  - tileData: 325
+    probabilityFactor: 1
+  - tileData: 357
+    probabilityFactor: 1
+  - tileData: 137
+    probabilityFactor: 1
+  - tileData: 169
+    probabilityFactor: 1
+  - tileData: 428
+    probabilityFactor: 1
+  - tileData: 429
+    probabilityFactor: 1
+  - tileData: 237
+    probabilityFactor: 1
+  - tileData: 269
+    probabilityFactor: 1
+  - tileData: 238
+    probabilityFactor: 1
+  - tileData: 239
+    probabilityFactor: 1
+  - tileData: 270
+    probabilityFactor: 1
+  - tileData: 302
+    probabilityFactor: 1
+  - tileData: 80
+    probabilityFactor: 1
+  - tileData: 81
+    probabilityFactor: 1
+  - tileData: 305
+    probabilityFactor: 1
+  - tileData: 337
+    probabilityFactor: 1
+  - tileData: 306
+    probabilityFactor: 1
+  - tileData: 338
+    probabilityFactor: 1
+  - tileData: 307
+    probabilityFactor: 1
+  - tileData: 339
+    probabilityFactor: 1
+  - tileData: 308
+    probabilityFactor: 1
+  - tileData: 216
+    probabilityFactor: 1
+  RandomizeFlagMask: 0
+  RemoveBrushIdAfterRefresh: 0

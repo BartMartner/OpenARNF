@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656c5e200a31c945b469abda4211525, type: 3}
+  m_Name: CrystalMinesFloorRandom
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: f2f1d2ce489de7f4b9c8b53e68f68d63, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 5
+  m_showInPalette: 1
+  RandomTiles: 
+  RandomTileList:
+  - tileData: 1
+    probabilityFactor: 1
+  - tileData: 96
+    probabilityFactor: 0.2
+  - tileData: 97
+    probabilityFactor: 0.1
+  - tileData: 98
+    probabilityFactor: 0.2
+  - tileData: 128
+    probabilityFactor: 0.2
+  - tileData: 129
+    probabilityFactor: 0.1
+  - tileData: 130
+    probabilityFactor: 0.1
+  RandomizeFlagMask: 0
+  RemoveBrushIdAfterRefresh: 0

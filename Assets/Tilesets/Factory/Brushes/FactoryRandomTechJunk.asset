@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656c5e200a31c945b469abda4211525, type: 3}
+  m_Name: FactoryRandomTechJunk
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 6f7f5ad6936571c4d968710e6c7706e5, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  RandomTiles: 
+  RandomTileList:
+  - tileData: 128
+    probabilityFactor: 1
+  - tileData: 129
+    probabilityFactor: 1
+  - tileData: 130
+    probabilityFactor: 1
+  - tileData: 131
+    probabilityFactor: 1
+  - tileData: 132
+    probabilityFactor: 0.5
+  - tileData: 133
+    probabilityFactor: 1
+  - tileData: 134
+    probabilityFactor: 1
+  - tileData: 135
+    probabilityFactor: 1
+  - tileData: 137
+    probabilityFactor: 1
+  - tileData: 138
+    probabilityFactor: 1
+  RandomizeFlagMask: 0

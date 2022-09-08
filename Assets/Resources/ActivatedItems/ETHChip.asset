@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4335e59f7c741624a81a96866445bbe8, type: 3}
+  m_Name: ETHChip
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: af23e2c3201b523428b398c741b5e4e0, type: 3}
+  item: 400
+  energyCost: 2
+  holdDelay: 1
+  sound: {fileID: 8300000, guid: 9700e4668850f6843ba98ae1326ffca2, type: 3}

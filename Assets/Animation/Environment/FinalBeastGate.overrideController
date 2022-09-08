@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FinalBeastGate
+  m_Controller: {fileID: 9100000, guid: 8b03a71aa382e3a409a424b5b0546cd2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e8901b1e090018345a3cf4a55a6716ae, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e1eec059396be4642ba1e8fe11af4871, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e92d214d68171074a8fb07016a52c4f9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dbf5ea6f9aa1f054a9d10eea28d36838, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8af3fb6ac3561004b8c1ba9d576d806b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 98798ba4447f8434ea7dbb887c9233ad, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ae99260637bed3741ba923321cf5a50d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1f6178cc9d0a36a44878f8377a332375, type: 2}

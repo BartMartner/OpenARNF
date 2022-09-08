@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e86f31d1eb0a6c4788d20340d7cd3b0, type: 3}
+  m_Name: LaserBeam
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: c45aa87d09280564197508d5afdf9268, type: 3}
+  barColor: {r: 0, g: 0.89705884, b: 0.36819565, a: 1}
+  item: 205
+  allowSpinJumping: 1
+  minEnergy: 0
+  laserStart: {fileID: 8300000, guid: f60be9486bc6f864b93e1d95fb5595e8, type: 3}
+  emitting: 0
+  baseDamage: 18
+  energyPerSecond: 2

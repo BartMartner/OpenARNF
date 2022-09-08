@@ -1,0 +1,769 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1886359819460746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4217981032279330}
+  - component: {fileID: 114462434205085690}
+  m_Layer: 0
+  m_Name: ControllerGylphs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4217981032279330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886359819460746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114462434205085690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886359819460746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1915d24cf0f9d429c3ea155f78abf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controllers:
+  - name: MicrosoftXBox360
+    joystick: {fileID: 11400000, guid: 05f66480300b88645aebf9962934d554, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300020, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300018, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300028, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300026, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300034, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300032, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300000, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300002, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300004, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300006, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300010, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300008, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300012, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300014, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 16
+      glyph: {fileID: 21300036, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 17
+      glyph: {fileID: 21300042, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300038, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300040, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: NintendoSwitchProController
+    joystick: {fileID: 11400000, guid: bab987e4a193e39429f4d1826e07fad8, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300104, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300102, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300108, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300106, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300134, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300136, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300142, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300144, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300124, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300146, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300126, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300132, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 20
+      glyph: {fileID: 21300130, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 21
+      glyph: {fileID: 21300128, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: SonyDualShock4
+    joystick: {fileID: 11400000, guid: a25f0c1e102b54019bf551294306b277, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300020, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300018, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300028, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300026, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300076, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300074, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300064, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300066, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300062, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300068, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300072, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300070, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300078, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300080, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 20
+      glyph: {fileID: 21300038, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 21
+      glyph: {fileID: 21300040, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300036, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300042, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: SonyDualShock2
+    joystick: {fileID: 11400000, guid: 2caab1cb4e6f06f4a9716c1dd9957888, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300020, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300018, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300028, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300026, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300064, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300066, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300062, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300068, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300072, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300076, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300070, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300074, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300154, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300156, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 14
+      glyph: {fileID: 21300158, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 15
+      glyph: {fileID: 21300160, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 16
+      glyph: {fileID: 21300036, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 17
+      glyph: {fileID: 21300042, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300038, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300040, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: SonyDualShock3
+    joystick: {fileID: 11400000, guid: dd2c1503536274001bdc3d5d6be8a98f, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300060, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300020, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300016, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300018, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300030, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300028, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300024, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300026, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300064, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300066, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300062, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300068, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300072, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300076, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300070, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300074, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300154, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300156, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 15
+      glyph: {fileID: 21300158, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 16
+      glyph: {fileID: 21300160, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 17
+      glyph: {fileID: 21300036, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300042, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300038, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 20
+      glyph: {fileID: 21300040, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: NintendoSwitchJoyConDual
+    joystick: {fileID: 11400000, guid: 737eae044d53fc94b9c28b110fbb6019, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300104, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300102, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300108, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300106, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300134, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300136, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300142, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300144, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300124, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300146, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 14
+      glyph: {fileID: 21300148, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 15
+      glyph: {fileID: 21300122, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 16
+      glyph: {fileID: 21300150, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 17
+      glyph: {fileID: 21300152, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300126, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300132, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 20
+      glyph: {fileID: 21300130, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 21
+      glyph: {fileID: 21300128, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 22
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 23
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 24
+      glyph: {fileID: 21300138, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 25
+      glyph: {fileID: 21300140, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 26
+      glyph: {fileID: 21300138, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 27
+      glyph: {fileID: 21300140, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: NintendoSwitchJoyConHandheld
+    joystick: {fileID: 11400000, guid: c2c9ba16ad481a743b4a1857caf45c8c, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300104, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300102, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300108, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300106, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300134, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300136, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300142, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300144, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300124, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300146, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 14
+      glyph: {fileID: 21300148, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 15
+      glyph: {fileID: 21300122, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 16
+      glyph: {fileID: 21300150, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 17
+      glyph: {fileID: 21300152, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 18
+      glyph: {fileID: 21300126, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 19
+      glyph: {fileID: 21300132, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 20
+      glyph: {fileID: 21300130, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 21
+      glyph: {fileID: 21300128, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 22
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 23
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: NintendoSwitchJoyConLeft
+    joystick: {fileID: 11400000, guid: 9ec45b94bd8c5c145be4ea6830db80be, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300138, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300140, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300134, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300142, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300148, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300124, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300150, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300118, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+  - name: NintendoSwitchJoyConRight
+    joystick: {fileID: 11400000, guid: 80487ad48e254e343a231e8344cb22b4, type: 2}
+    glyphs:
+    - elementIdentifierId: 0
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300112, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300116, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 1
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 21300110, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphNeg: {fileID: 21300114, guid: a00e33a960330544f90274828769e215, type: 3}
+    - elementIdentifierId: 2
+      glyph: {fileID: 21300102, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 3
+      glyph: {fileID: 21300106, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 4
+      glyph: {fileID: 21300104, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 5
+      glyph: {fileID: 21300108, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 6
+      glyph: {fileID: 21300138, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 7
+      glyph: {fileID: 21300140, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 8
+      glyph: {fileID: 21300136, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 9
+      glyph: {fileID: 21300144, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 10
+      glyph: {fileID: 21300122, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 11
+      glyph: {fileID: 21300146, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 12
+      glyph: {fileID: 21300152, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}
+    - elementIdentifierId: 13
+      glyph: {fileID: 21300120, guid: a00e33a960330544f90274828769e215, type: 3}
+      glyphPos: {fileID: 0}
+      glyphNeg: {fileID: 0}

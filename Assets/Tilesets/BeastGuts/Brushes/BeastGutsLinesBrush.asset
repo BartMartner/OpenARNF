@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c1de61e39cb5d488fe0684e723aceb, type: 3}
+  m_Name: BeastGutsLinesBrush
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 7916a714dc611a84cb159a97140c96cd, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 1
+  m_autotilingMode: 17
+  m_showInPalette: 1
+  TileIds: 68020000680200006802000087020000680200006802000047020000670200006802000089020000680200008802000049020000690200004802000068020000
+  InteriorCornerTileIds: 6a0200006b0200004a0200004b020000

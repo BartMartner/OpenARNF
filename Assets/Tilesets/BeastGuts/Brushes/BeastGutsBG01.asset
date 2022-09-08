@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c1de61e39cb5d488fe0684e723aceb, type: 3}
+  m_Name: BeastGutsBG01
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 55b168ed66e05f240be41f1458d72ebd, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 3
+  m_showInPalette: 1
+  TileIds: 21000200210002002100020040000600210002002100020000000300200000002100020042000700210002004100000002000400220000000100000021000200
+  InteriorCornerTileIds: 04000000030000002400000023000000

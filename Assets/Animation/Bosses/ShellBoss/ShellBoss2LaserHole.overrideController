@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ShellBoss2LaserHole
+  m_Controller: {fileID: 9100000, guid: 5f06a9905b500f84b8f7d7e45733323e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9596744329aa0a8459f84efe5bbd46d2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 70e26136a2f3f3e448015c429d0a03b2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 24576f743a19e9a49a92a826533ab1b6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8cfb7265b27c6a74cb3af2258ce57dc4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 00cdef14c5e246747a63622cfbb0ec05, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 629ead2409cc0034c8a4a27dcc97018b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 402991a0985c8474bb232850099c44d0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 095b49eeb1a19aa4b8d3eb69d698f2da, type: 2}

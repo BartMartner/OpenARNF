@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3ef47ee62de7744ba6898a3d7ce6a7, type: 3}
+  m_Name: AttackBoostAura
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: d77228e70e6897549a70f2b9a1f901e6, type: 3}
+  item: 408
+  energyCost: 1
+  auraPrefab: {fileID: 114822700635112412, guid: 4752cbf9a2d5f07479b935f6738b6b95,
+    type: 2}
+  bonusAttack: 2

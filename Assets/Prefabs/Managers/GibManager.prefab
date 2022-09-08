@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 415134}
+  - component: {fileID: 11419236}
+  m_Layer: 0
+  m_Name: GibManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11419236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a804976d96a045479f29222ba8180dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meatGibs:
+  - {fileID: 11476324, guid: 5905b272e0860e64bae069a1d8aa3fbe, type: 3}
+  - {fileID: 11411670, guid: adf2a8f2c461eb546a39cc0f58447677, type: 3}
+  - {fileID: 11470552, guid: 646bd5258c5ec894abb95c5b36396992, type: 3}
+  - {fileID: 11483480, guid: cd5f7845c2e2d54468424eb87c4dcaf0, type: 3}
+  - {fileID: 11441934, guid: ad043a362359a7f4cb4c0b0a1d933bef, type: 3}
+  - {fileID: 11442914, guid: 692dd586d61d04a47a6bcce8e200f76a, type: 3}
+  - {fileID: 11417644, guid: eb064bed481a31c4c86aac502373dc25, type: 3}
+  - {fileID: 11410154, guid: 7f0a72ae6715a3a4a9a269abcd698af9, type: 3}
+  paleMeatGibs:
+  - {fileID: 11410154, guid: 14ac6b15c37679d468a99ea1259a440c, type: 3}
+  - {fileID: 11483480, guid: 158033609a29d7e4a8de1fab0e12015d, type: 3}
+  - {fileID: 11417644, guid: 1f5bbbf00e178ba4a978345743d151d3, type: 3}
+  - {fileID: 11411670, guid: 328baac0ce2dc13449e07a038c2d9297, type: 3}
+  - {fileID: 11470552, guid: 7935aa7eeccf8494d8ecf5c8b3c5b6a6, type: 3}
+  - {fileID: 11441934, guid: 7a04838aaba592843a618a28c1e26a41, type: 3}
+  - {fileID: 11442914, guid: e19f82bdc23994149aa2316030ca80ca, type: 3}
+  - {fileID: 11476324, guid: f86dcdf9a1128254d8203daa63ec05a5, type: 3}
+  pinkMeatGibs:
+  - {fileID: 11476324, guid: 0d85f8d946f319d429472b3e483affb4, type: 3}
+  - {fileID: 11441934, guid: 121444be802442d4da4e4060f6cc9c28, type: 3}
+  - {fileID: 11411670, guid: 15278083a839e944dbe40697f2fd593f, type: 3}
+  - {fileID: 11417644, guid: 34f3c7d627a1fed418abf0061e37b255, type: 3}
+  - {fileID: 11470552, guid: 4d7d75af975b59d42b51a9f1e5b66cf0, type: 3}
+  - {fileID: 11410154, guid: 684e1a555a6359b40bba4642185e47d3, type: 3}
+  - {fileID: 11442914, guid: b6648a73f2d8424448e9dd1142d6e5fa, type: 3}
+  - {fileID: 11483480, guid: f6bd6d6a1d2b0f84d8b71999643de06f, type: 3}
+  greenMeatGibs:
+  - {fileID: 11441934, guid: d3b21c8166a988f46841dd7b8005e8ad, type: 3}
+  - {fileID: 11483480, guid: 6da7a38ef9ddfc4469d7a7bde8dc319d, type: 3}
+  - {fileID: 11410154, guid: 2c7c8ca62818f0948856704239755633, type: 3}
+  - {fileID: 11476324, guid: 75181373c60d367448729119ef9c1b25, type: 3}
+  - {fileID: 11417644, guid: 529b6fbbd56a2e24eabce9897342e1b3, type: 3}
+  - {fileID: 11411670, guid: a3f0c28b17baa3049a337bfc035a67a0, type: 3}
+  - {fileID: 11470552, guid: b442960b3923cb34a9fc9ea817f48bfd, type: 3}
+  - {fileID: 11442914, guid: 7c758b3ffec10814e99727ea99cb8430, type: 3}
+  brownRockGibs:
+  - {fileID: 11496064, guid: 1bc7e4a166a100748a46a46098e2bffe, type: 3}
+  - {fileID: 11444216, guid: dbc2f2c1c8c70764b9fa07e2702562d4, type: 3}
+  - {fileID: 11421928, guid: 4d8ae043357e35142be770bf7fbc6655, type: 3}
+  - {fileID: 11469178, guid: 206c2f54809999142a887c21f66ee685, type: 3}
+  - {fileID: 11436600, guid: 5e3726f4f54ef9c4694104e8db0d5e72, type: 3}
+  - {fileID: 11498684, guid: 297f2b36ace998e41876f5e00d6146e6, type: 3}
+  - {fileID: 11412858, guid: d8292ef93f3fe3347bdf6f269031b26a, type: 3}
+  - {fileID: 11431706, guid: 99e31e5c1e3f07e4482612fd914226bd, type: 3}
+  - {fileID: 11453056, guid: 4b9659bc9f2a4de4283e269a3250c0d9, type: 3}
+  - {fileID: 11415806, guid: ce11126fb9924b94fad634944b725205, type: 3}
+  caveMetalGibs:
+  - {fileID: 114000012779564414, guid: 94dc885103feb1742b08ecba8e66d693, type: 3}
+  - {fileID: 114000012502940460, guid: 22c607a44370d794787595ae47e12c49, type: 3}
+  - {fileID: 114000010300323818, guid: b8c0a750b9713824887168da00917915, type: 3}
+  - {fileID: 114000013615131310, guid: 88471662447d341408dced1d12f154e7, type: 3}
+  - {fileID: 114000010407859412, guid: 2ab25fc5262f96f4a991e44bf8ebf500, type: 3}
+  - {fileID: 114000013146636416, guid: 2b06953c04ed9f5489c920cc258c1a19, type: 3}
+  glitchGibs:
+  - {fileID: 11436600, guid: 883572e3a37f311448d1fd0b572aada4, type: 3}
+  - {fileID: 11496064, guid: 4a7be29842bd3664ca35d272784bc64d, type: 3}
+  - {fileID: 11421928, guid: 5f5c7aced9b069e4e9eac497754ab67c, type: 3}
+  - {fileID: 11453056, guid: 4537c22adbf6fa64d8ea28621182d6bb, type: 3}
+  - {fileID: 11412858, guid: 4503dddafae814843a493e5899a875e9, type: 3}
+  - {fileID: 11412858, guid: 1bcdf0eaacd17824ba65a6ea7e29c721, type: 3}
+  explosiveDoorShield:
+  - {fileID: 114000012311392634, guid: 83e6c74118a61df43b85e4b6a1f724cb, type: 3}
+  - {fileID: 114000013128725320, guid: bb83563bfeb0c574ea454c3d697b3792, type: 3}
+  - {fileID: 114000012451976070, guid: 1a0453b5856f5ed4784ce1525b103c85, type: 3}
+  - {fileID: 114000013998378120, guid: 470b10e43d00682478389d631b338433, type: 3}
+  - {fileID: 114000011760262500, guid: 29d1907667670c541b0ab79ea66a21e6, type: 3}
+  concreteGibs:
+  - {fileID: 114534098636843236, guid: 192be634da6811d4faa7b6e6748b97a1, type: 3}
+  - {fileID: 114559332486822590, guid: 69e1fffcc6e0001498b700025e11a4af, type: 3}
+  - {fileID: 114534749730832610, guid: a720e9e61dedfa041b06007dcdb866e4, type: 3}
+  - {fileID: 114096268710362262, guid: 467e5dfc47180ff428d17fd2d64b2a72, type: 3}
+  - {fileID: 114083964681858166, guid: 8d38bd24a4c43cb45aee52000a7a9be8, type: 3}
+  - {fileID: 114997300786147062, guid: bb12061d838d5eb49b47d829111463c0, type: 3}
+  - {fileID: 114941176217386470, guid: 9e116c96310487a4ebe5eb4aa945e659, type: 3}
+  - {fileID: 114432847086025120, guid: 1aff3d03be5390142b86dd37ccb4242c, type: 3}
+  buriedCityRockGibs:
+  - {fileID: 11436600, guid: 5cc71f50bc59a4148b5b87c8e33e941b, type: 3}
+  - {fileID: 11496064, guid: 6e164ac52331cb64694ee1708b99e6eb, type: 3}
+  - {fileID: 11453056, guid: c2be5ee18ea2fae4eae09c3b449dd57e, type: 3}
+  - {fileID: 11412858, guid: 3b174f7ac4774aa4b8168bdf389f511e, type: 3}
+  - {fileID: 11421928, guid: 091347f189159af4ba08804793f061ce, type: 3}
+  - {fileID: 11431706, guid: 2c4e2ac622d834e4b805f19d5693dee2, type: 3}
+  - {fileID: 11444216, guid: 9eddf0a2ea5df8f409276a592011788c, type: 3}
+  - {fileID: 11415806, guid: f789a889e5dad9044b085b990368b9f0, type: 3}
+  - {fileID: 11469178, guid: d3d2f668e59423a4cba92637e58fd828, type: 3}
+  - {fileID: 11498684, guid: d6a297bfce4dafc4c8d353408d552bf5, type: 3}
+  greenTechGibs:
+  - {fileID: 4154109791307320756, guid: 97a02f32c1ad2ec4c88d946b14dc4eec, type: 3}
+  - {fileID: 3976156141317368669, guid: 9986ce9400e317a4698a585b9287e366, type: 3}
+  - {fileID: 5208499559804582368, guid: b7536f36515259742976292034087c4d, type: 3}
+  - {fileID: 1556716420206430162, guid: 5741af6ff9fdffb48a029d2c17211ed0, type: 3}
+  - {fileID: 931529349012767007, guid: 50d6c9727eb31e54fb1479a97cca3355, type: 3}
+  boneDoorGibs:
+  - {fileID: 114000011760262500, guid: 3fcc512c2b4f78845a9415a7724b3a7a, type: 3}
+  - {fileID: 114000013998378120, guid: c487980f82e84f14dbb4542f1b597461, type: 3}
+  - {fileID: 114000013128725320, guid: 17967f245321db249b70ccce72b4e271, type: 3}
+  - {fileID: 114000012451976070, guid: 543cba43386a4074d8d77384ce5d6736, type: 3}
+  glitchSplatterPrefabs:
+  - {fileID: 212895930778692172, guid: fbb9e51cf419b004b9d08cecb2370150, type: 3}
+  - {fileID: 212895930778692172, guid: 1d041acce001f654ea6d1dc488c7afe3, type: 3}
+  - {fileID: 212895930778692172, guid: 155e2c945de37eb42815605e95198243, type: 3}
+  - {fileID: 212895930778692172, guid: 237eff3512df584409f88c15fe53c67d, type: 3}
+  - {fileID: 212895930778692172, guid: 8acacfe738e3b48419320ecb060d2dbe, type: 3}
+  - {fileID: 212895930778692172, guid: 7a2fe50c5e477d1428e6a9ec3ce1bc6f, type: 3}
+  bloodSplatterPrefabs:
+  - {fileID: 212895930778692172, guid: 922d35b0b0db3b648952cce60efe31fc, type: 3}
+  - {fileID: 212895930778692172, guid: dde757a15e794ec46aa697a6c0bf6674, type: 3}
+  - {fileID: 212895930778692172, guid: b77161d8f4ea3f94ab2131688dd801c5, type: 3}
+  - {fileID: 212895930778692172, guid: d8c69177636f83d4397f52e2b32bb01b, type: 3}
+  - {fileID: 212895930778692172, guid: 0996ff2b47346b242a159c3e7cc61f81, type: 3}
+  - {fileID: 212895930778692172, guid: 7168daf82e6285148ab165095458e2c7, type: 3}
+  bloodParticlesPrefab: {fileID: 198255938632087306, guid: b13d26f31d8140347a83af7135952f37,
+    type: 3}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c526a86c2e3be0940a9b4719cff29615, type: 3}
+  m_Name: PulseMGL
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 464b00edbb72105489c8425f10073d79, type: 3}
+  barColor: {r: 0.9921569, g: 0.98823535, b: 0.35686275, a: 1}
+  item: 30
+  allowSpinJumping: 0
+  minEnergy: 1
+  projectileStats:
+    projectileMotion: 1
+    type: 30
+    team: 0
+    damage: 8
+    damageType: 16
+    explosion: 8
+    explosionDamage: 25
+    speed: 12
+    speedDeviation: 0
+    lifeSpan: 10
+    gravity: 14
+    gravityDeviation: 0
+    homing: 0
+    homingRadius: 0
+    homingArc: 90
+    size: 1
+    sizePerSecond: 0
+    damageGainPerSecond: 0
+    motionPattern:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lockRotation: 0
+    ignoreTerrain: 0
+    ignoreAegis: 0
+    shootable: 1
+    penetrative: 0
+    bounce: 0
+    fragment: 0
+    canOpenDoors: 1
+    ignoreDoorLayer: 0
+    preShotInvisTime: 0
+    fragmentStats:
+      sizeMod: 0.5
+      damageMod: 0.5
+      amount: 3
+      arc: 33
+      lifeSpan: 3
+      recursion: 0
+    spawnOnHit: {fileID: 0}
+    spawnAtContact: 0
+    shootSound: {fileID: 0}
+    spawnCreep: 0
+    creepStats:
+      growTime: 0
+      dieTime: 0
+      lifeTime: 0
+      damage: 0
+      lightRadius: 0
+      perSecond: 0
+      team: 0
+      color1:
+        serializedVersion: 2
+        rgba: 0
+      color2:
+        serializedVersion: 2
+        rgba: 0
+    statusEffects: []
+    childEffects: []
+    isFragment: 0
+  shootSound: {fileID: 8300000, guid: 0ada5647df3643c408cc6639f7e3add0, type: 3}
+  baseDamage: 5
+  useDamageMultiplier: 1
+  useShotSpeedMultiplier: 0
+  useRateOfFire: 1
+  useHoming: 0
+  useSize: 1
+  energyCost: 1
+  attackDelay: 0.75

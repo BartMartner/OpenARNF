@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BCCrumbleBlockMiddle
+  m_Controller: {fileID: 9100000, guid: c0dfbfec18c438748a7f129a8011e1f6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 082b10afaf3d42349aa75ca81ab332e5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4bff4df2caaa4e849a4578d7def107c7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 81dc60e1c6359ec449941b13bcb8ec21, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4f9b09c218fc3f04486bbf9bc7ce42e6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d74ec5172caf9134cae3e948fe425e48, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5e2bbe7c767948940b29510d137c45b3, type: 2}

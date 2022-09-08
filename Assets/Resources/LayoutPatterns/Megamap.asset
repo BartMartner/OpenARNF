@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695180a902307c4408724e60f3f1ae4c, type: 3}
+  m_Name: Megamap
+  m_EditorClassIdentifier: 
+  width: 58
+  height: 54
+  traversalItemCount: 12
+  minorItemCount: 32
+  id: 1
+  allowedGameModes: 64
+  chanceToConnectNeighborRooms: 0
+  environmentLimits:
+  - type: 4
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 46
+      width: 44
+      height: 8
+  - type: 6
+    bounds:
+      serializedVersion: 2
+      x: 8
+      y: 34
+      width: 18
+      height: 12
+  - type: 0
+    bounds:
+      serializedVersion: 2
+      x: 26
+      y: 34
+      width: 18
+      height: 12
+  - type: 1
+    bounds:
+      serializedVersion: 2
+      x: 28
+      y: 20
+      width: 16
+      height: 14
+  - type: 8
+    bounds:
+      serializedVersion: 2
+      x: 12
+      y: 20
+      width: 16
+      height: 14
+  - type: 2
+    bounds:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 12
+      height: 26
+  - type: 9
+    bounds:
+      serializedVersion: 2
+      x: 12
+      y: 10
+      width: 32
+      height: 10
+  - type: 3
+    bounds:
+      serializedVersion: 2
+      x: 12
+      y: 0
+      width: 32
+      height: 10
+  - type: 5
+    bounds:
+      serializedVersion: 2
+      x: 44
+      y: 0
+      width: 14
+      height: 50
+  segments:
+  - environmentType: 4
+    id: 0
+    hasLinkingPaths: 1
+    deadEnds: 2
+    hubPathLength: 24
+    hubDirection: {x: 1, y: 0}
+    hubDirectionDeviation: 6
+    itemAtEndOfHubPath: 0
+    sourcePosition:
+      x: 9
+      y: 50
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 1
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 1
+    maxSpokeLength: 3
+    numberOfItems: 0
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 1
+    noTraversalItems: 0
+    neededConnectorBranches: 
+    saveLastBranchForNextSegment: 0
+    bossPaths: 00000000
+    sizeBonus: 0
+    specificBranchEnds:
+    - type: 10
+      sceneNames:
+      - BeastGuts2x2GateLock01
+    - type: 10
+      sceneNames:
+      - BeastGuts2x2GateLock01
+    preBossRoom: BeastGuts2x1PreBoss01
+  - environmentType: 6
+    id: 1
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 14
+    hubDirection: {x: 1, y: 0.25}
+    hubDirectionDeviation: 11
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 11
+      y: 36
+    sourceIsBranchRoom: 0
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 1
+    startingRoomDirection: 2
+    minSpokeLength: 2
+    maxSpokeLength: 3
+    numberOfItems: 1
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0000000008000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 00000000
+    sizeBonus: 1
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 0
+    id: 2
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 14
+    hubDirection: {x: 1, y: -0.25}
+    hubDirectionDeviation: 10
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 28
+      y: 41
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 2
+    maxSpokeLength: 3
+    numberOfItems: 1
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0600000001000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 00000000
+    sizeBonus: 1
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 1
+    id: 3
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 15
+    hubDirection: {x: -1, y: -0.75}
+    hubDirectionDeviation: 10
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 42
+      y: 32
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 000000000800000009000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 8
+    id: 4
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 15
+    hubDirection: {x: -1, y: 0.75}
+    hubDirectionDeviation: 10
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 26
+      y: 22
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 01000000020000000900000006000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 2
+    id: 5
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 16
+    hubDirection: {x: 0.25, y: -1}
+    hubDirectionDeviation: 12
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 3
+      y: 26
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 080000000900000003000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 9
+    id: 6
+    hasLinkingPaths: 1
+    deadEnds: 0
+    hubPathLength: 16
+    hubDirection: {x: 1, y: -0.25}
+    hubDirectionDeviation: 12
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 19
+      y: 18
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 01000000080000000200000003000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  - environmentType: 3
+    id: 7
+    hasLinkingPaths: 0
+    deadEnds: 0
+    hubPathLength: 16
+    hubDirection: {x: 1, y: 0.25}
+    hubDirectionDeviation: 12
+    itemAtEndOfHubPath: 1
+    sourcePosition:
+      x: 16
+      y: 2
+    sourceIsBranchRoom: 1
+    sourceIsEnvironmentStart: 0
+    sourceIsStartingRoom: 0
+    startingRoomDirection: 0
+    minSpokeLength: 3
+    maxSpokeLength: 5
+    numberOfItems: 2
+    specificItems: 
+    branchRoomsNeeded: -1
+    finalTraversalStart: 0
+    noItemsAfterBosses: 0
+    noTraversalItems: 0
+    neededConnectorBranches: 0200000009000000
+    saveLastBranchForNextSegment: 0
+    bossPaths: 01000000
+    sizeBonus: 0
+    specificBranchEnds: []
+    preBossRoom: 
+  segmentsToConnect:
+  - from: 1
+    to: 2
+    direction: 2
+  - from: 1
+    to: 4
+    direction: 4
+  - from: 2
+    to: 3
+    direction: 4
+  - from: 3
+    to: 4
+    direction: 8
+  - from: 3
+    to: 6
+    direction: 4
+  - from: 4
+    to: 5
+    direction: 8
+  - from: 4
+    to: 6
+    direction: 4
+  - from: 5
+    to: 6
+    direction: 2
+  - from: 6
+    to: 7
+    direction: 4
+  - from: 5
+    to: 7
+    direction: 2
+  finalBossZone:
+    serializedVersion: 2
+    x: 12
+    y: 40
+    width: 5
+    height: 3
+  megaBeastZone:
+    serializedVersion: 2
+    x: 12
+    y: 40
+    width: 5
+    height: 3
+  hasMegaBeast: 1

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a975b030700d2d64a9398043ed912d3e, type: 3}
+  m_Name: NecroluminantSpray
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 809976930015bf34785dbbf19c9839de, type: 3}
+  barColor: {r: 0.44705886, g: 0.9725491, b: 0.6627451, a: 1}
+  item: 24
+  allowSpinJumping: 1
+  minEnergy: 0.075
+  projectileStats:
+    type: 25
+    team: 0
+    damage: 4
+    damageType: 1
+    explosion: 0
+    explosionDamage: 2
+    speed: 12
+    speedDeviation: 2
+    lifeSpan: 10
+    gravity: 0.2
+    gravityDeviation: 0.1
+    homing: 0
+    homingRadius: 0
+    homingArc: 90
+    size: 1
+    motionPattern:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lockRotation: 0
+    ignoreTerrain: 0
+    ignoreAegis: 1
+    shootable: 0
+    penetrative: 0
+    bounce: 0
+    fragment: 0
+    canOpenDoors: 1
+    ignoreDoorLayer: 0
+    preShotInvisTime: 0.05
+    fragmentStats:
+      sizeMod: 0.5
+      damageMod: 0.5
+      amount: 3
+      arc: 33
+      lifeSpan: 3
+      recursion: 0
+    spawnOnHit: {fileID: 0}
+    shootSound: {fileID: 8300000, guid: 023b74b61f73cf442b99c6dfa20fa155, type: 3}
+    spawnCreep: 1
+    creepStats:
+      growTime: 0.25
+      dieTime: 0.4
+      lifeTime: 12
+      damage: 3.5
+      lightRadius: 250
+      perSecond: 1
+      team: 1
+      color1:
+        serializedVersion: 2
+        rgba: 3232364658
+      color2:
+        serializedVersion: 2
+        rgba: 2153360159
+    childEffects: []
+    isFragment: 0
+  baseDamage: 4
+  energyCost: 0.075
+  attackDelay: 0.2
+  scatterArc: 30

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c1de61e39cb5d488fe0684e723aceb, type: 3}
+  m_Name: CaveRockDark
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: fd975e76594ebe0468dfb9e8c365ff72, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: -15
+  m_showInPalette: 1
+  TileIds: 44020000440200004402000063020000440200004402000023020000430200004402000065020000440200006402000025020000450200002402000044020000
+  InteriorCornerTileIds: 46020000470200002602000027020000

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BeastGutsDoor
+  m_Controller: {fileID: 9100000, guid: e68599eca1ced5c4b8c2e2eccc7832b0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7138351dae3ab9e4ba677d52c6b6641d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 80376af04fa1b5b4e8671943f6ff2d41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e2c2855b6d258e94aa96f53fcbdcd3a1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ac84b97c12665ae4bbe983ea1f742189, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0c96f802602b3b7449943db849b0b00d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3f0a6f7de1daa2b418e1924f2c2c1c84, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 62d0056fdb73a2d47900aacbd8dd341f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 62d0056fdb73a2d47900aacbd8dd341f, type: 2}

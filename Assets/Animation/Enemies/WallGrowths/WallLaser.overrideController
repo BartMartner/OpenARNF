@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WallLaser
+  m_Controller: {fileID: 9100000, guid: 15cb78c0d8a68434489b59f1530604c6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e02540a91bdf17e4bb23b00584e3d362, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1d26b1a96c6ce564a9dca903ea82ec98, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d53e1e34c3adcd4a99291489ecc309a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f2ad4d88455fb774dabad7bf81daedcd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 06c2c0d395103ce4d8249d7941fa0d95, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 14fe6ddf5903f1d49b98cfd34268230d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 66a55a7e963e72f49bf57d1bf3f52178, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 107c6152aa4aa354c8b8c197b1e0a214, type: 2}

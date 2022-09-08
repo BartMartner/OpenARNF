@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68f15cdca36b897408f1b30638ae269b, type: 3}
+  m_Name: ArtificeBeam
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: a2a012c105fbb854aa51c42cfe290014, type: 3}
+  barColor: {r: 0, g: 1, b: 0.51128316, a: 1}
+  item: 213
+  allowSpinJumping: 1
+  minEnergy: 0
+  laserStart: {fileID: 8300000, guid: f60be9486bc6f864b93e1d95fb5595e8, type: 3}
+  laserLoop: {fileID: 8300000, guid: 36f6a03b4fe0fbe449a6d16b803abfaa, type: 3}
+  emitting: 0
+  scrapPerSecond: 1
+  palettes:
+  - {fileID: 2800000, guid: 3286edc141201a247a2324cfdeeabc75, type: 3}
+  - {fileID: 2800000, guid: a234246ea040f4444b0eca6b6c6556d7, type: 3}
+  - {fileID: 2800000, guid: 13d33bfbe1806c448a0c72962b5e2982, type: 3}
+  lightColors:
+  - {r: 0.9490197, g: 0.7176471, b: 0.7176471, a: 1}
+  - {r: 0.43921572, g: 0.9803922, b: 0.67058825, a: 1}
+  - {r: 0.75294125, g: 0.86666673, b: 0.9176471, a: 1}

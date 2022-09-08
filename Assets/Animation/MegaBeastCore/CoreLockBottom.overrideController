@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CoreLockBottom
+  m_Controller: {fileID: 9100000, guid: 28a0c96315c3e304cb33aed4c506a597, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e701aa9bf1fb1a045a148b3aa017904b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f91db84b0e7179b4f9f70f05e3ca2847, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1f6a936896c21564e9216203a68a371a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 62b33f425ca1858499c67caa39458d74, type: 2}

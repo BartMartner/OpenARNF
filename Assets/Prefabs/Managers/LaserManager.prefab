@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1287712120275072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4686202766511334}
+  - component: {fileID: 114793279816143496}
+  m_Layer: 0
+  m_Name: LaserManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4686202766511334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287712120275072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114793279816143496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287712120275072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14bfeececaa9e82499b7ff9a72d663cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyPrefab: {fileID: 114608886211478556, guid: 310929e4f21f8be4f860a21edfab50f4,
+    type: 3}
+  bigEnergyPrefab: {fileID: 114327680897963584, guid: 6145f9e374a79164c81cbc151e746909,
+    type: 3}
+  slimePrefab: {fileID: 114416565669763760, guid: b91c8565d968f0d41bce4f1b430c420a,
+    type: 3}
+  heatPrefab: {fileID: 114713292455002406, guid: 18572f6d48cfb244dba82cc3445e17b1,
+    type: 3}
+  bigHeatPrefab: {fileID: 114327680897963584, guid: adee2cb1315cbbc4ab7b2dfe15dbfc7f,
+    type: 3}
+  bioPlasmaPrefab: {fileID: 114818925555377150, guid: f78305aedf062234196ae219db5a2ea3,
+    type: 3}
+  blueBioPlasmaPrefab: {fileID: 114818925555377150, guid: 4c10e746476da7a4eaf6a5fb2b11eb69,
+    type: 3}
+  tutSmithPrefab: {fileID: 114327680897963584, guid: f2e5ce6f25a9a0642be775d228450dfc,
+    type: 3}
+  bigSlimePrefab: {fileID: 2555450356077460838, guid: 3ddd252067e371e45885c7babdd067a9,
+    type: 3}
+  bigBioPlasmaPrefab: {fileID: 5984034712071377065, guid: 85a8c116337bd1041b8db1b552f2a1c2,
+    type: 3}
+  railGunPrefab: {fileID: 114608886211478556, guid: 0014910c31508564fa2b514d24874ed9,
+    type: 3}
+  basicBeamPrefab: {fileID: 2258886976167870745, guid: 04bfae800b9a2064d8865d7e83282bb1,
+    type: 3}

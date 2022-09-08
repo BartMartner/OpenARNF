@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3539b2508428d264e86f4d5d56055574, type: 3}
+  m_Name: CoolantSewersBGWaterGrateTop
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 5551c795b7d24ca4bade497dd5f36555, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 1
+  AnimFPS: 8
+  AnimFrames:
+  - tileId: 448
+    UVOffset: {x: 0, y: 0}
+  - tileId: 449
+    UVOffset: {x: 0, y: 0}
+  - tileId: 450
+    UVOffset: {x: 0, y: 0}
+  - tileId: 451
+    UVOffset: {x: 0, y: 0}
+  - tileId: 452
+    UVOffset: {x: 0, y: 0}
+  - tileId: 453
+    UVOffset: {x: 0, y: 0}
+  - tileId: 454
+    UVOffset: {x: 0, y: 0}
+  - tileId: 455
+    UVOffset: {x: 0, y: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0ef79df1e9679488f914b8d84a3af9, type: 3}
+  m_Name: NormalPoison
+  m_EditorClassIdentifier: 
+  type: 2
+  color: {r: 1, g: 0, b: 0.97576284, a: 1}
+  colorAmount: 0.1
+  fXType: 10
+  fXInterval: 0.2
+  lifeSpan: 10
+  amount: 1

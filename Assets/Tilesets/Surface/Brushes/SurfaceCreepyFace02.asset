@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3539b2508428d264e86f4d5d56055574, type: 3}
+  m_Name: SurfaceCreepyFace02
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 88312a5fdb4c20540bb25ba1c1c27344, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  AnimFPS: 4
+  AnimFrames:
+  - tileId: 203
+    UVOffset: {x: 0, y: 0}
+  - tileId: 205
+    UVOffset: {x: 0, y: 0}

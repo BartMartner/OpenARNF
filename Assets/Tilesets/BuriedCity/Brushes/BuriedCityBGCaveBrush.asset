@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c1de61e39cb5d488fe0684e723aceb, type: 3}
+  m_Name: BuriedCityBGCaveBrush
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: a1d3e207795522a47bf07964f319ef10, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: -9
+  m_showInPalette: 1
+  TileIds: 000000000000000000000000040001400000000000000000040001c0010000400000000004000100000000000500008004000180010000000500000000000000
+  InteriorCornerTileIds: 02000080020000c00200000002000040

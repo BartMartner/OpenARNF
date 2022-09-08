@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Buzzsaw
+  m_Controller: {fileID: 9100000, guid: 1dcbacff95500ea4cab72560abd41ae1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 42f3c6ba49fc3e84baff27d4df27e279, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 610574ad89d005848999bd78f3c3a937, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dcd6792fc98a05a4fbf2a1d368c16d19, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b908d2276315016468a15d7bb8e76998, type: 2}

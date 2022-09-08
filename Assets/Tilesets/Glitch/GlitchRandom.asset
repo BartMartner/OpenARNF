@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5656c5e200a31c945b469abda4211525, type: 3}
+  m_Name: GlitchRandom
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: c5241c1f72bd9a442b63ae0236b8e0cc, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 1
+  RandomTiles: 
+  RandomTileList:
+  - tileData: 65540
+    probabilityFactor: 1
+  - tileData: 65540
+    probabilityFactor: 1
+  - tileData: 131075
+    probabilityFactor: 1
+  - tileData: 196616
+    probabilityFactor: 1
+  - tileData: 262156
+    probabilityFactor: 1
+  - tileData: 327696
+    probabilityFactor: 1
+  - tileData: 393239
+    probabilityFactor: 1
+  - tileData: 458779
+    probabilityFactor: 1
+  - tileData: 524316
+    probabilityFactor: 1
+  - tileData: 589856
+    probabilityFactor: 1
+  - tileData: 655396
+    probabilityFactor: 1
+  - tileData: 720937
+    probabilityFactor: 1
+  - tileData: 786476
+    probabilityFactor: 1
+  - tileData: 852017
+    probabilityFactor: 1
+  - tileData: 917556
+    probabilityFactor: 1
+  - tileData: 983098
+    probabilityFactor: 1
+  - tileData: 1048639
+    probabilityFactor: 1
+  - tileData: 1179725
+    probabilityFactor: 0.5
+  - tileData: 1245272
+    probabilityFactor: 0.5
+  - tileData: 1179718
+    probabilityFactor: 0.5
+  - tileData: 1245278
+    probabilityFactor: 0.5
+  - tileData: 1310828
+    probabilityFactor: 0.5
+  - tileData: 1376377
+    probabilityFactor: 0.5
+  - tileData: 1441792
+    probabilityFactor: 1
+  - tileData: 1507377
+    probabilityFactor: 1
+  - tileData: 1572930
+    probabilityFactor: 1
+  - tileData: 1638515
+    probabilityFactor: 1
+  - tileData: 1
+    probabilityFactor: 1
+  - tileData: 5
+    probabilityFactor: 1
+  - tileData: 6
+    probabilityFactor: 1
+  - tileData: 7
+    probabilityFactor: 1
+  - tileData: 9
+    probabilityFactor: 1
+  - tileData: 18
+    probabilityFactor: 1
+  - tileData: 20
+    probabilityFactor: 1
+  - tileData: 27
+    probabilityFactor: 1
+  - tileData: 30
+    probabilityFactor: 1
+  - tileData: 31
+    probabilityFactor: 1
+  - tileData: 34
+    probabilityFactor: 1
+  - tileData: 36
+    probabilityFactor: 1
+  - tileData: 38
+    probabilityFactor: 1
+  - tileData: 40
+    probabilityFactor: 1
+  - tileData: 47
+    probabilityFactor: 1
+  - tileData: 52
+    probabilityFactor: 1
+  - tileData: 53
+    probabilityFactor: 1
+  RandomizeFlagMask: 0
+  RemoveBrushIdAfterRefresh: 1

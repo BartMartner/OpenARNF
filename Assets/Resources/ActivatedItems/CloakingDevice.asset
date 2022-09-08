@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263f8b97e336b11408606181111ecb96, type: 3}
+  m_Name: CloakingDevice
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 344984693bc7e40449fcb405df8848c7, type: 3}
+  item: 416
+  energyCost: 1
+  cloakMaterial: {fileID: 2100000, guid: 353d0b0214de67d4eaf9a04cc79d2d01, type: 2}
+  cloakSound: {fileID: 8300000, guid: dbc58d892f1c41f46b4df394fb01b212, type: 3}
+  decloakSound: {fileID: 8300000, guid: 18de92c243ece8548b013f0108c2872b, type: 3}

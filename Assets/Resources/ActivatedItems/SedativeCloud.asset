@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1f57cd3df8b584890e91d8fef94b9a, type: 3}
+  m_Name: SedativeCloud
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 144825c4f290ffc43978ebe3543c2a73, type: 3}
+  item: 422
+  energyCost: 4
+  effectPrefab: {fileID: 114669595801909528, guid: f96aedb35d72e7441859a307b93ed492,
+    type: 3}
+  damage: 0
+  statusEffect: {fileID: 11400000, guid: 8c6ebd5940548ca49a4c5e78015293a5, type: 2}

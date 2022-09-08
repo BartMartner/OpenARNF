@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c526a86c2e3be0940a9b4719cff29615, type: 3}
+  m_Name: RocketLauncher
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 7e17261de293c594089ba089ee20b0e6, type: 3}
+  barColor: {r: 1, g: 0.27450982, b: 0.19607843, a: 1}
+  item: 1
+  allowSpinJumping: 0
+  minEnergy: 1
+  projectileStats:
+    type: 3
+    team: 1
+    damage: 15
+    damageType: 2
+    explosion: 2
+    explosionDamage: 5
+    speed: 18
+    lifeSpan: 12
+    gravity: 0.1
+    homing: 0
+    homingRadius: 6
+    homingArc: 90
+    size: 1
+    motionPattern:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lockRotation: 0
+    ignoreTerrain: 0
+    ignoreAegis: 0
+    shootable: 1
+    penetrative: 0
+    bounce: 0
+    fragment: 0
+    canOpenDoors: 1
+    ignoreDoorLayer: 0
+    preShotInvisTime: 0
+    fragmentStats:
+      sizeMod: 0.5
+      damageMod: 0.5
+      amount: 3
+      arc: 33
+      lifeSpan: 3
+      recursion: 0
+    spawnOnHit: {fileID: 0}
+    shootSound: {fileID: 0}
+    childEffects: []
+    isFragment: 0
+  shootSound: {fileID: 8300000, guid: 545cc6b7823f0824ab45d449bd5e6e39, type: 3}
+  baseDamage: 14
+  useDamageMultiplier: 1
+  useShotSpeedMultiplier: 1
+  useHoming: 1
+  useSize: 1
+  energyCost: 1
+  attackDelay: 0.75

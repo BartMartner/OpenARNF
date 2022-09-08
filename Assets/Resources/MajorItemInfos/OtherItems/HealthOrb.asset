@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 343ec5dbc38556b49822ab38cb07e887, type: 3}
+  m_Name: HealthOrb
+  m_EditorClassIdentifier: 
+  fullName: Health Orb
+  description: Spawns health when enemies are near
+  itemPageDescription: 
+  icon: {fileID: 21300000, guid: a3893702dbf7d124c98d36fc103c0296, type: 3}
+  advancedDescription: {fileID: 0}
+  requiredAchievement: 0
+  gunSmithPool: 0
+  orbSmithPool: 1
+  artificerPool: 0
+  theTraitorPool: 1
+  nontraversalPool: 1
+  deathmatch: 1
+  bossRushPool: 1
+  startingItemPool: 1
+  shrinePools: 0200000006000000
+  minimumShopEnvironment: 1
+  ownedLimit: 1
+  grayScrapCost: 15
+  redScrapCost: 1
+  greenScrapCost: 1
+  blueScrapCost: 0
+  type: 107
+  isTraversalItem: 0
+  isActivatedItem: 0
+  minItemOrder: 0
+  maxItemOrder: 6
+  rendersUseless: 
+  isEnergyWeapon: 0
+  noSprite: 0
+  applyDamageTypeToProjectile: 0
+  damageType: 0
+  projectileType: 0
+  arcShots: 0
+  fireArc: 0
+  penetrativeShot: 0
+  homing: 0
+  homingRadius: 0
+  homingArc: 0
+  ignoreTerrain: 0
+  speedMod: 1
+  bounce: 0
+  sizePerSecond: 0
+  damageGainPerSecond: 0
+  projectileChildEffect: {fileID: 0}
+  projectileStatusEffects: []
+  baseDamageBonus: 0
+  baseHealthBonus: 0
+  baseEnergyBonus: 0
+  baseSpeedBonus: 0
+  baseShotSpeedBonus: 0
+  baseShotSizeBonus: 0
+  baseAttackMultiplier: 0
+  allowHovering: 0
+  hoverTime: 0
+  hoverMaxVelocity: 0
+  regenerationRate: 0
+  itemEnergyRegenRate: 0
+  pickUpRangeBonus: 0
+  environmentalResistance: 0
+  follower: 1
+  bonusNanobots: 0
+  blessingTimeMod: 0
+  paletteOverride: 0
+  headSprite: 0
+  armSprite: 0
+  armDecal: 0
+  legSprite: 0
+  legDecal: 0
+  shoulderPadSprite: 0
+  torsoDecal: 0
+  torsoSprite: 0
+  decalOrder: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8e407e6aafc3440a04af21fd9b7ff1, type: 3}
+  m_Name: CSPipe
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: a8bd8bf26d7c2b04494f6c42d04755b4, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 3
+  m_autotilingMode: 21
+  m_showInPalette: 1
+  TileIds: 2b0014004b000000090000002e0000000b0000002b0014000e000000d1000000090000402f0000000a001800d20000000f000000b1000000f2000000f1000000

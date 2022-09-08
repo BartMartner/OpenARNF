@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e44321c1a19fce49b0fabf71cd77761, type: 3}
+  m_Name: Flamethrower
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: a4e825edcfe5a9d4db7126ddc3c7ca09, type: 3}
+  barColor: {r: 1, g: 0.7254902, b: 0, a: 1}
+  item: 6
+  allowSpinJumping: 1
+  minEnergy: 0
+  flamePrefab: {fileID: 114000011819887698, guid: e21ad62ecf37bde4bb9dfd874d65d383,
+    type: 3}
+  flameStart: {fileID: 8300000, guid: ff7e597c1848e8f47bc03d812a05b76d, type: 3}
+  flameLoop: {fileID: 8300000, guid: 68267ba0d991cb240b6a79fd59c88969, type: 3}
+  emitting: 0
+  hitWalls: 0
+  flameRange: 6
+  energyPerSecond: 2
+  baseDamage: 15

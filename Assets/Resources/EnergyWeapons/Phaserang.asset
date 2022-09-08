@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb3b618c6f8bec47b76ef58b8038831, type: 3}
+  m_Name: Phaserang
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: d7c87b2fa39f5aa4bad9e02d1c985464, type: 3}
+  barColor: {r: 0.44705886, g: 0.9725491, b: 0.6627451, a: 1}
+  item: 23
+  allowSpinJumping: 1
+  minEnergy: 3
+  boomerangPrefab: {fileID: 114961163975999892, guid: 6660151ee336cd34dbb0c023c38181df,
+    type: 3}
+  energyCost: 3
+  shootSound: {fileID: 8300000, guid: 17fd3e69d7eba5a41b0002046da395c9, type: 3}
+  returnSound: {fileID: 8300000, guid: 2bde644b6f8f4fe44973cc228305eec0, type: 3}
+  baseDamagePerSecond: 24

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9113c97825c009d428b917a6e131e5e3, type: 3}
+  m_Name: DiveKick
+  m_EditorClassIdentifier: 
+  diveKickFXPrefab: {fileID: 114083505360844262, guid: 562b4a522c53dc548a271385b1cdb704,
+    type: 3}
+  landingPrefab: {fileID: 95310711132484534, guid: 84ca00865cdb1844ca0e197ec9a379e4,
+    type: 3}
+  diveKickSound: {fileID: 8300000, guid: 15741a95f4e18c34d8245a0d0df9a3de, type: 3}
+  diveKickLandSound: {fileID: 8300000, guid: 2c245a6d1143d2c4ab3740282727a00f, type: 3}
+  landDamage: 20
+  diveDamage: 20

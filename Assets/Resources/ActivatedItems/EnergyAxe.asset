@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8b9a8abeb7c61429b7aeb5acdca9bf, type: 3}
+  m_Name: EnergyAxe
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 982c1655492f2b04e806e1f75389dae6, type: 3}
+  item: 406
+  energyCost: 1
+  shootSound: {fileID: 8300000, guid: 9b97fd910858d5c439e1760d05923b92, type: 3}
+  stats:
+    type: 17
+    team: 1
+    damage: 15
+    damageType: 1
+    explosion: 0
+    explosionDamage: 0
+    speed: 32
+    lifeSpan: 10
+    gravity: 2
+    homing: 0
+    homingRadius: 6
+    size: 1
+    motionPattern:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    lockRotation: 1
+    ignoreTerrain: 1
+    ignoreAegis: 0
+    shootable: 1
+    penetrative: 1
+    bounce: 0
+    fragment: 0
+    canOpenDoors: 0
+    ignoreDoorLayer: 1
+    preShotInvisTime: 0
+    fragmentStats:
+      sizeMod: 0.5
+      damageMod: 0.5
+      amount: 3
+      arc: 33
+      lifeSpan: 3
+      recursion: 0
+    spawnOnHit: {fileID: 0}
+    shootSound: {fileID: 0}
+    childEffects: []
+  verticalAdjust: 6

@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HeatBeamEnd
+  m_Controller: {fileID: 9100000, guid: b901cf75299b4254bb3189e864fe37e3, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c2d5732d93bd7e443ab513b019a82d92, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d1486d4159bdb084fb84be6dec8bd80b, type: 2}
