@@ -121,6 +121,7 @@ public class PlayerManager : MonoBehaviour
             for (int i = 0; i < count; i++)
             {
                 var controller = _controllers[i];
+                if(controller == null) { continue; }
                 if(_trueCoOp && controller == _player1.controller) { continue; }
 
                 if (_controllers[i].GetButtonDown("CoOpEnterGame"))

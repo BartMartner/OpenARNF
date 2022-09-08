@@ -30,15 +30,29 @@ namespace Rewired
     {
         private Dictionary<string, InputAction> _map = new Dictionary<string, InputAction>()
         {
-            {"UISubmit", new InputAction(){id = 16} },
-            {"UICancel", new InputAction(){id = 17} },
+            {"Vertical", new InputAction(){ id = 0} },
+            {"Horizontal", new InputAction(){ id = 1} },
+            {"Attack", new InputAction(){ id = 4} },
+            {"Jump", new InputAction(){ id = 5} },
+            {"SpecialMove", new InputAction(){ id = 6} },
+            {"ActivatedItem", new InputAction(){ id = 7} },
+            {"AngleUp", new InputAction(){ id = 8} },
+            {"AngleDown", new InputAction(){ id = 9} },
+            {"PageRight", new InputAction(){ id = 10} },
+            {"PageLeft", new InputAction(){ id = 11} },
+            {"ExpandMap", new InputAction(){ id = 12} },
             {"UIHorizontal", new InputAction(){id = 14} },
             {"UIVertical", new InputAction(){id = 15} },
+            {"UISubmit", new InputAction(){id = 16} },
+            {"UICancel", new InputAction(){id = 17} },            
             {"UIUp", new InputAction(){id = 18} },
             {"UIDown", new InputAction(){id = 19} },
             {"UILeft", new InputAction(){id = 20} },
             {"UIRight", new InputAction(){id = 21} },
             {"UIScroll", new InputAction(){id = 31} },
+            {"WeaponVertical", new InputAction(){ id = 32} },
+            {"WeaponHorizontal", new InputAction(){ id = 33} },
+            {"CoinSlot", new InputAction(){ id = 37} },
         };
 
         public InputAction GetAction(string name)
@@ -118,6 +132,27 @@ namespace Rewired
             throw (new System.NotImplementedException());
         }
 
+        private Dictionary<string, KeyCode> _keyValues = new Dictionary<string, KeyCode>()
+        {
+            {"UISubmit", KeyCode.Return },
+            {"UICancel", KeyCode.Escape },
+            {"Pause", KeyCode.Escape },
+            {"ExpandMap", KeyCode.M },
+            {"Up", KeyCode.W },
+            {"Down", KeyCode.S },
+            {"Left", KeyCode.A },
+            {"Right", KeyCode.D },
+            {"Jump", KeyCode.Space },
+            {"Attack", KeyCode.J },
+            {"SpecialMove", KeyCode.L },
+            {"ActivatedItem", KeyCode.U },
+            {"AngleUp", KeyCode.I },
+            {"AngleDown", KeyCode.K },
+            {"PageRight", KeyCode.Comma },
+            {"PageLeft", KeyCode.Period },
+            {"CoinSlot", KeyCode.Insert },
+        };
+
         public bool GetButtonDown(string label)
         {
             switch(label)
@@ -130,13 +165,16 @@ namespace Rewired
                     return Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow);
                 case "UIRight":
                     return Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow);
-                case "UISubmit":
-                    return Input.GetKeyDown(KeyCode.Return);
-                case "UICancel":
-                    return Input.GetKeyDown(KeyCode.Escape);
                 default:
-                    Debug.LogError(label + " is not defined");
-                    return false;
+                    if(_keyValues.TryGetValue(label, out var keyCode))
+                    {
+                        return Input.GetKeyDown(keyCode);
+                    }
+                    else
+                    {
+                        Debug.LogError(label + " is not defined");
+                        return false;
+                    }
             }
         }
 
@@ -152,13 +190,16 @@ namespace Rewired
                     return Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow);
                 case "UIRight":
                     return Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow);
-                case "UISubmit":
-                    return Input.GetKeyUp(KeyCode.Return);
-                case "UICancel":
-                    return Input.GetKeyUp(KeyCode.Escape);
                 default:
-                    Debug.LogError(label + " is not defined");
-                    return false;
+                    if (_keyValues.TryGetValue(label, out var keyCode))
+                    {
+                        return Input.GetKeyUp(keyCode);
+                    }
+                    else
+                    {
+                        Debug.LogError(label + " is not defined");
+                        return false;
+                    }                    
             }
         }
 
@@ -174,13 +215,16 @@ namespace Rewired
                     return Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
                 case "UIRight":
                     return Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
-                case "UISubmit":
-                    return Input.GetKey(KeyCode.Return);
-                case "UICancel":
-                    return Input.GetKey(KeyCode.Escape);
                 default:
-                    Debug.LogError(label + " is not defined");
-                    return false;
+                    if (_keyValues.TryGetValue(label, out var keyCode))
+                    {
+                        return Input.GetKey(keyCode);
+                    }
+                    else
+                    {
+                        Debug.LogError(label + " is not defined");
+                        return false;
+                    }
             }
         }
 
@@ -197,7 +241,39 @@ namespace Rewired
         }
         public float GetAxis(string label)
         {
-            throw (new System.NotImplementedException());
+            if(label == "Vertical")
+            {
+                if (Input.GetKey(KeyCode.W))
+                {
+                    return 1;
+                }
+                else if (Input.GetKey(KeyCode.S))
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            else if(label == "Horizontal")
+            {
+                if (Input.GetKey(KeyCode.D))
+                {
+                    return 1;
+                }
+                else if (Input.GetKey(KeyCode.A))
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+
+            Debug.LogError("Axis " + label + " is not defined");
+            return 0;
         }
     }
 
@@ -342,6 +418,16 @@ namespace Rewired
 
         private Dictionary<int, ActionElementMap> _aems = new Dictionary<int, ActionElementMap>()
         {
+            {6, new ActionElementMap()
+                {
+                    elementIdentifierName = "L",
+                }
+            },
+            {7, new ActionElementMap()
+                {
+                    elementIdentifierName = "U",
+                }
+            },
             {16, new ActionElementMap()
                 {
                     elementIdentifierName = "Return",
