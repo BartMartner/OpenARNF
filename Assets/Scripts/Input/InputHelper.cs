@@ -228,20 +228,23 @@ public class InputHelper : MonoBehaviour
 
         ReInput.players.SystemPlayer.controllers.AddController(lastControllerUsed, false);
 
-        player2.controllers.ClearAllControllers();
-        foreach (var joystick in ReInput.controllers.Joysticks)
+        if (player2 != null)
         {
-            if (!ReInput.controllers.IsControllerAssignedToPlayer(joystick.type, joystick.id, 0))
+            player2.controllers.ClearAllControllers();
+            foreach (var joystick in ReInput.controllers.Joysticks)
             {
-                Debug.Log("Assigning " + joystick.name + " to player 2.");
-                player2.controllers.AddController(joystick, false);
+                if (!ReInput.controllers.IsControllerAssignedToPlayer(joystick.type, joystick.id, 0))
+                {
+                    Debug.Log("Assigning " + joystick.name + " to player 2.");
+                    player2.controllers.AddController(joystick, false);
+                }
             }
-        }
 
-        if (lastControllerUsed != ReInput.controllers.Keyboard)
-        {
-            Debug.Log("Assigning keyboard to player 2.");
-            player2.controllers.AddController(ReInput.controllers.Keyboard, false);
+            if (lastControllerUsed != ReInput.controllers.Keyboard)
+            {
+                Debug.Log("Assigning keyboard to player 2.");
+                player2.controllers.AddController(ReInput.controllers.Keyboard, false);
+            }
         }
 #endif
         if (OnAutoReassign != null) { OnAutoReassign(); }

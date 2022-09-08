@@ -1,7 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+
+/* This is a terrible hacky wrapper class I wrote to substitute for the AMAZING Rewired input pluggin.
+ * It only supports single player Keyboard input without modification.
+ * Purchase the real REWIRED from GUAVAMAN for quality input handling at: https://guavaman.com/projects/rewired/
+ * You should be able to import Rewired, delete this, and not have to modify any code, but no guarantees.
+ */
 
 namespace Rewired
 {
@@ -9,17 +16,42 @@ namespace Rewired
     {
         public static ContollerStatusChanged ControllerConnectedEvent;
         public static ContollerStatusChanged ControllerDisconnectedEvent;
-        public static ControllerList controllers;
-        public static Players players;
-        public static Player SystemPlayer;
-        public static Mapping mapping;
+        public static ControllerHelper controllers = new ControllerHelper();
+        public static PlayerHelper players = new PlayerHelper();
+        public static Player SystemPlayer
+        {
+            get { return players.SystemPlayer; }
+        
+        }
+        public static MappingHelper mapping = new MappingHelper();
     }
 
-    public class Mapping
+    public class MappingHelper
     {
+        private Dictionary<string, InputAction> _map = new Dictionary<string, InputAction>()
+        {
+            {"UISubmit", new InputAction(){id = 16} },
+            {"UICancel", new InputAction(){id = 17} },
+            {"UIHorizontal", new InputAction(){id = 14} },
+            {"UIVertical", new InputAction(){id = 15} },
+            {"UIUp", new InputAction(){id = 18} },
+            {"UIDown", new InputAction(){id = 19} },
+            {"UILeft", new InputAction(){id = 20} },
+            {"UIRight", new InputAction(){id = 21} },
+            {"UIScroll", new InputAction(){id = 31} },
+        };
+
         public InputAction GetAction(string name)
         {
-            throw new NotImplementedException();
+            if (_map.TryGetValue(name, out InputAction action))
+            {
+                return action;
+            }
+            else
+            {
+                Debug.LogError("No InputAction defined for " + name);
+                return null;
+            }
         }
     }
 
@@ -29,23 +61,24 @@ namespace Rewired
     {
     }
 
-    public class Players : IEnumerable<Player>
+    public class PlayerHelper : IEnumerable<Player>
     {
-        public Player SystemPlayer;
+        public Player SystemPlayer = new Player();
 
         public Player GetSystemPlayer()
         {
-            throw (new System.NotImplementedException());
+            return SystemPlayer;
         }
 
         public int playerCount
         {
-            get { throw (new System.NotImplementedException()); }
+            //Only a single player is supported with this class. BUY REWIRED!
+            get { return 1; }
         }
 
         public IEnumerator<Player> GetEnumerator()
         {
-            throw new NotImplementedException();
+            yield return SystemPlayer;
         }
 
         IEnumerator IEnumerable.GetEnumerator()
@@ -55,20 +88,29 @@ namespace Rewired
 
         public Player GetPlayer(int id)
         {
-            throw new NotImplementedException();
+            if(id == 0)
+            {
+                return SystemPlayer;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 
     public class Player
     {
+        public readonly ControllerHelper controllers = new ControllerHelper();
+
         public int id
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return 0; }
         }
 
         public string name
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return "OPEN ARNF DEBUG"; }
         }
 
         public bool GetAnyButton()
@@ -78,64 +120,114 @@ namespace Rewired
 
         public bool GetButtonDown(string label)
         {
-            throw (new System.NotImplementedException());
+            switch(label)
+            {
+                case "UIUp":
+                    return Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow);
+                case "UIDown":
+                    return Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow);
+                case "UILeft":
+                    return Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow);
+                case "UIRight":
+                    return Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow);
+                case "UISubmit":
+                    return Input.GetKeyDown(KeyCode.Return);
+                case "UICancel":
+                    return Input.GetKeyDown(KeyCode.Escape);
+                default:
+                    Debug.LogError(label + " is not defined");
+                    return false;
+            }
         }
 
         public bool GetButtonUp(string label)
         {
-            throw (new System.NotImplementedException());
+            switch (label)
+            {
+                case "UIUp":
+                    return Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow);
+                case "UIDown":
+                    return Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow);
+                case "UILeft":
+                    return Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow);
+                case "UIRight":
+                    return Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow);
+                case "UISubmit":
+                    return Input.GetKeyUp(KeyCode.Return);
+                case "UICancel":
+                    return Input.GetKeyUp(KeyCode.Escape);
+                default:
+                    Debug.LogError(label + " is not defined");
+                    return false;
+            }
         }
 
         public bool GetButton(string label)
         {
-            throw (new System.NotImplementedException());
+            switch (label)
+            {
+                case "UIUp":
+                    return Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
+                case "UIDown":
+                    return Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow);
+                case "UILeft":
+                    return Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow);
+                case "UIRight":
+                    return Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow);
+                case "UISubmit":
+                    return Input.GetKey(KeyCode.Return);
+                case "UICancel":
+                    return Input.GetKey(KeyCode.Escape);
+                default:
+                    Debug.LogError(label + " is not defined");
+                    return false;
+            }
         }
 
         public bool GetAnyButtonDown()
         {
-            throw (new System.NotImplementedException());
+            foreach (KeyCode keyCode in Enum.GetValues(typeof(KeyCode)))
+            {
+                if(Input.GetKeyDown(keyCode))
+                {
+                    return true;
+                }
+            }
+            return false;            
         }
         public float GetAxis(string label)
         {
             throw (new System.NotImplementedException());
         }
-
-        public ControllerList controllers
-        {
-            get { throw (new System.NotImplementedException()); }
-        }
     }
 
-    public class ControllerList
+    public class ControllerHelper
     {
-        public ControllerMaps maps
-        {
-            get { throw (new System.NotImplementedException()); }
-        }
+        public MapHelper maps = new MapHelper();
 
         public bool hasKeyboard
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return _Keyboard != null; }
         }
 
         public int joystickCount
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return _Joysticks.Count; }
         }
 
-        public IEnumerable<Controller> Controllers
+        private List<Controller> _Controllers = new List<Controller>();
+        public List<Controller> Controllers
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return _Controllers; }
         }
 
-        public List<Joystick> Joysticks
-        {
-            get { throw (new System.NotImplementedException()); }
-        }
+        private List<Joystick> _Joysticks = new List<Joystick>();
+        public List<Joystick> Joysticks { get { return _Joysticks; } }
 
+        private Keyboard _Keyboard = new Keyboard();
         public Keyboard Keyboard
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return _Keyboard; }
         }
 
         public bool IsControllerAssignedToPlayer(ControllerType type, int x, int y)
@@ -143,19 +235,33 @@ namespace Rewired
             throw new System.NotImplementedException();
         }
 
-        public void AddController(Controller controller, bool someBool)
+        public void AddController(Controller controller, bool removeFromOtherPlayers)
         {
-            throw new System.NotImplementedException();
+            if (removeFromOtherPlayers)
+            {
+                Debug.LogWarning("removeFromOtherPlayers will not function as expect. OPENARNF only supports a single player using keyboard input without modification");
+            }
+
+            _Controllers.Add(controller);
+
+            var joystick = controller as Joystick;
+            if (joystick != null) 
+            {
+                _Joysticks.Add(joystick);
+            }
         }
 
         public void ClearAllControllers()
         {
-            throw new System.NotImplementedException();
+            _Controllers.Clear();
+            _Joysticks.Clear();
         }
 
         public Controller GetLastActiveController()
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
+            //OpenARNF only supports Keyboard input without modification
+            return Keyboard;
         }
 
         public bool IsJoystickAssignedToPlayer(int id, int other)
@@ -171,14 +277,24 @@ namespace Rewired
 
     public class Keyboard : Controller
     {
+        public override ControllerType type
+        {
+            get { return ControllerType.Keyboard; }
+        }
+
+        public override string name 
+        { 
+            get { return "Keyboard"; }
+        }
+
         public bool GetKey(KeyCode keyCode)
         {
-            throw new System.NotImplementedException();
+            return Input.GetKey(keyCode);
         }
 
         public bool GetKeyDown(KeyCode keyCode)
         {
-            throw new System.NotImplementedException();
+            return Input.GetKeyDown(keyCode);            
         }
 
         public IEnumerable<PollingInfo> PollForAllKeysDown()
@@ -195,17 +311,20 @@ namespace Rewired
         }
     }
 
-    public class Joystick : Controller { }
-
-    public class InputAction
+    public class Joystick : Controller 
     {
-        public int id
+        public override ControllerType type
         {
-            get { throw (new System.NotImplementedException()); }
+            get { return ControllerType.Joystick; }
         }
     }
 
-    public class ControllerMaps
+    public class InputAction
+    {
+        public int id;
+    }
+
+    public class MapHelper
     {
         public void SetAllMapsEnabled(bool someBool)
         {
@@ -221,25 +340,50 @@ namespace Rewired
             throw new System.NotImplementedException();
         }
 
-        public ActionElementMap GetFirstElementMapWithAction(Controller controller, int id, bool someBool)
+        private Dictionary<int, ActionElementMap> _aems = new Dictionary<int, ActionElementMap>()
         {
-            throw new System.NotImplementedException();
+            {16, new ActionElementMap()
+                {
+                    elementIdentifierName = "Return",
+                }
+            },
+            {17, new ActionElementMap()
+                {
+                    elementIdentifierName = "Escape",
+                }
+            },
+        };
+
+        public ActionElementMap GetFirstElementMapWithAction(Controller controller, int id, bool skipDisabledMaps)
+        {
+            if(controller != ReInput.SystemPlayer.controllers.Keyboard)
+            {
+                Debug.LogError("Only the keyboard for the system player is supported by default in OpenARNF. ");
+                return null;
+            }
+
+            if(_aems.TryGetValue(id, out var aem))
+            {
+                return aem;
+            }
+            else
+            {
+                Debug.LogError("No action element map could be found for id " + id);
+                return null;
+            }            
         }
     }
 
     public class Controller
     {
-        public ControllerType type;
+        public virtual ControllerType type { get; private set; }
 
         public int id
         {
             get { throw (new System.NotImplementedException()); }
         }
 
-        public string name
-        {
-            get { throw (new System.NotImplementedException()); }
-        }
+        public virtual string name { get; }
 
         public Guid hardwareTypeGuid
         {
@@ -256,30 +400,30 @@ namespace Rewired
     }
 
     public class ActionElementMap
-    {
+    {        
         public string elementIdentifierName
         {
-            get { throw (new System.NotImplementedException()); }
+            get; set;
         }
         public int elementIdentifierId
         {
-            get { throw (new System.NotImplementedException()); }
+            get; private set;
         }
         public AxisRange axisRange
         {
-            get { throw (new System.NotImplementedException()); }
+            get; private set;
         }
         public AxisType axisType
         {
-            get { throw (new System.NotImplementedException()); }
+            get; private set;
         }
         public Pole axisContribution
         {
-            get { throw (new System.NotImplementedException()); }
+            get; private set;
         }
         public ControllerMap controllerMap
         {
-            get { throw (new System.NotImplementedException()); }
+            get; private set;
         }
     }
 
