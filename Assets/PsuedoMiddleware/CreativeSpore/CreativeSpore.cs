@@ -77,52 +77,11 @@ namespace CreativeSpore.SuperTilemapEditor
         }
     }
 
-
-
-    public class TilesetBrush : ScriptableObject
-    {
-        public Tileset Tileset;
-        public TilemapChunk TilemapChunk;
-
-        public bool IsAnimated()
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual uint PreviewTileData()
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual uint[] GetSubtiles(STETilemap tilemap, int gridX, int gridY, uint tileData)
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual uint Refresh(STETilemap tilemap, int gridX, int gridY, uint tileData)
-        {
-            throw new NotImplementedException();
-        }
-
-        public uint RefreshLinkedBrush(STETilemap tilemap, int x, int y, uint id)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
     public class TilemapUtils
     {
         public static Vector2 GetGridWorldPos(STETilemap tilemap, int x, int y)
         {
             throw new NotImplementedException();
-        }
-    }
-
-    public class RandomBrush : TilesetBrush
-    {
-        public List<RandomTileData> RandomTileList
-        {
-            get { throw new NotImplementedException(); }
         }
     }
 
