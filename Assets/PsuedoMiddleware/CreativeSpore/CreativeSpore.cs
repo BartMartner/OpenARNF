@@ -19,12 +19,6 @@ namespace CreativeSpore.SuperTilemapEditor
             return tilemap.transform.TransformPoint(new Vector2((gridX + .5f) * tilemap.CellSize.x, (gridY + .5f) * tilemap.CellSize.y));
         }
 
-        static public Vector3 GetGridWorldPos(int gridX, int gridY, Vector2 cellSize)
-        {
-            return new Vector2((gridX + .5f) * cellSize.x, (gridY + .5f) * cellSize.y);
-        }
-
-
         public static Material FindDefaultSpriteMaterial()
         {
 #if UNITY_EDITOR && (UNITY_5_4 || UNITY_5_5_OR_NEWER)
@@ -64,12 +58,6 @@ namespace CreativeSpore.SuperTilemapEditor
             }
             return null;
         }
-    }
-
-    [System.Serializable]
-    public class RandomTileData
-    {
-        public uint tileData;
     }
 
     [System.Flags]

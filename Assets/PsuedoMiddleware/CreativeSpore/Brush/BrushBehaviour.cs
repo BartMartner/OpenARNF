@@ -221,13 +221,6 @@ namespace CreativeSpore.SuperTilemapEditor
             int maxGridX = m_brushTilemap.MaxGridX;
             int maxGridY = m_brushTilemap.MaxGridY;
 
-            if (IsUndoEnabled)
-            {
-#if UNITY_EDITOR
-                Undo.RecordObject(tilemap, STETilemap.k_UndoOpName + tilemap.name);
-                Undo.RecordObjects(tilemap.GetComponentsInChildren<TilemapChunk>(), STETilemap.k_UndoOpName + tilemap.name);
-#endif
-            }
             tilemap.IsUndoEnabled = IsUndoEnabled;
             int dstGy = BrushUtil.GetGridY(localPos, tilemap.CellSize);
             bool doPaintEmpty = m_brushTilemap.GridWidth == 1 && m_brushTilemap.GridHeight == 1 // don't copy empty tiles

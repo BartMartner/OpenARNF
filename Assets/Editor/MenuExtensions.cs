@@ -824,55 +824,6 @@ public class MenuExtensions : MonoBehaviour
         EditorUtility.ClearProgressBar();
     }
 
-    [MenuItem("Extensions/Tilemaps/Tilemaps Use Polygon Colliders %#h")]
-    static void TileMapPolygonCollider()
-    {
-        var tilemaps = Resources.FindObjectsOfTypeAll<STETilemap>();
-
-        bool dirty = false;
-        foreach (var tilemap in tilemaps)
-        {
-            if (tilemap.ColliderType == eColliderType._2D && tilemap.Collider2DType != e2DColliderType.PolygonCollider2D)
-            {
-                dirty = true;
-                tilemap.Collider2DType = e2DColliderType.PolygonCollider2D;
-                Debug.Log(tilemap.name + " now using Polygon Collider.");
-                tilemap.Refresh();
-            }
-        }
-
-        if (dirty)
-        {
-            UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty();
-        }
-    }
-
-    [MenuItem("Extensions/Tilemaps/Tilemaps Use Polygon Colliders and Show Tile Chunks")]
-    static void TileMapPolygonColliderAndChunks()
-    {
-        var tilemaps = Resources.FindObjectsOfTypeAll<STETilemap>();
-
-        foreach (var tilemap in tilemaps)
-        {
-            TilemapChunk[] chunks = tilemap.GetComponentsInChildren<TilemapChunk>();
-            foreach (TilemapChunk chunk in chunks)
-            {
-                chunk.gameObject.hideFlags &= ~HideFlags.HideInHierarchy;
-                Debug.Log(tilemap.name + " no longer hiding chunks.");
-            }
-
-            if (tilemap.ColliderType == eColliderType._2D && tilemap.Collider2DType != e2DColliderType.PolygonCollider2D)
-            {
-                tilemap.Collider2DType = e2DColliderType.PolygonCollider2D;
-                Debug.Log(tilemap.name + " now using Polygon Collider.");
-            }
-
-            tilemap.Refresh();
-        }
-
-        UnityEditor.SceneManagement.EditorSceneManager.MarkAllScenesDirty();
-    }
-
     [MenuItem("Extensions/Destroy Transition Fades")]
     static void DestroyTransitionFades()
     {

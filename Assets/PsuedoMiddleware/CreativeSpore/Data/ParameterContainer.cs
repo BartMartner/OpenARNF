@@ -16,37 +16,9 @@ namespace CreativeSpore.SuperTilemapEditor
         [SerializeField]
         private List<Parameter> m_paramList = new List<Parameter>();
 
-        public void AddNewParam(Parameter param, int idx = -1)
-        {
-            idx = idx >= 0 ? Mathf.Min(idx, m_paramList.Count) : m_paramList.Count;
-            string origName = param.name;
-            int i = 1;
-            while (m_paramList.Exists(x => x.name == param.name))
-            {
-                param.name = origName + " (" + i + ")";
-                ++i;
-            }
-            m_paramList.Insert(idx, param);
-        }
-
-        public void RemoveParam(string name)
-        {
-            m_paramList.RemoveAll(x => x.name == name);
-        }
-
         public Parameter FindParam(string name)
         {
             return m_paramList.Find(x => x.name == name);
-        }
-
-        public void AddParam(string name, int value)
-        {
-            AddParam<int>(name, value);
-        }
-
-        public void AddParam(string name, float value)
-        {
-            AddParam<float>(name, value);
         }
 
         private void AddParam<T>(string name, T value)
@@ -89,12 +61,6 @@ namespace CreativeSpore.SuperTilemapEditor
         {
             Parameter param = FindParam(name);
             return param != null ? param.GetAsBool() : defaultValue;
-        }
-
-        public UnityEngine.Object GetObjectParam(string name, UnityEngine.Object defaultValue = null)
-        {
-            Parameter param = FindParam(name);
-            return param != null ? param.GetAsObject() : defaultValue;
         }
     }
 
