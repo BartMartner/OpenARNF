@@ -271,6 +271,36 @@ namespace Rewired
                     return 0;
                 }
             }
+            else if (label == "WeaponVertical")
+            {
+                if (Input.GetKey(KeyCode.UpArrow))
+                {
+                    return 1;
+                }
+                else if (Input.GetKey(KeyCode.DownArrow))
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            else if (label == "WeaponHorizontal")
+            {
+                if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    return 1;
+                }
+                else if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    return -1;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
 
             Debug.LogError("Axis " + label + " is not defined");
             return 0;
