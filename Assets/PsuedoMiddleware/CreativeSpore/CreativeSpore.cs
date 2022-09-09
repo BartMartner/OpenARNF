@@ -6,82 +6,63 @@ using UnityEngine;
 
 namespace CreativeSpore.SuperTilemapEditor
 {
-    [Serializable]
-    public class Tile
-    {
-        public Rect uv;
-        public TileColliderData collData;
-        public ParameterContainer paramContainer = new ParameterContainer();
-    }
-
-    public class ParameterContainer
-    {
-        public bool GetBoolParam(string id)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    [Serializable]
-    public struct TileColliderData
-    {
-        /// <summary>
-        /// The collider vertex array. Only valid for type eTileCollider.Polygon, for other types use GetVertices method.
-        /// </summary>
-        public Vector2[] vertices;
-        public eTileCollider type;
-
-        public Vector2[] GetVertices()
-        {
-            throw new NotImplementedException();
-        }
-
-        public static Vector2 SnapVertex(Vector2 vertex, Tileset tileset)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void SnapVertices(Tileset tileset)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void ApplyFlippingFlags(uint tileData)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void RemoveFlippingFlags(uint tileData)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void FlipH()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void FlipV()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Rot90()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Rot90Back()
-        {
-            throw new NotImplementedException();
-        }
-    }
-
     public class TilemapUtils
-    {
-        public static Vector2 GetGridWorldPos(STETilemap tilemap, int x, int y)
+    {      
+        /// <summary>
+        /// Get the world position for the center of a given grid cell position.
+        /// </summary>
+        /// <param name="gridX"></param>
+        /// <param name="gridY"></param>
+        /// <returns></returns>
+        static public Vector3 GetGridWorldPos(STETilemap tilemap, int gridX, int gridY)
         {
-            throw new NotImplementedException();
+            return tilemap.transform.TransformPoint(new Vector2((gridX + .5f) * tilemap.CellSize.x, (gridY + .5f) * tilemap.CellSize.y));
+        }
+
+        static public Vector3 GetGridWorldPos(int gridX, int gridY, Vector2 cellSize)
+        {
+            return new Vector2((gridX + .5f) * cellSize.x, (gridY + .5f) * cellSize.y);
+        }
+
+
+        public static Material FindDefaultSpriteMaterial()
+        {
+#if UNITY_EDITOR && (UNITY_5_4 || UNITY_5_5_OR_NEWER)
+            return UnityEditor.AssetDatabase.GetBuiltinExtraResource<Material>("Sprites-Default.mat");
+#else
+            return Resources.GetBuiltinResource<Material>("Sprites-Default.mat");
+#endif
+        }
+
+        /// <summary>
+        /// Get the parameter container from tileData if tileData contains a tile with parameters or Null in other case
+        /// </summary>
+        static public ParameterContainer GetParamsFromTileData(STETilemap tilemap, uint tileData)
+        {
+            return GetParamsFromTileData(tilemap.Tileset, tileData);
+        }
+
+        /// <summary>
+        /// Get the parameter container from tileData if tileData contains a tile with parameters or Null in other case
+        /// </summary>
+        static public ParameterContainer GetParamsFromTileData(Tileset tileset, uint tileData)
+        {
+            int brushId = Tileset.GetBrushIdFromTileData(tileData);
+            TilesetBrush brush = tileset.FindBrush(brushId);
+            if (brush)
+            {
+                return brush.Params;
+            }
+            else
+            {
+                int tileId = Tileset.GetTileIdFromTileData(tileData);
+                Tile tile = tileset.GetTile(tileId);
+                if (tile != null)
+                {
+                    return tile.paramContainer;
+                }
+            }
+            return null;
         }
     }
 
@@ -113,10 +94,4 @@ namespace CreativeSpore.SuperTilemapEditor
         EdgeCollider2D,
         PolygonCollider2D
     };
-
-    public enum eTileCollider
-    {
-        None,
-        Polygon,
-    }
 }

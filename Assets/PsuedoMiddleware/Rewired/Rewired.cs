@@ -151,6 +151,9 @@ namespace Rewired
             {"PageRight", KeyCode.Comma },
             {"PageLeft", KeyCode.Period },
             {"CoinSlot", KeyCode.Insert },
+            {"WeaponWheel", KeyCode.P },
+            {"LockPosition", KeyCode.LeftControl },
+            {"WeaponCancel", KeyCode.Delete },
         };
 
         public bool GetButtonDown(string label)
@@ -271,7 +274,7 @@ namespace Rewired
                     return 0;
                 }
             }
-            else if (label == "WeaponVertical")
+            else if (label == "WeaponsVertical")
             {
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
@@ -286,7 +289,7 @@ namespace Rewired
                     return 0;
                 }
             }
-            else if (label == "WeaponHorizontal")
+            else if (label == "WeaponsHorizontal")
             {
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
