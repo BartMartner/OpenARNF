@@ -6,7 +6,18 @@ As of September 30th, 2022, I'm releasing the unity project files for A Robot Na
 
 I can't wait to see what y'all create!
 
-# Legal
+## Support
+If you'd like to support me (Matt Bitner) and Morningstar Game Studio please purchase any of our games from the links below:
+- [A Robot Named Fight (Switch)](https://www.nintendo.com/store/products/a-robot-named-fight-switch/)
+- [A Robot Named Fight (Steam)](https://store.steampowered.com/app/603530/A_Robot_Named_Fight/)
+- [C.A.R.L. (Switch)](https://www.nintendo.com/store/products/c-a-r-l-switch/)
+- [C.A.R.L. (Steam)](https://store.steampowered.com/app/513910/CARL/)
+- [C.A.R.L. (PlayStation)](https://store.playstation.com/en-us/concept/10005618)
+- [C.A.R.L. (X Box)](https://www.xbox.com/en-us/games/store/carl/9pff14lsqtqt)
+
+[Or donate to the A Robot Named Fight Patreon] (https://www.patreon.com/arobotnamedfight)
+
+## Legal
 
 Please read the full Licence.md before diving in. By downloading any file / copying any code from this repository you're agreeing to the text contained in Licence.md including the following caveats:
 
