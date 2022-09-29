@@ -6,6 +6,13 @@ As of September 30th, 2022, I'm releasing the unity project files for A Robot Na
 
 I can't wait to see what y'all create!
 
+## Details
+This version of A Robot Named Fight was built using Unity 2019.4.0f1
+
+It contains stripped-down, partial code from two middleware Unity assets. This code has been included with permission from the creators. For full functionality you'll have to either replace these assets with something of your own creation or purchase them from the links below.
+- [Rewired by Guavaman](https://assetstore.unity.com/packages/tools/utilities/rewired-21676)
+- [Super Tilemap Editor by Creative Spore](https://assetstore.unity.com/packages/tools/level-design/super-tilemap-editor-56339)
+
 ## Support
 If you'd like to support me (Matt Bitner) and Morningstar Game Studio please purchase any of our games from the links below:
 - [A Robot Named Fight (Switch)](https://www.nintendo.com/store/products/a-robot-named-fight-switch/)
