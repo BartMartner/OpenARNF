@@ -42,7 +42,7 @@ You may modify and redistribute the Game and its Source Code under the following
 
 By accepting this license you are agreeing not to restrict or prevent Morningstar from modifying or adding to A Robot Named Fight in any way.
 
-This open source version of A Robot Named Fight contains stripped down code from two middleware assets listed below. This code has been included with permission from the creators.
+This version of A Robot Named Fight contains stripped down code from two middleware assets listed below. This code has been included with permission from the creators.
 Rewired by Guavaman - https://assetstore.unity.com/packages/tools/utilities/rewired-21676
 Super Tilemap Editor by Creative Spore - https://assetstore.unity.com/packages/tools/level-design/super-tilemap-editor-56339
 
