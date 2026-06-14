@@ -22,8 +22,6 @@ If you'd like to support me (Matt Bitner) and Morningstar Game Studio please pur
 - [C.A.R.L. (PlayStation)](https://store.playstation.com/en-us/concept/10005618)
 - [C.A.R.L. (X Box)](https://www.xbox.com/en-us/games/store/carl/9pff14lsqtqt)
 
-[Or donate to the A Robot Named Fight Patreon](https://www.patreon.com/arobotnamedfight)
-
 ## Legal
 
 Please read the full Licence.md before diving in. By downloading any file / copying any code from this repository you're agreeing to the text contained in Licence.md including the following caveats:
